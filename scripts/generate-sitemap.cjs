@@ -32,4 +32,9 @@ ${pages
 const outputPath = path.join(__dirname, "../public/sitemap.xml");
 fs.writeFileSync(outputPath, xml.trim());
 
+const distPath = path.join(__dirname, "../dist/sitemap.xml");
+if (fs.existsSync(path.dirname(distPath))) {
+  fs.writeFileSync(distPath, xml.trim());
+}
+
 console.log("✓ Sitemap generated:", outputPath);

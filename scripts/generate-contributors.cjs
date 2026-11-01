@@ -1,10 +1,10 @@
-﻿// scripts/generate-contributors.cjs
+// scripts/generate-contributors.cjs
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 const OUTPUT_PATH = path.resolve('./public/data/contributors.json');
 const AVATAR_DIR = path.resolve('./public/assets/contributors');
-const API_URL = 'https://api.github.com/repos/jishnu-kv/WinUI-3-Apps-List/contributors';
+const API_URL = 'https://api.github.com/repos/jishnu-kv/WinUI-Apps-List/contributors?per_page=100';
 
 // Util: ensure dir
 function ensureDir(dir) {
@@ -53,17 +53,17 @@ async function generateContributors() {
   const existing = fs.existsSync(OUTPUT_PATH)
     ? JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf8'))
     : [];
-  const existingLogins = new Set(existing.map((c) => c.login));
+  const existingLogins = new Set(existing.map((c) => c.login.toLowerCase()));
   const res = await fetch(API_URL);
   if (!res.ok) throw new Error(`GitHub API: ${res.status}`);
   const apiData = await res.json();
-  const newContributors = apiData.filter((c) => c.type === 'User' && !existingLogins.has(c.login));
+  const newContributors = apiData.filter((c) => c.type === 'User' && !existingLogins.has(c.login.toLowerCase()));
   console.log(`+ Found ${newContributors.length} new contributors.`);
   const tasks = newContributors.map((c) => async () => {
-    const filename = c.login.toLowerCase();
+    const filename = c.login.toLowerCase().toLowerCase();
     const localPath = await downloadAndConvertAvatar(c.avatar_url, filename);
     return {
-      login: c.login,
+      login: c.login.toLowerCase(),
       html_url: c.html_url,
       avatar_url: localPath,
       id: c.id,

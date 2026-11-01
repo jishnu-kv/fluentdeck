@@ -3,14 +3,16 @@ import { EmojiData, EmojiStyle } from '@/constants';
 export type NavItem = 'Home' | 'Apps' | 'Emoji' | 'Icons' | 'Contribute';
 
 export type Price = 'Free' | 'FOSS' | 'Paid';
-export type Tag = 'WD' | 'WDM' | 'WDA';
+export type Tag = 'WD' | 'WDM' | 'WDA' | 'WM';
 
 export interface AppData {
-  tag: Tag;
+  tag: Tag | string;
+  tags?: (Tag | string)[];
   name: string;
   link: string;
   price: Price;
   logo_url?: string;
+  original_logo_url?: string;
 }
 
 export type Emoji = EmojiData & { name: string };
@@ -31,14 +33,21 @@ export type IconType = {
 export interface CategoryNode {
   id: string;
   label: string;
-  icon: string;
+  icon?: string;
   children: CategoryNode[];
 }
+
+export type SubSection = {
+  heading: string;
+  icon_url?: string | null;
+  apps: AppData[];
+};
 
 export type SubGroup = {
   subheading: string;
   apps: AppData[];
   icon_url?: string | null;
+  sections?: SubSection[];
 };
 
 export type ContentGroup = {

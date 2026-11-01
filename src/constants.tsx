@@ -95,4 +95,4 @@ export const LINKEDIN_URL = 'https://www.linkedin.com/in/jishnu-kv-b7a4232aa/?tr
 export const GUMROAD_URL = 'https://jishnukv.gumroad.com/';
 export const SOURCE_CODE_URL = 'https://github.com/jishnu-kv/fluentdeck';
 export const BUY_ME_A_COFFEE_URL = 'https://buymeacoffee.com/jishnujithu';
-export const NEW_PULL_REQUEST_URL = 'https://github.com/jishnu-kv/WinUI-3-Apps-List/pulls';
+export const NEW_PULL_REQUEST_URL = 'https://github.com/jishnu-kv/WinUI-Apps-List/pulls';

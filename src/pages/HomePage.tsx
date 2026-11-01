@@ -38,14 +38,14 @@ const CARD_DATA = [
     title: "System Icons",
     description: "The official language of Windows. A searchable index of standard Fluent system icons for your next application.",
     link: "/icons",
-    count: 5500,
+    count: 2986,
     cardStyle: { '--hue': 291, '--saturation': '96%', '--lightness': '62%' } as React.CSSProperties
   }
 ];
 
 const STATS = [
   { label: "Open Source", value: "MIT License" },
-  { label: "Version", value: "2.4.0" },
+  { label: "Version", value: "2.5.0" },
   { label: "Assets", value: "7,000+" },
 ];
 
@@ -75,7 +75,7 @@ const Reveal: React.FC<RevealProps> = ({ children, className = "", delay = 0 }) 
   return (
     <div
       ref={ref}
-      className={`transition-all duration-1000 ease-out transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} ${className}`}
+      className={`transition-all duration-500 ease-out transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'} ${className}`}
       style={{ transitionDelay: `${delay}ms` }}
     >
       {children}
@@ -111,11 +111,11 @@ const FeatureCard = memo(({ icon, title, description, link, count, cardStyle }: 
         }
       }}
       style={cardStyle}
-      className="feature-card group relative rounded-2xl border border-border-primary bg-bg-secondary p-8 overflow-hidden cursor-pointer transition-all duration-300 ease-out h-full flex flex-col hover:border-border-tertiary hover:shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+      className="feature-card group relative rounded-2xl border border-border-primary bg-bg-secondary p-8 overflow-hidden cursor-pointer transition-[transform,border-color,box-shadow] duration-300 ease-out h-full flex flex-col hover:border-border-tertiary hover:shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-500 [transform:translateZ(0)] [backface-visibility:hidden]"
     >
       <div className="relative z-10 flex flex-col h-full">
         <div className="flex items-center justify-between mb-6">
-          <div className="text-blue-600 bg-blue-50 dark:bg-blue-900/20 p-3 rounded-xl ring-1 ring-blue-100 dark:ring-blue-800/30 transition-transform duration-300 group-hover:scale-110" aria-hidden="true">
+          <div className="text-blue-600 bg-blue-50 dark:bg-blue-900/20 p-3 rounded-xl ring-1 ring-blue-100 dark:ring-blue-800/30 transition-transform duration-300 group-hover:scale-110 [transform:translateZ(0)] [backface-visibility:hidden]" aria-hidden="true">
             {IconComponent ? <IconComponent className="w-6 h-6" /> : (
               <div className="w-6 h-6 bg-bg-active rounded animate-pulse" />
             )}
@@ -252,7 +252,7 @@ const HomePage: React.FC = () => {
 
             <button
               onClick={() => handleNavigate("Icons")}
-              className="group h-12 px-8 w-full sm:w-auto text-sm font-semibold text-text-primary bg-bg-secondary border border-border-primary rounded-full transition-all duration-300 hover:bg-bg-active hover:border-border-secondary focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="group h-12 px-8 w-full sm:w-auto text-sm font-semibold text-text-primary bg-bg-secondary border border-border-primary rounded-full transition-all duration-300 hover:bg-bg-active focus:outline-none focus:ring-2 focus:ring-blue-500"
               aria-label="Browse System Icons"
             >
               <FluentIconsIcon className="w-5 h-5 inline-block mr-2" aria-hidden="true" />
@@ -306,35 +306,39 @@ const HomePage: React.FC = () => {
           <Reveal className="mb-12 max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
               <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-900/30 text-accent border border-blue-100 dark:border-blue-800/30">
-                New in v2.4.0
+                New in v2.4.2
               </span>
             </div>
             <h2 className="text-3xl font-bold tracking-tight text-text-primary sm:text-4xl mb-4">
               Newly Added Icons
             </h2>
             <p className="text-base text-text-secondary">
-              We've synced with the latest Microsoft release, bringing <strong>728 new variations</strong> and <strong>53 entirely new icon categories</strong> to the library. Explore all of the latest additions:
+              We've synced with the latest Microsoft release, bringing <strong>580 new variations</strong> and <strong>69 entirely new icon categories</strong> to the library. Explore all of the latest additions:
             </p>
           </Reveal>
 
           {loadingNewIcons ? (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {Array.from({ length: 12 }).map((_, idx) => (
-                <div key={idx} className="h-28 rounded-xl border border-border-primary bg-bg-secondary/50 animate-pulse" />
+                <div key={idx} className="h-28 rounded-lg border border-border-primary bg-bg-secondary/50 animate-pulse" />
               ))}
             </div>
           ) : (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-              {newIcons.map((icon) => (
-                <Reveal key={icon.name} delay={50} className="h-full">
+              {newIcons.map((icon, index) => (
+                <div
+                  key={icon.name}
+                  className="h-full animate-fadeIn"
+                  style={{ animationDelay: `${index * 25}ms` }}
+                >
                   <div
+                    role="button"
+                    tabIndex={0}
                     onClick={() => {
                       const query = icon.name;
                       window.scrollTo({ top: 0, behavior: 'smooth' });
                       navigate(`/icons?q=${encodeURIComponent(query)}`);
                     }}
-                    role="button"
-                    tabIndex={0}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
@@ -343,23 +347,33 @@ const HomePage: React.FC = () => {
                         navigate(`/icons?q=${encodeURIComponent(query)}`);
                       }
                     }}
-                    className="group flex flex-col items-center justify-center p-5 rounded-xl border border-border-primary bg-bg-secondary hover:border-border-tertiary hover:shadow-[0_8px_30px_rgba(0,0,0,0.02)] transition-all duration-300 cursor-pointer text-center h-28 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    title={icon.name}
+                    aria-label={`Select icon: ${icon.name}`}
+                    className="group relative cursor-pointer bg-card-primary border border-border-primary rounded-xl p-3 flex flex-col items-center h-28 duration-200 transition-transform [backface-visibility:hidden] [transform:translateZ(0)] hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
-                    <div className="w-10 h-10 flex items-center justify-center text-text-primary group-hover:text-accent transition-colors duration-300">
-                      <IconDisplay
-                        icon={icon}
-                        style="Regular"
-                        width={32}
-                        height={32}
-                        className="w-8 h-8"
-                        urlResolver={getIconUrl}
-                      />
+                    {/* Tint layer - handles visual highlight without affecting image or border */}
+                    <div className="absolute inset-0 rounded-xl pointer-events-none group-hover:bg-black/5 dark:group-hover:bg-white/5 transition-colors duration-300" />
+
+                    {/* Content Container */}
+                    <div className="flex-1 flex items-center justify-center relative z-10">
+                      <div className="w-10 h-10 flex items-center justify-center [backface-visibility:hidden] [transform:translateZ(0)]">
+                        <IconDisplay
+                          icon={icon}
+                          style="Regular"
+                          width={32}
+                          height={32}
+                          className="w-8 h-8"
+                          urlResolver={getIconUrl}
+                        />
+                      </div>
                     </div>
-                    <span className="mt-3 text-xs font-normal text-text-secondary truncate w-full px-1">
+
+                    {/* Label */}
+                    <p className="text-xs text-center text-text-secondary group-hover:text-text-primary truncate w-full flex-shrink-0 relative z-10">
                       {icon.name}
-                    </span>
+                    </p>
                   </div>
-                </Reveal>
+                </div>
               ))}
             </div>
           )}
@@ -367,9 +381,9 @@ const HomePage: React.FC = () => {
           <Reveal className="mt-10 text-center">
             <button
               onClick={() => handleNavigate("Icons")}
-              className="h-11 px-6 text-sm font-semibold text-text-primary bg-bg-secondary border border-border-primary rounded-full hover:bg-bg-active hover:border-border-secondary transition-all"
+              className="h-11 px-6 text-sm font-semibold text-text-primary bg-bg-secondary border border-border-primary rounded-full hover:bg-bg-active transition-all"
             >
-              Explore All 2,900+ Icons &rarr;
+              Explore All 2,986+ Icons &rarr;
             </button>
           </Reveal>
         </div>

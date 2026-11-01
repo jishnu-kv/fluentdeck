@@ -101,7 +101,7 @@ const BaseCard = forwardRef<BaseCardHandle, BaseCardProps & React.HTMLAttributes
             {...rest}
             onClick={handleClick}
             onContextMenu={handleContextMenu}
-            className={`group relative cursor-pointer bg-card-primary border rounded-lg p-4 flex flex-col items-center aspect-square render-fast-square ${
+            className={`group relative cursor-pointer bg-card-primary border rounded-xl p-4 flex flex-col items-center aspect-square render-fast-square ${
                 isSelected ? 'border-blue-500 shadow-md' : 'border-border-primary'
             } ${getTransformClasses()}`}
             role="button"
@@ -110,7 +110,7 @@ const BaseCard = forwardRef<BaseCardHandle, BaseCardProps & React.HTMLAttributes
             title={name}
         >
             {/* ⭐ TINT LAYER: Handles the visual highlight without affecting the image inside */}
-            <div className={`absolute inset-0 rounded-lg pointer-events-none ${getTintClasses()}`} />
+            <div className={`absolute inset-0 rounded-xl pointer-events-none ${getTintClasses()}`} />
 
             {isSelectionMode && (
                 <div

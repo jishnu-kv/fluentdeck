@@ -8,7 +8,6 @@ import { getEmojiWebpUrl, getEmojiOriginalUrl, copyImageToClipboard } from '@/ut
 import { CollectionMenu } from '@/components/CollectionMenu';
 import { DetailViewPanel } from '@/components/DetailViewPanel';
 import { ActionRow } from '@/components/ActionRow';
-import { DropdownMenu, DropdownMenuItem } from '@/components/Dropdown';
 
 interface EmojiDetailViewProps {
 	emoji: EmojiData & { name: string };
@@ -212,10 +211,10 @@ export const EmojiDetailView: React.FC<EmojiDetailViewProps> = ({
 				</div>
 			}
 		>
-			<div className="flex flex-col lg:flex-row gap-6 lg:gap-8">
+			<div className="flex flex-col gap-6 lg:min-h-[calc(100vh-230px)]">
 				{/* IMAGE PANEL */}
-				<div className="w-full lg:w-[340px] flex-shrink-0 space-y-4">
-					<div className="flex flex-col items-center justify-center p-4 rounded-xl text-text-primary bg-bg-primary border border-border-primary h-64 lg:h-80 relative max-w-full">
+				<div className="w-full flex-grow flex flex-col space-y-4">
+					<div className="flex-1 flex flex-col items-center justify-center p-4 rounded-xl text-text-primary bg-bg-primary border border-border-primary min-h-[256px] relative max-w-full">
 						<div
 							className="absolute inset-0 opacity-5 dark:opacity-100"
 							style={{ backgroundImage: "radial-gradient(currentColor 1px, transparent 1px)", backgroundSize: "10px 10px", opacity: 0.02 }}
@@ -237,7 +236,7 @@ export const EmojiDetailView: React.FC<EmojiDetailViewProps> = ({
 				</div>
 
 				{/* ACTION PANEL */}
-				<div className="flex-1 min-w-0 flex flex-col space-y-4">
+				<div className="flex-1 min-w-0 flex flex-col space-y-4 lg:justify-end lg:mt-auto">
 					<div className="flex justify-between items-center">
 						<h3 className="text-sm font-semibold text-text-primary uppercase tracking-wide">
 							Export Options
@@ -254,7 +253,7 @@ export const EmojiDetailView: React.FC<EmojiDetailViewProps> = ({
 						</div>
 					</div>
 
-					<div className="flex-1 flex flex-col justify-between space-y-3">
+					<div className="flex flex-col space-y-3">
 						<ActionRow
 							title={`Copy Image / Download ${exportFileType}`}
 							description={`Copy as ${exportFormat} or download as ${exportFileType}`}

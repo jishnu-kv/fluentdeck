@@ -46,8 +46,8 @@ const FilterLayout: React.FC<FilterLayoutProps> = ({
   }, [stickyTopOffset]);
 
   const stickyWrapperClass = isSticky
-    ? `translate-y-0 opacity-100 pointer-events-auto transition-all duration-300 ease-out ${stickyBorder ? 'border-b border-gray-200 dark:border-border-primary' : ''}`
-    : '-translate-y-full opacity-0 pointer-events-none transition-all duration-300 ease-out border-transparent';
+    ? `transform translate-y-0 opacity-100 pointer-events-auto transition-all duration-300 ease-out ${stickyBorder ? 'border-b border-gray-200 dark:border-border-primary' : ''}`
+    : 'transform -translate-y-full opacity-0 pointer-events-none transition-all duration-300 ease-out border-transparent';
 
   return (
     <div>
@@ -59,12 +59,12 @@ const FilterLayout: React.FC<FilterLayoutProps> = ({
         {description && <p className="mt-4 text-base text-text-secondary">{description}</p>}
 
         <div ref={filterBarRef} className="mt-8">
-          <div className={`rounded-lg p-4 bg-bg-secondary ${isSticky ? 'invisible opacity-0' : 'visible opacity-100'} border border-border-primary`}>
+          <div className={`rounded-xl p-4 bg-bg-secondary ${isSticky ? 'invisible opacity-0' : 'visible opacity-100'} border border-border-primary`}>
             {filterBarContent}
           </div>
         </div>
 
-        <div className={`fixed top-16 left-0 right-0 ${stickyZ} bg-bg-secondary shadow-sm ${stickyWrapperClass}`}>
+        <div className={`fixed top-16 left-0 right-0 ${stickyZ} bg-bg-secondary shadow-sm ${stickyWrapperClass} sticky-filter-bar`}>
           <div className="px-4 sm:px-6 lg:px-8 py-4">
             {filterBarContent}
           </div>

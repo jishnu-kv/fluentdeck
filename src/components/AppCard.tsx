@@ -66,7 +66,7 @@ const AppCard: React.FC<AppCardProps> = ({
 			rel="noopener noreferrer"
 			onContextMenu={handleContextMenu}
 			onClick={handleCardClick}
-			className={`bg-card-primary border rounded-lg flex flex-col group h-full overflow-hidden opacity-0 animate-fadeIn relative block no-underline cursor-pointer ${isSelected ? 'border-blue-500 shadow-md' : 'border-border-primary'} ${!isSelectionMode ? 'hover:brightness-95 duration-300 transition-transform hover:-translate-y-1' : ''
+			className={`bg-card-primary border rounded-xl flex flex-col group h-full overflow-hidden opacity-0 animate-fadeIn relative block no-underline cursor-pointer ${isSelected ? 'border-blue-500 shadow-md' : 'border-border-primary'} ${!isSelectionMode ? 'hover:brightness-95 duration-300 transition-transform hover:-translate-y-1' : ''
 				}`}
 			style={{ animationDelay: `${index * 25}ms` }}
 			role={isSelectionMode ? 'button' : 'link'}

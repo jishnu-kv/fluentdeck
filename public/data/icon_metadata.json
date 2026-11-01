@@ -261,6 +261,20 @@
       "color": {}
     },
     {
+      "name": "Agents Person",
+      "regular": {
+        "16": "ic_fluent_agents_person_16_regular",
+        "20": "ic_fluent_agents_person_20_regular",
+        "24": "ic_fluent_agents_person_24_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_agents_person_16_filled",
+        "20": "ic_fluent_agents_person_20_filled",
+        "24": "ic_fluent_agents_person_24_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Agents Sync",
       "regular": {
         "20": "ic_fluent_agents_sync_20_regular",
@@ -1077,6 +1091,16 @@
         "28": "ic_fluent_apps_add_in_off_28_filled",
         "32": "ic_fluent_apps_add_in_off_32_filled",
         "48": "ic_fluent_apps_add_in_off_48_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Apps Bullet List",
+      "regular": {
+        "20": "ic_fluent_apps_bullet_list_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_apps_bullet_list_20_filled"
       },
       "color": {}
     },
@@ -2019,12 +2043,16 @@
       "regular": {
         "16": "ic_fluent_arrow_export_ltr_16_regular",
         "20": "ic_fluent_arrow_export_ltr_20_regular",
-        "24": "ic_fluent_arrow_export_ltr_24_regular"
+        "24": "ic_fluent_arrow_export_ltr_24_regular",
+        "28": "ic_fluent_arrow_export_ltr_28_regular",
+        "32": "ic_fluent_arrow_export_ltr_32_regular"
       },
       "filled": {
         "16": "ic_fluent_arrow_export_ltr_16_filled",
         "20": "ic_fluent_arrow_export_ltr_20_filled",
-        "24": "ic_fluent_arrow_export_ltr_24_filled"
+        "24": "ic_fluent_arrow_export_ltr_24_filled",
+        "28": "ic_fluent_arrow_export_ltr_28_filled",
+        "32": "ic_fluent_arrow_export_ltr_32_filled"
       },
       "color": {}
     },
@@ -2033,12 +2061,16 @@
       "regular": {
         "16": "ic_fluent_arrow_export_rtl_16_regular",
         "20": "ic_fluent_arrow_export_rtl_20_regular",
-        "24": "ic_fluent_arrow_export_rtl_24_regular"
+        "24": "ic_fluent_arrow_export_rtl_24_regular",
+        "28": "ic_fluent_arrow_export_rtl_28_regular",
+        "32": "ic_fluent_arrow_export_rtl_32_regular"
       },
       "filled": {
         "16": "ic_fluent_arrow_export_rtl_16_filled",
         "20": "ic_fluent_arrow_export_rtl_20_filled",
-        "24": "ic_fluent_arrow_export_rtl_24_filled"
+        "24": "ic_fluent_arrow_export_rtl_24_filled",
+        "28": "ic_fluent_arrow_export_rtl_28_filled",
+        "32": "ic_fluent_arrow_export_rtl_32_filled"
       },
       "color": {}
     },
@@ -2047,12 +2079,16 @@
       "regular": {
         "16": "ic_fluent_arrow_export_up_16_regular",
         "20": "ic_fluent_arrow_export_up_20_regular",
-        "24": "ic_fluent_arrow_export_up_24_regular"
+        "24": "ic_fluent_arrow_export_up_24_regular",
+        "28": "ic_fluent_arrow_export_up_28_regular",
+        "32": "ic_fluent_arrow_export_up_32_regular"
       },
       "filled": {
         "16": "ic_fluent_arrow_export_up_16_filled",
         "20": "ic_fluent_arrow_export_up_20_filled",
-        "24": "ic_fluent_arrow_export_up_24_filled"
+        "24": "ic_fluent_arrow_export_up_24_filled",
+        "28": "ic_fluent_arrow_export_up_28_filled",
+        "32": "ic_fluent_arrow_export_up_32_filled"
       },
       "color": {}
     },
@@ -2275,12 +2311,16 @@
       "regular": {
         "16": "ic_fluent_arrow_import_16_regular",
         "20": "ic_fluent_arrow_import_20_regular",
-        "24": "ic_fluent_arrow_import_24_regular"
+        "24": "ic_fluent_arrow_import_24_regular",
+        "28": "ic_fluent_arrow_import_28_regular",
+        "32": "ic_fluent_arrow_import_32_regular"
       },
       "filled": {
         "16": "ic_fluent_arrow_import_16_filled",
         "20": "ic_fluent_arrow_import_20_filled",
-        "24": "ic_fluent_arrow_import_24_filled"
+        "24": "ic_fluent_arrow_import_24_filled",
+        "28": "ic_fluent_arrow_import_28_filled",
+        "32": "ic_fluent_arrow_import_32_filled"
       },
       "color": {}
     },
@@ -2681,24 +2721,38 @@
       "regular": {
         "16": "ic_fluent_arrow_rotate_clockwise_16_regular",
         "20": "ic_fluent_arrow_rotate_clockwise_20_regular",
-        "24": "ic_fluent_arrow_rotate_clockwise_24_regular"
+        "24": "ic_fluent_arrow_rotate_clockwise_24_regular",
+        "28": "ic_fluent_arrow_rotate_clockwise_28_regular",
+        "32": "ic_fluent_arrow_rotate_clockwise_32_regular",
+        "48": "ic_fluent_arrow_rotate_clockwise_48_regular"
       },
       "filled": {
         "16": "ic_fluent_arrow_rotate_clockwise_16_filled",
         "20": "ic_fluent_arrow_rotate_clockwise_20_filled",
-        "24": "ic_fluent_arrow_rotate_clockwise_24_filled"
+        "24": "ic_fluent_arrow_rotate_clockwise_24_filled",
+        "28": "ic_fluent_arrow_rotate_clockwise_28_filled",
+        "32": "ic_fluent_arrow_rotate_clockwise_32_filled",
+        "48": "ic_fluent_arrow_rotate_clockwise_48_filled"
       },
       "color": {}
     },
     {
       "name": "Arrow Rotate Counterclockwise",
       "regular": {
+        "16": "ic_fluent_arrow_rotate_counterclockwise_16_regular",
         "20": "ic_fluent_arrow_rotate_counterclockwise_20_regular",
-        "24": "ic_fluent_arrow_rotate_counterclockwise_24_regular"
+        "24": "ic_fluent_arrow_rotate_counterclockwise_24_regular",
+        "28": "ic_fluent_arrow_rotate_counterclockwise_28_regular",
+        "32": "ic_fluent_arrow_rotate_counterclockwise_32_regular",
+        "48": "ic_fluent_arrow_rotate_counterclockwise_48_regular"
       },
       "filled": {
+        "16": "ic_fluent_arrow_rotate_counterclockwise_16_filled",
         "20": "ic_fluent_arrow_rotate_counterclockwise_20_filled",
-        "24": "ic_fluent_arrow_rotate_counterclockwise_24_filled"
+        "24": "ic_fluent_arrow_rotate_counterclockwise_24_filled",
+        "28": "ic_fluent_arrow_rotate_counterclockwise_28_filled",
+        "32": "ic_fluent_arrow_rotate_counterclockwise_32_filled",
+        "48": "ic_fluent_arrow_rotate_counterclockwise_48_filled"
       },
       "color": {}
     },
@@ -3170,11 +3224,17 @@
       "name": "Arrow Trending Lines",
       "regular": {
         "20": "ic_fluent_arrow_trending_lines_20_regular",
-        "24": "ic_fluent_arrow_trending_lines_24_regular"
+        "24": "ic_fluent_arrow_trending_lines_24_regular",
+        "28": "ic_fluent_arrow_trending_lines_28_regular",
+        "32": "ic_fluent_arrow_trending_lines_32_regular",
+        "48": "ic_fluent_arrow_trending_lines_48_regular"
       },
       "filled": {
         "20": "ic_fluent_arrow_trending_lines_20_filled",
-        "24": "ic_fluent_arrow_trending_lines_24_filled"
+        "24": "ic_fluent_arrow_trending_lines_24_filled",
+        "28": "ic_fluent_arrow_trending_lines_28_filled",
+        "32": "ic_fluent_arrow_trending_lines_32_filled",
+        "48": "ic_fluent_arrow_trending_lines_48_filled"
       },
       "color": {
         "20": "ic_fluent_arrow_trending_lines_20_color",
@@ -3696,6 +3756,22 @@
         "24": "ic_fluent_autocorrect_24_filled",
         "28": "ic_fluent_autocorrect_28_filled",
         "32": "ic_fluent_autocorrect_32_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Autopilot",
+      "regular": {
+        "20": "ic_fluent_autopilot_20_regular",
+        "24": "ic_fluent_autopilot_24_regular",
+        "28": "ic_fluent_autopilot_28_regular",
+        "32": "ic_fluent_autopilot_32_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_autopilot_20_filled",
+        "24": "ic_fluent_autopilot_24_filled",
+        "28": "ic_fluent_autopilot_28_filled",
+        "32": "ic_fluent_autopilot_32_filled"
       },
       "color": {}
     },
@@ -5604,6 +5680,7 @@
     {
       "name": "Brain",
       "regular": {
+        "16": "ic_fluent_brain_16_regular",
         "20": "ic_fluent_brain_20_regular",
         "24": "ic_fluent_brain_24_regular",
         "28": "ic_fluent_brain_28_regular",
@@ -5611,6 +5688,7 @@
         "48": "ic_fluent_brain_48_regular"
       },
       "filled": {
+        "16": "ic_fluent_brain_16_filled",
         "20": "ic_fluent_brain_20_filled",
         "24": "ic_fluent_brain_24_filled",
         "28": "ic_fluent_brain_28_filled",
@@ -5640,6 +5718,7 @@
     {
       "name": "Brain Sparkle",
       "regular": {
+        "16": "ic_fluent_brain_sparkle_16_regular",
         "20": "ic_fluent_brain_sparkle_20_regular",
         "24": "ic_fluent_brain_sparkle_24_regular",
         "28": "ic_fluent_brain_sparkle_28_regular",
@@ -5647,6 +5726,7 @@
         "48": "ic_fluent_brain_sparkle_48_regular"
       },
       "filled": {
+        "16": "ic_fluent_brain_sparkle_16_filled",
         "20": "ic_fluent_brain_sparkle_20_filled",
         "24": "ic_fluent_brain_sparkle_24_filled",
         "28": "ic_fluent_brain_sparkle_28_filled",
@@ -6544,14 +6624,32 @@
     {
       "name": "Calendar Agenda",
       "regular": {
+        "16": "ic_fluent_calendar_agenda_16_regular",
         "20": "ic_fluent_calendar_agenda_20_regular",
         "24": "ic_fluent_calendar_agenda_24_regular",
         "28": "ic_fluent_calendar_agenda_28_regular"
       },
       "filled": {
+        "16": "ic_fluent_calendar_agenda_16_filled",
         "20": "ic_fluent_calendar_agenda_20_filled",
         "24": "ic_fluent_calendar_agenda_24_filled",
         "28": "ic_fluent_calendar_agenda_28_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Calendar Agenda Clock",
+      "regular": {
+        "16": "ic_fluent_calendar_agenda_clock_16_regular",
+        "20": "ic_fluent_calendar_agenda_clock_20_regular",
+        "24": "ic_fluent_calendar_agenda_clock_24_regular",
+        "28": "ic_fluent_calendar_agenda_clock_28_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_calendar_agenda_clock_16_filled",
+        "20": "ic_fluent_calendar_agenda_clock_20_filled",
+        "24": "ic_fluent_calendar_agenda_clock_24_filled",
+        "28": "ic_fluent_calendar_agenda_clock_28_filled"
       },
       "color": {}
     },
@@ -7685,12 +7783,14 @@
       "regular": {
         "16": "ic_fluent_call_warning_16_regular",
         "20": "ic_fluent_call_warning_20_regular",
-        "24": "ic_fluent_call_warning_24_regular"
+        "24": "ic_fluent_call_warning_24_regular",
+        "28": "ic_fluent_call_warning_28_regular"
       },
       "filled": {
         "16": "ic_fluent_call_warning_16_filled",
         "20": "ic_fluent_call_warning_20_filled",
-        "24": "ic_fluent_call_warning_24_filled"
+        "24": "ic_fluent_call_warning_24_filled",
+        "28": "ic_fluent_call_warning_28_filled"
       },
       "color": {}
     },
@@ -8300,6 +8400,22 @@
       "color": {}
     },
     {
+      "name": "Channel Arrow Right",
+      "regular": {
+        "16": "ic_fluent_channel_arrow_right_16_regular",
+        "20": "ic_fluent_channel_arrow_right_20_regular",
+        "24": "ic_fluent_channel_arrow_right_24_regular",
+        "28": "ic_fluent_channel_arrow_right_28_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_channel_arrow_right_16_filled",
+        "20": "ic_fluent_channel_arrow_right_20_filled",
+        "24": "ic_fluent_channel_arrow_right_24_filled",
+        "28": "ic_fluent_channel_arrow_right_28_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Channel Dismiss",
       "regular": {
         "16": "ic_fluent_channel_dismiss_16_regular",
@@ -8361,12 +8477,14 @@
         "16": "ic_fluent_chart_multiple_16_regular",
         "20": "ic_fluent_chart_multiple_20_regular",
         "24": "ic_fluent_chart_multiple_24_regular",
+        "28": "ic_fluent_chart_multiple_28_regular",
         "32": "ic_fluent_chart_multiple_32_regular"
       },
       "filled": {
         "16": "ic_fluent_chart_multiple_16_filled",
         "20": "ic_fluent_chart_multiple_20_filled",
         "24": "ic_fluent_chart_multiple_24_filled",
+        "28": "ic_fluent_chart_multiple_28_filled",
         "32": "ic_fluent_chart_multiple_32_filled"
       },
       "color": {
@@ -8593,10 +8711,12 @@
     {
       "name": "Chat Help",
       "regular": {
+        "16": "ic_fluent_chat_help_16_regular",
         "20": "ic_fluent_chat_help_20_regular",
         "24": "ic_fluent_chat_help_24_regular"
       },
       "filled": {
+        "16": "ic_fluent_chat_help_16_filled",
         "20": "ic_fluent_chat_help_20_filled",
         "24": "ic_fluent_chat_help_24_filled"
       },
@@ -8671,6 +8791,7 @@
     {
       "name": "Chat Multiple",
       "regular": {
+        "12": "ic_fluent_chat_multiple_12_regular",
         "16": "ic_fluent_chat_multiple_16_regular",
         "20": "ic_fluent_chat_multiple_20_regular",
         "24": "ic_fluent_chat_multiple_24_regular",
@@ -8679,6 +8800,7 @@
         "48": "ic_fluent_chat_multiple_48_regular"
       },
       "filled": {
+        "12": "ic_fluent_chat_multiple_12_filled",
         "16": "ic_fluent_chat_multiple_16_filled",
         "20": "ic_fluent_chat_multiple_20_filled",
         "24": "ic_fluent_chat_multiple_24_filled",
@@ -8773,6 +8895,16 @@
         "16": "ic_fluent_chat_off_16_filled",
         "20": "ic_fluent_chat_off_20_filled",
         "24": "ic_fluent_chat_off_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Chat Person",
+      "regular": {
+        "20": "ic_fluent_chat_person_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_chat_person_20_filled"
       },
       "color": {}
     },
@@ -9515,6 +9647,7 @@
     {
       "name": "Circle Hint",
       "regular": {
+        "12": "ic_fluent_circle_hint_12_regular",
         "16": "ic_fluent_circle_hint_16_regular",
         "20": "ic_fluent_circle_hint_20_regular",
         "24": "ic_fluent_circle_hint_24_regular",
@@ -9523,6 +9656,7 @@
         "48": "ic_fluent_circle_hint_48_regular"
       },
       "filled": {
+        "12": "ic_fluent_circle_hint_12_filled",
         "16": "ic_fluent_circle_hint_16_filled",
         "20": "ic_fluent_circle_hint_20_filled",
         "24": "ic_fluent_circle_hint_24_filled",
@@ -9591,6 +9725,16 @@
       "color": {}
     },
     {
+      "name": "Circle Image Off",
+      "regular": {
+        "20": "ic_fluent_circle_image_off_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_circle_image_off_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Circle Line",
       "regular": {
         "12": "ic_fluent_circle_line_12_regular",
@@ -9617,6 +9761,26 @@
         "16": "ic_fluent_circle_multiple_concentric_16_filled",
         "20": "ic_fluent_circle_multiple_concentric_20_filled",
         "24": "ic_fluent_circle_multiple_concentric_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Circle Multiple Concentric Dashes",
+      "regular": {
+        "16": "ic_fluent_circle_multiple_concentric_dashes_16_regular",
+        "20": "ic_fluent_circle_multiple_concentric_dashes_20_regular",
+        "24": "ic_fluent_circle_multiple_concentric_dashes_24_regular",
+        "28": "ic_fluent_circle_multiple_concentric_dashes_28_regular",
+        "32": "ic_fluent_circle_multiple_concentric_dashes_32_regular",
+        "48": "ic_fluent_circle_multiple_concentric_dashes_48_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_circle_multiple_concentric_dashes_16_filled",
+        "20": "ic_fluent_circle_multiple_concentric_dashes_20_filled",
+        "24": "ic_fluent_circle_multiple_concentric_dashes_24_filled",
+        "28": "ic_fluent_circle_multiple_concentric_dashes_28_filled",
+        "32": "ic_fluent_circle_multiple_concentric_dashes_32_filled",
+        "48": "ic_fluent_circle_multiple_concentric_dashes_48_filled"
       },
       "color": {}
     },
@@ -10060,6 +10224,20 @@
         "16": "ic_fluent_clipboard_link_16_filled",
         "20": "ic_fluent_clipboard_link_20_filled",
         "24": "ic_fluent_clipboard_link_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Clipboard Markdown",
+      "regular": {
+        "16": "ic_fluent_clipboard_markdown_16_regular",
+        "20": "ic_fluent_clipboard_markdown_20_regular",
+        "24": "ic_fluent_clipboard_markdown_24_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_clipboard_markdown_16_filled",
+        "20": "ic_fluent_clipboard_markdown_20_filled",
+        "24": "ic_fluent_clipboard_markdown_24_filled"
       },
       "color": {}
     },
@@ -11347,12 +11525,16 @@
       "regular": {
         "16": "ic_fluent_color_16_regular",
         "20": "ic_fluent_color_20_regular",
-        "24": "ic_fluent_color_24_regular"
+        "24": "ic_fluent_color_24_regular",
+        "28": "ic_fluent_color_28_regular",
+        "32": "ic_fluent_color_32_regular"
       },
       "filled": {
         "16": "ic_fluent_color_16_filled",
         "20": "ic_fluent_color_20_filled",
-        "24": "ic_fluent_color_24_filled"
+        "24": "ic_fluent_color_24_filled",
+        "28": "ic_fluent_color_28_filled",
+        "32": "ic_fluent_color_32_filled"
       },
       "color": {}
     },
@@ -11429,6 +11611,20 @@
         "24": "ic_fluent_color_line_accent_24_regular"
       },
       "filled": {},
+      "color": {}
+    },
+    {
+      "name": "Color Off",
+      "regular": {
+        "20": "ic_fluent_color_off_20_regular",
+        "24": "ic_fluent_color_off_24_regular",
+        "28": "ic_fluent_color_off_28_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_color_off_20_filled",
+        "24": "ic_fluent_color_off_24_filled",
+        "28": "ic_fluent_color_off_28_filled"
+      },
       "color": {}
     },
     {
@@ -12340,14 +12536,16 @@
         "20": "ic_fluent_copy_20_regular",
         "24": "ic_fluent_copy_24_regular",
         "28": "ic_fluent_copy_28_regular",
-        "32": "ic_fluent_copy_32_regular"
+        "32": "ic_fluent_copy_32_regular",
+        "48": "ic_fluent_copy_48_regular"
       },
       "filled": {
         "16": "ic_fluent_copy_16_filled",
         "20": "ic_fluent_copy_20_filled",
         "24": "ic_fluent_copy_24_filled",
         "28": "ic_fluent_copy_28_filled",
-        "32": "ic_fluent_copy_32_filled"
+        "32": "ic_fluent_copy_32_filled",
+        "48": "ic_fluent_copy_48_filled"
       },
       "color": {}
     },
@@ -12416,6 +12614,26 @@
       "filled": {
         "20": "ic_fluent_counter_20_filled",
         "24": "ic_fluent_counter_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Cowork",
+      "regular": {
+        "16": "ic_fluent_cowork_16_regular",
+        "20": "ic_fluent_cowork_20_regular",
+        "24": "ic_fluent_cowork_24_regular",
+        "28": "ic_fluent_cowork_28_regular",
+        "32": "ic_fluent_cowork_32_regular",
+        "48": "ic_fluent_cowork_48_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_cowork_16_filled",
+        "20": "ic_fluent_cowork_20_filled",
+        "24": "ic_fluent_cowork_24_filled",
+        "28": "ic_fluent_cowork_28_filled",
+        "32": "ic_fluent_cowork_32_filled",
+        "48": "ic_fluent_cowork_48_filled"
       },
       "color": {}
     },
@@ -12834,6 +13052,16 @@
       "filled": {
         "20": "ic_fluent_dark_theme_20_filled",
         "24": "ic_fluent_dark_theme_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Dashboard",
+      "regular": {
+        "20": "ic_fluent_dashboard_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_dashboard_20_filled"
       },
       "color": {}
     },
@@ -13390,6 +13618,20 @@
       "color": {}
     },
     {
+      "name": "Database Settings",
+      "regular": {
+        "16": "ic_fluent_database_settings_16_regular",
+        "20": "ic_fluent_database_settings_20_regular",
+        "24": "ic_fluent_database_settings_24_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_database_settings_16_filled",
+        "20": "ic_fluent_database_settings_20_filled",
+        "24": "ic_fluent_database_settings_24_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Database Stack",
       "regular": {
         "16": "ic_fluent_database_stack_16_regular",
@@ -13901,6 +14143,16 @@
         "16": "ic_fluent_desktop_sync_16_filled",
         "20": "ic_fluent_desktop_sync_20_filled",
         "24": "ic_fluent_desktop_sync_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Desktop Tag",
+      "regular": {
+        "20": "ic_fluent_desktop_tag_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_desktop_tag_20_filled"
       },
       "color": {}
     },
@@ -14617,6 +14869,16 @@
       "color": {}
     },
     {
+      "name": "Document Broken",
+      "regular": {
+        "20": "ic_fluent_document_broken_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_document_broken_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Document Bullet List",
       "regular": {
         "16": "ic_fluent_document_bullet_list_16_regular",
@@ -14891,12 +15153,14 @@
       "regular": {
         "16": "ic_fluent_document_dismiss_16_regular",
         "20": "ic_fluent_document_dismiss_20_regular",
-        "24": "ic_fluent_document_dismiss_24_regular"
+        "24": "ic_fluent_document_dismiss_24_regular",
+        "48": "ic_fluent_document_dismiss_48_regular"
       },
       "filled": {
         "16": "ic_fluent_document_dismiss_16_filled",
         "20": "ic_fluent_document_dismiss_20_filled",
-        "24": "ic_fluent_document_dismiss_24_filled"
+        "24": "ic_fluent_document_dismiss_24_filled",
+        "48": "ic_fluent_document_dismiss_48_filled"
       },
       "color": {}
     },
@@ -16249,6 +16513,20 @@
         "24": "ic_fluent_door_24_filled",
         "28": "ic_fluent_door_28_filled",
         "32": "ic_fluent_door_32_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Door Add",
+      "regular": {
+        "16": "ic_fluent_door_add_16_regular",
+        "20": "ic_fluent_door_add_20_regular",
+        "24": "ic_fluent_door_add_24_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_door_add_16_filled",
+        "20": "ic_fluent_door_add_20_filled",
+        "24": "ic_fluent_door_add_24_filled"
       },
       "color": {}
     },
@@ -17753,6 +18031,38 @@
       "color": {}
     },
     {
+      "name": "Filmstrip Arrow Up",
+      "regular": {
+        "16": "ic_fluent_filmstrip_arrow_up_16_regular",
+        "20": "ic_fluent_filmstrip_arrow_up_20_regular",
+        "24": "ic_fluent_filmstrip_arrow_up_24_regular",
+        "32": "ic_fluent_filmstrip_arrow_up_32_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_filmstrip_arrow_up_16_filled",
+        "20": "ic_fluent_filmstrip_arrow_up_20_filled",
+        "24": "ic_fluent_filmstrip_arrow_up_24_filled",
+        "32": "ic_fluent_filmstrip_arrow_up_32_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Filmstrip Globe",
+      "regular": {
+        "16": "ic_fluent_filmstrip_globe_16_regular",
+        "20": "ic_fluent_filmstrip_globe_20_regular",
+        "24": "ic_fluent_filmstrip_globe_24_regular",
+        "32": "ic_fluent_filmstrip_globe_32_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_filmstrip_globe_16_filled",
+        "20": "ic_fluent_filmstrip_globe_20_filled",
+        "24": "ic_fluent_filmstrip_globe_24_filled",
+        "32": "ic_fluent_filmstrip_globe_32_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Filmstrip Image",
       "regular": {
         "20": "ic_fluent_filmstrip_image_20_regular",
@@ -17761,6 +18071,16 @@
       "filled": {
         "20": "ic_fluent_filmstrip_image_20_filled",
         "24": "ic_fluent_filmstrip_image_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Filmstrip Music Note 2",
+      "regular": {
+        "20": "ic_fluent_filmstrip_music_note_2_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_filmstrip_music_note_2_20_filled"
       },
       "color": {}
     },
@@ -17831,10 +18151,12 @@
     {
       "name": "Filter Add",
       "regular": {
+        "16": "ic_fluent_filter_add_16_regular",
         "20": "ic_fluent_filter_add_20_regular",
         "24": "ic_fluent_filter_add_24_regular"
       },
       "filled": {
+        "16": "ic_fluent_filter_add_16_filled",
         "20": "ic_fluent_filter_add_20_filled",
         "24": "ic_fluent_filter_add_24_filled"
       },
@@ -17857,10 +18179,12 @@
     {
       "name": "Filter Sync",
       "regular": {
+        "16": "ic_fluent_filter_sync_16_regular",
         "20": "ic_fluent_filter_sync_20_regular",
         "24": "ic_fluent_filter_sync_24_regular"
       },
       "filled": {
+        "16": "ic_fluent_filter_sync_16_filled",
         "20": "ic_fluent_filter_sync_20_filled",
         "24": "ic_fluent_filter_sync_24_filled"
       },
@@ -18264,6 +18588,26 @@
       "color": {}
     },
     {
+      "name": "Flow Arrow",
+      "regular": {
+        "16": "ic_fluent_flow_arrow_16_regular",
+        "20": "ic_fluent_flow_arrow_20_regular",
+        "24": "ic_fluent_flow_arrow_24_regular",
+        "28": "ic_fluent_flow_arrow_28_regular",
+        "32": "ic_fluent_flow_arrow_32_regular",
+        "48": "ic_fluent_flow_arrow_48_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_flow_arrow_16_filled",
+        "20": "ic_fluent_flow_arrow_20_filled",
+        "24": "ic_fluent_flow_arrow_24_filled",
+        "28": "ic_fluent_flow_arrow_28_filled",
+        "32": "ic_fluent_flow_arrow_32_filled",
+        "48": "ic_fluent_flow_arrow_48_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Flow Dot",
       "regular": {
         "16": "ic_fluent_flow_dot_16_regular",
@@ -18462,6 +18806,30 @@
       "color": {}
     },
     {
+      "name": "Folder Data Bar",
+      "regular": {
+        "20": "ic_fluent_folder_data_bar_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_folder_data_bar_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Folder Dismiss",
+      "regular": {
+        "16": "ic_fluent_folder_dismiss_16_regular",
+        "20": "ic_fluent_folder_dismiss_20_regular",
+        "24": "ic_fluent_folder_dismiss_24_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_folder_dismiss_16_filled",
+        "20": "ic_fluent_folder_dismiss_20_filled",
+        "24": "ic_fluent_folder_dismiss_24_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Folder Document",
       "regular": {
         "16": "ic_fluent_folder_document_16_regular",
@@ -18488,6 +18856,26 @@
         "16": "ic_fluent_folder_globe_16_filled",
         "20": "ic_fluent_folder_globe_20_filled",
         "24": "ic_fluent_folder_globe_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Folder Hint",
+      "regular": {
+        "20": "ic_fluent_folder_hint_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_folder_hint_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Folder Holder",
+      "regular": {
+        "20": "ic_fluent_folder_holder_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_folder_holder_20_filled"
       },
       "color": {}
     },
@@ -18940,12 +19328,14 @@
         "20": "ic_fluent_form_20_regular",
         "24": "ic_fluent_form_24_regular",
         "28": "ic_fluent_form_28_regular",
+        "32": "ic_fluent_form_32_regular",
         "48": "ic_fluent_form_48_regular"
       },
       "filled": {
         "20": "ic_fluent_form_20_filled",
         "24": "ic_fluent_form_24_filled",
         "28": "ic_fluent_form_28_filled",
+        "32": "ic_fluent_form_32_filled",
         "48": "ic_fluent_form_48_filled"
       },
       "color": {
@@ -18991,12 +19381,14 @@
         "20": "ic_fluent_form_new_20_regular",
         "24": "ic_fluent_form_new_24_regular",
         "28": "ic_fluent_form_new_28_regular",
+        "32": "ic_fluent_form_new_32_regular",
         "48": "ic_fluent_form_new_48_regular"
       },
       "filled": {
         "20": "ic_fluent_form_new_20_filled",
         "24": "ic_fluent_form_new_24_filled",
         "28": "ic_fluent_form_new_28_filled",
+        "32": "ic_fluent_form_new_32_filled",
         "48": "ic_fluent_form_new_48_filled"
       },
       "color": {}
@@ -19151,6 +19543,86 @@
       }
     },
     {
+      "name": "Game Controller Bumper Left",
+      "regular": {
+        "20": "ic_fluent_game_controller_bumper_left_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_game_controller_bumper_left_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Game Controller Bumper Right",
+      "regular": {
+        "20": "ic_fluent_game_controller_bumper_right_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_game_controller_bumper_right_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Game Controller Button A",
+      "regular": {
+        "20": "ic_fluent_game_controller_button_a_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_game_controller_button_a_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Game Controller Button B",
+      "regular": {
+        "20": "ic_fluent_game_controller_button_b_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_game_controller_button_b_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Game Controller Button X",
+      "regular": {
+        "20": "ic_fluent_game_controller_button_x_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_game_controller_button_x_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Game Controller Button Y",
+      "regular": {
+        "20": "ic_fluent_game_controller_button_y_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_game_controller_button_y_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Game Controller Trigger Left",
+      "regular": {
+        "20": "ic_fluent_game_controller_trigger_left_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_game_controller_trigger_left_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Game Controller Trigger Right",
+      "regular": {
+        "20": "ic_fluent_game_controller_trigger_right_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_game_controller_trigger_right_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Games",
       "regular": {
         "16": "ic_fluent_games_16_regular",
@@ -19265,6 +19737,46 @@
       "filled": {
         "20": "ic_fluent_gauge_add_20_filled",
         "24": "ic_fluent_gauge_add_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Gauge Rotate 0",
+      "regular": {
+        "16": "ic_fluent_gauge_rotate_0_16_regular",
+        "20": "ic_fluent_gauge_rotate_0_20_regular",
+        "24": "ic_fluent_gauge_rotate_0_24_regular",
+        "28": "ic_fluent_gauge_rotate_0_28_regular",
+        "32": "ic_fluent_gauge_rotate_0_32_regular",
+        "48": "ic_fluent_gauge_rotate_0_48_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_gauge_rotate_0_16_filled",
+        "20": "ic_fluent_gauge_rotate_0_20_filled",
+        "24": "ic_fluent_gauge_rotate_0_24_filled",
+        "28": "ic_fluent_gauge_rotate_0_28_filled",
+        "32": "ic_fluent_gauge_rotate_0_32_filled",
+        "48": "ic_fluent_gauge_rotate_0_48_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Gauge Rotate 315",
+      "regular": {
+        "16": "ic_fluent_gauge_rotate_315_16_regular",
+        "20": "ic_fluent_gauge_rotate_315_20_regular",
+        "24": "ic_fluent_gauge_rotate_315_24_regular",
+        "28": "ic_fluent_gauge_rotate_315_28_regular",
+        "32": "ic_fluent_gauge_rotate_315_32_regular",
+        "48": "ic_fluent_gauge_rotate_315_48_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_gauge_rotate_315_16_filled",
+        "20": "ic_fluent_gauge_rotate_315_20_filled",
+        "24": "ic_fluent_gauge_rotate_315_24_filled",
+        "28": "ic_fluent_gauge_rotate_315_28_filled",
+        "32": "ic_fluent_gauge_rotate_315_32_filled",
+        "48": "ic_fluent_gauge_rotate_315_48_filled"
       },
       "color": {}
     },
@@ -19744,6 +20256,16 @@
       }
     },
     {
+      "name": "Globe Stand",
+      "regular": {
+        "20": "ic_fluent_globe_stand_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_globe_stand_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Globe Star",
       "regular": {
         "16": "ic_fluent_globe_star_16_regular",
@@ -20059,6 +20581,20 @@
         "20": "ic_fluent_hand_multiple_20_filled",
         "24": "ic_fluent_hand_multiple_24_filled",
         "28": "ic_fluent_hand_multiple_28_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Hand Multiple Stack",
+      "regular": {
+        "20": "ic_fluent_hand_multiple_stack_20_regular",
+        "24": "ic_fluent_hand_multiple_stack_24_regular",
+        "28": "ic_fluent_hand_multiple_stack_28_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_hand_multiple_stack_20_filled",
+        "24": "ic_fluent_hand_multiple_stack_24_filled",
+        "28": "ic_fluent_hand_multiple_stack_28_filled"
       },
       "color": {}
     },
@@ -21148,6 +21684,16 @@
       "color": {}
     },
     {
+      "name": "Image Dismiss",
+      "regular": {
+        "20": "ic_fluent_image_dismiss_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_image_dismiss_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Image Edit",
       "regular": {
         "16": "ic_fluent_image_edit_16_regular",
@@ -21322,6 +21868,18 @@
       "color": {}
     },
     {
+      "name": "Image Style Guide",
+      "regular": {
+        "16": "ic_fluent_image_style_guide_16_regular",
+        "20": "ic_fluent_image_style_guide_20_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_image_style_guide_16_filled",
+        "20": "ic_fluent_image_style_guide_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Image Table",
       "regular": {
         "16": "ic_fluent_image_table_16_regular",
@@ -21384,14 +21942,20 @@
     {
       "name": "Incognito",
       "regular": {
+        "12": "ic_fluent_incognito_12_regular",
+        "16": "ic_fluent_incognito_16_regular",
         "20": "ic_fluent_incognito_20_regular",
         "24": "ic_fluent_incognito_24_regular",
+        "28": "ic_fluent_incognito_28_regular",
         "32": "ic_fluent_incognito_32_regular",
         "48": "ic_fluent_incognito_48_regular"
       },
       "filled": {
+        "12": "ic_fluent_incognito_12_filled",
+        "16": "ic_fluent_incognito_16_filled",
         "20": "ic_fluent_incognito_20_filled",
         "24": "ic_fluent_incognito_24_filled",
+        "28": "ic_fluent_incognito_28_filled",
         "32": "ic_fluent_incognito_32_filled",
         "48": "ic_fluent_incognito_48_filled"
       },
@@ -21804,11 +22368,23 @@
       "name": "Keyboard Mouse",
       "regular": {
         "16": "ic_fluent_keyboard_mouse_16_regular",
+        "20": "ic_fluent_keyboard_mouse_20_regular",
         "24": "ic_fluent_keyboard_mouse_24_regular"
       },
       "filled": {
         "16": "ic_fluent_keyboard_mouse_16_filled",
+        "20": "ic_fluent_keyboard_mouse_20_filled",
         "24": "ic_fluent_keyboard_mouse_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Keyboard Mouse Off",
+      "regular": {
+        "20": "ic_fluent_keyboard_mouse_off_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_keyboard_mouse_off_20_filled"
       },
       "color": {}
     },
@@ -21914,6 +22490,16 @@
         "20": "ic_fluent_laptop_briefcase_20_filled",
         "24": "ic_fluent_laptop_briefcase_24_filled",
         "32": "ic_fluent_laptop_briefcase_32_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Laptop Checkmark",
+      "regular": {
+        "20": "ic_fluent_laptop_checkmark_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_laptop_checkmark_20_filled"
       },
       "color": {}
     },
@@ -22506,6 +23092,18 @@
       "color": {}
     },
     {
+      "name": "Layout Infographic Two Sparkle",
+      "regular": {
+        "16": "ic_fluent_layout_infographic_two_sparkle_16_regular",
+        "20": "ic_fluent_layout_infographic_two_sparkle_20_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_layout_infographic_two_sparkle_16_filled",
+        "20": "ic_fluent_layout_infographic_two_sparkle_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Layout Row Four",
       "regular": {
         "16": "ic_fluent_layout_row_four_16_regular",
@@ -22969,6 +23567,20 @@
       "color": {}
     },
     {
+      "name": "Lightbulb Sparkle",
+      "regular": {
+        "16": "ic_fluent_lightbulb_sparkle_16_regular",
+        "20": "ic_fluent_lightbulb_sparkle_20_regular",
+        "24": "ic_fluent_lightbulb_sparkle_24_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_lightbulb_sparkle_16_filled",
+        "20": "ic_fluent_lightbulb_sparkle_20_filled",
+        "24": "ic_fluent_lightbulb_sparkle_24_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Likert",
       "regular": {
         "16": "ic_fluent_likert_16_regular",
@@ -23304,6 +23916,20 @@
       }
     },
     {
+      "name": "Link Off",
+      "regular": {
+        "20": "ic_fluent_link_off_20_regular",
+        "24": "ic_fluent_link_off_24_regular",
+        "28": "ic_fluent_link_off_28_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_link_off_20_filled",
+        "24": "ic_fluent_link_off_24_filled",
+        "28": "ic_fluent_link_off_28_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Link Person",
       "regular": {
         "16": "ic_fluent_link_person_16_regular",
@@ -23324,9 +23950,11 @@
     {
       "name": "Link Settings",
       "regular": {
+        "20": "ic_fluent_link_settings_20_regular",
         "24": "ic_fluent_link_settings_24_regular"
       },
       "filled": {
+        "20": "ic_fluent_link_settings_20_filled",
         "24": "ic_fluent_link_settings_24_filled"
       },
       "color": {}
@@ -23479,6 +24107,16 @@
         "20": "ic_fluent_local_language_20_filled",
         "24": "ic_fluent_local_language_24_filled",
         "28": "ic_fluent_local_language_28_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Local Language Globe",
+      "regular": {
+        "20": "ic_fluent_local_language_globe_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_local_language_globe_20_filled"
       },
       "color": {}
     },
@@ -24659,6 +25297,16 @@
         "16": "ic_fluent_map_drive_16_filled",
         "20": "ic_fluent_map_drive_20_filled",
         "24": "ic_fluent_map_drive_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Map Pin",
+      "regular": {
+        "20": "ic_fluent_map_pin_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_map_pin_20_filled"
       },
       "color": {}
     },
@@ -26444,6 +27092,24 @@
       }
     },
     {
+      "name": "Omega",
+      "regular": {
+        "16": "ic_fluent_omega_16_regular",
+        "20": "ic_fluent_omega_20_regular",
+        "24": "ic_fluent_omega_24_regular",
+        "28": "ic_fluent_omega_28_regular",
+        "32": "ic_fluent_omega_32_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_omega_16_filled",
+        "20": "ic_fluent_omega_20_filled",
+        "24": "ic_fluent_omega_24_filled",
+        "28": "ic_fluent_omega_28_filled",
+        "32": "ic_fluent_omega_32_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Open",
       "regular": {
         "12": "ic_fluent_open_12_regular",
@@ -26529,6 +27195,22 @@
       }
     },
     {
+      "name": "Options Speaker",
+      "regular": {
+        "16": "ic_fluent_options_speaker_16_regular",
+        "20": "ic_fluent_options_speaker_20_regular",
+        "24": "ic_fluent_options_speaker_24_regular",
+        "28": "ic_fluent_options_speaker_28_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_options_speaker_16_filled",
+        "20": "ic_fluent_options_speaker_20_filled",
+        "24": "ic_fluent_options_speaker_24_filled",
+        "28": "ic_fluent_options_speaker_28_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Org",
       "regular": {},
       "filled": {},
@@ -26600,6 +27282,18 @@
       "filled": {
         "20": "ic_fluent_orientation_20_filled",
         "24": "ic_fluent_orientation_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Orientation Portrait",
+      "regular": {
+        "20": "ic_fluent_orientation_portrait_20_regular",
+        "24": "ic_fluent_orientation_portrait_24_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_orientation_portrait_20_filled",
+        "24": "ic_fluent_orientation_portrait_24_filled"
       },
       "color": {}
     },
@@ -26814,10 +27508,12 @@
     {
       "name": "Pair",
       "regular": {
+        "16": "ic_fluent_pair_16_regular",
         "20": "ic_fluent_pair_20_regular",
         "24": "ic_fluent_pair_24_regular"
       },
       "filled": {
+        "16": "ic_fluent_pair_16_filled",
         "20": "ic_fluent_pair_20_filled",
         "24": "ic_fluent_pair_24_filled"
       },
@@ -27020,6 +27716,16 @@
         "16": "ic_fluent_panel_left_key_16_filled",
         "20": "ic_fluent_panel_left_key_20_filled",
         "24": "ic_fluent_panel_left_key_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Panel Left Tall",
+      "regular": {
+        "20": "ic_fluent_panel_left_tall_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_panel_left_tall_20_filled"
       },
       "color": {}
     },
@@ -27804,6 +28510,16 @@
       "color": {}
     },
     {
+      "name": "People Game Controller",
+      "regular": {
+        "20": "ic_fluent_people_game_controller_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_people_game_controller_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "People Home",
       "regular": {},
       "filled": {},
@@ -27890,12 +28606,14 @@
     {
       "name": "People Lock",
       "regular": {
+        "16": "ic_fluent_people_lock_16_regular",
         "20": "ic_fluent_people_lock_20_regular",
         "24": "ic_fluent_people_lock_24_regular",
         "28": "ic_fluent_people_lock_28_regular",
         "32": "ic_fluent_people_lock_32_regular"
       },
       "filled": {
+        "16": "ic_fluent_people_lock_16_filled",
         "20": "ic_fluent_people_lock_20_filled",
         "24": "ic_fluent_people_lock_24_filled",
         "28": "ic_fluent_people_lock_28_filled",
@@ -27920,12 +28638,14 @@
       "regular": {
         "16": "ic_fluent_people_prohibited_16_regular",
         "20": "ic_fluent_people_prohibited_20_regular",
-        "24": "ic_fluent_people_prohibited_24_regular"
+        "24": "ic_fluent_people_prohibited_24_regular",
+        "48": "ic_fluent_people_prohibited_48_regular"
       },
       "filled": {
         "16": "ic_fluent_people_prohibited_16_filled",
         "20": "ic_fluent_people_prohibited_20_filled",
-        "24": "ic_fluent_people_prohibited_24_filled"
+        "24": "ic_fluent_people_prohibited_24_filled",
+        "48": "ic_fluent_people_prohibited_48_filled"
       },
       "color": {}
     },
@@ -29874,10 +30594,12 @@
     {
       "name": "Pivot",
       "regular": {
+        "16": "ic_fluent_pivot_16_regular",
         "20": "ic_fluent_pivot_20_regular",
         "24": "ic_fluent_pivot_24_regular"
       },
       "filled": {
+        "16": "ic_fluent_pivot_16_filled",
         "20": "ic_fluent_pivot_20_filled",
         "24": "ic_fluent_pivot_24_filled"
       },
@@ -30131,6 +30853,22 @@
         "24": "ic_fluent_plug_disconnected_24_filled",
         "28": "ic_fluent_plug_disconnected_28_filled",
         "48": "ic_fluent_plug_disconnected_48_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Plug Puzzle",
+      "regular": {
+        "16": "ic_fluent_plug_puzzle_16_regular",
+        "20": "ic_fluent_plug_puzzle_20_regular",
+        "24": "ic_fluent_plug_puzzle_24_regular",
+        "32": "ic_fluent_plug_puzzle_32_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_plug_puzzle_16_filled",
+        "20": "ic_fluent_plug_puzzle_20_filled",
+        "24": "ic_fluent_plug_puzzle_24_filled",
+        "32": "ic_fluent_plug_puzzle_32_filled"
       },
       "color": {}
     },
@@ -30524,12 +31262,16 @@
       "regular": {
         "16": "ic_fluent_preview_link_16_regular",
         "20": "ic_fluent_preview_link_20_regular",
-        "24": "ic_fluent_preview_link_24_regular"
+        "24": "ic_fluent_preview_link_24_regular",
+        "28": "ic_fluent_preview_link_28_regular",
+        "32": "ic_fluent_preview_link_32_regular"
       },
       "filled": {
         "16": "ic_fluent_preview_link_16_filled",
         "20": "ic_fluent_preview_link_20_filled",
-        "24": "ic_fluent_preview_link_24_filled"
+        "24": "ic_fluent_preview_link_24_filled",
+        "28": "ic_fluent_preview_link_28_filled",
+        "32": "ic_fluent_preview_link_32_filled"
       },
       "color": {}
     },
@@ -31394,6 +32136,16 @@
       "color": {}
     },
     {
+      "name": "Rectangle Landscape Clock",
+      "regular": {
+        "20": "ic_fluent_rectangle_landscape_clock_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_rectangle_landscape_clock_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Rectangle Landscape Hint Copy",
       "regular": {
         "16": "ic_fluent_rectangle_landscape_hint_copy_16_regular",
@@ -31404,6 +32156,26 @@
         "16": "ic_fluent_rectangle_landscape_hint_copy_16_filled",
         "20": "ic_fluent_rectangle_landscape_hint_copy_20_filled",
         "24": "ic_fluent_rectangle_landscape_hint_copy_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Rectangle Landscape Line Horizontal",
+      "regular": {
+        "20": "ic_fluent_rectangle_landscape_line_horizontal_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_rectangle_landscape_line_horizontal_20_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Rectangle Landscape Off",
+      "regular": {
+        "20": "ic_fluent_rectangle_landscape_off_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_rectangle_landscape_off_20_filled"
       },
       "color": {}
     },
@@ -31570,12 +32342,16 @@
     {
       "name": "Rename A",
       "regular": {
+        "16": "ic_fluent_rename_a_16_regular",
         "20": "ic_fluent_rename_a_20_regular",
-        "24": "ic_fluent_rename_a_24_regular"
+        "24": "ic_fluent_rename_a_24_regular",
+        "28": "ic_fluent_rename_a_28_regular"
       },
       "filled": {
+        "16": "ic_fluent_rename_a_16_filled",
         "20": "ic_fluent_rename_a_20_filled",
-        "24": "ic_fluent_rename_a_24_filled"
+        "24": "ic_fluent_rename_a_24_filled",
+        "28": "ic_fluent_rename_a_28_filled"
       },
       "color": {}
     },
@@ -31760,6 +32536,7 @@
         "16": "ic_fluent_ribbon_16_regular",
         "20": "ic_fluent_ribbon_20_regular",
         "24": "ic_fluent_ribbon_24_regular",
+        "28": "ic_fluent_ribbon_28_regular",
         "32": "ic_fluent_ribbon_32_regular"
       },
       "filled": {
@@ -31767,6 +32544,7 @@
         "16": "ic_fluent_ribbon_16_filled",
         "20": "ic_fluent_ribbon_20_filled",
         "24": "ic_fluent_ribbon_24_filled",
+        "28": "ic_fluent_ribbon_28_filled",
         "32": "ic_fluent_ribbon_32_filled"
       },
       "color": {
@@ -31795,6 +32573,7 @@
         "16": "ic_fluent_ribbon_off_16_regular",
         "20": "ic_fluent_ribbon_off_20_regular",
         "24": "ic_fluent_ribbon_off_24_regular",
+        "28": "ic_fluent_ribbon_off_28_regular",
         "32": "ic_fluent_ribbon_off_32_regular"
       },
       "filled": {
@@ -31802,6 +32581,7 @@
         "16": "ic_fluent_ribbon_off_16_filled",
         "20": "ic_fluent_ribbon_off_20_filled",
         "24": "ic_fluent_ribbon_off_24_filled",
+        "28": "ic_fluent_ribbon_off_28_filled",
         "32": "ic_fluent_ribbon_off_32_filled"
       },
       "color": {}
@@ -32176,14 +32956,20 @@
     {
       "name": "Scales",
       "regular": {
+        "16": "ic_fluent_scales_16_regular",
         "20": "ic_fluent_scales_20_regular",
         "24": "ic_fluent_scales_24_regular",
-        "32": "ic_fluent_scales_32_regular"
+        "28": "ic_fluent_scales_28_regular",
+        "32": "ic_fluent_scales_32_regular",
+        "48": "ic_fluent_scales_48_regular"
       },
       "filled": {
+        "16": "ic_fluent_scales_16_filled",
         "20": "ic_fluent_scales_20_filled",
         "24": "ic_fluent_scales_24_filled",
-        "32": "ic_fluent_scales_32_filled"
+        "28": "ic_fluent_scales_28_filled",
+        "32": "ic_fluent_scales_32_filled",
+        "48": "ic_fluent_scales_48_filled"
       },
       "color": {}
     },
@@ -32680,10 +33466,12 @@
     {
       "name": "Select Object",
       "regular": {
+        "16": "ic_fluent_select_object_16_regular",
         "20": "ic_fluent_select_object_20_regular",
         "24": "ic_fluent_select_object_24_regular"
       },
       "filled": {
+        "16": "ic_fluent_select_object_16_filled",
         "20": "ic_fluent_select_object_20_filled",
         "24": "ic_fluent_select_object_24_filled"
       },
@@ -32692,10 +33480,12 @@
     {
       "name": "Select Object Skew",
       "regular": {
+        "16": "ic_fluent_select_object_skew_16_regular",
         "20": "ic_fluent_select_object_skew_20_regular",
         "24": "ic_fluent_select_object_skew_24_regular"
       },
       "filled": {
+        "16": "ic_fluent_select_object_skew_16_filled",
         "20": "ic_fluent_select_object_skew_20_filled",
         "24": "ic_fluent_select_object_skew_24_filled"
       },
@@ -32988,6 +33778,16 @@
       "filled": {
         "20": "ic_fluent_settings_cog_multiple_20_filled",
         "24": "ic_fluent_settings_cog_multiple_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Settings Sync",
+      "regular": {
+        "20": "ic_fluent_settings_sync_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_settings_sync_20_filled"
       },
       "color": {}
     },
@@ -33390,12 +34190,14 @@
       "regular": {
         "16": "ic_fluent_shield_dismiss_16_regular",
         "20": "ic_fluent_shield_dismiss_20_regular",
-        "24": "ic_fluent_shield_dismiss_24_regular"
+        "24": "ic_fluent_shield_dismiss_24_regular",
+        "48": "ic_fluent_shield_dismiss_48_regular"
       },
       "filled": {
         "16": "ic_fluent_shield_dismiss_16_filled",
         "20": "ic_fluent_shield_dismiss_20_filled",
-        "24": "ic_fluent_shield_dismiss_24_filled"
+        "24": "ic_fluent_shield_dismiss_24_filled",
+        "48": "ic_fluent_shield_dismiss_48_filled"
       },
       "color": {}
     },
@@ -33708,6 +34510,16 @@
       "filled": {
         "20": "ic_fluent_shifts_team_20_filled",
         "24": "ic_fluent_shifts_team_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Shirt",
+      "regular": {
+        "20": "ic_fluent_shirt_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_shirt_20_filled"
       },
       "color": {}
     },
@@ -34110,6 +34922,18 @@
       "color": {}
     },
     {
+      "name": "Slide Arrow Forward",
+      "regular": {
+        "20": "ic_fluent_slide_arrow_forward_20_regular",
+        "24": "ic_fluent_slide_arrow_forward_24_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_slide_arrow_forward_20_filled",
+        "24": "ic_fluent_slide_arrow_forward_24_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Slide Arrow Right",
       "regular": {
         "20": "ic_fluent_slide_arrow_right_20_regular",
@@ -34187,11 +35011,13 @@
       "name": "Slide Link",
       "regular": {
         "20": "ic_fluent_slide_link_20_regular",
-        "24": "ic_fluent_slide_link_24_regular"
+        "24": "ic_fluent_slide_link_24_regular",
+        "28": "ic_fluent_slide_link_28_regular"
       },
       "filled": {
         "20": "ic_fluent_slide_link_20_filled",
-        "24": "ic_fluent_slide_link_24_filled"
+        "24": "ic_fluent_slide_link_24_filled",
+        "28": "ic_fluent_slide_link_28_filled"
       },
       "color": {}
     },
@@ -34212,10 +35038,12 @@
     {
       "name": "Slide Multiple",
       "regular": {
+        "16": "ic_fluent_slide_multiple_16_regular",
         "20": "ic_fluent_slide_multiple_20_regular",
         "24": "ic_fluent_slide_multiple_24_regular"
       },
       "filled": {
+        "16": "ic_fluent_slide_multiple_16_filled",
         "20": "ic_fluent_slide_multiple_20_filled",
         "24": "ic_fluent_slide_multiple_24_filled"
       },
@@ -34701,6 +35529,7 @@
     {
       "name": "Sparkle",
       "regular": {
+        "12": "ic_fluent_sparkle_12_regular",
         "16": "ic_fluent_sparkle_16_regular",
         "20": "ic_fluent_sparkle_20_regular",
         "24": "ic_fluent_sparkle_24_regular",
@@ -34709,6 +35538,7 @@
         "48": "ic_fluent_sparkle_48_regular"
       },
       "filled": {
+        "12": "ic_fluent_sparkle_12_filled",
         "16": "ic_fluent_sparkle_16_filled",
         "20": "ic_fluent_sparkle_20_filled",
         "24": "ic_fluent_sparkle_24_filled",
@@ -34783,6 +35613,7 @@
     {
       "name": "Sparkle Off",
       "regular": {
+        "12": "ic_fluent_sparkle_off_12_regular",
         "16": "ic_fluent_sparkle_off_16_regular",
         "20": "ic_fluent_sparkle_off_20_regular",
         "24": "ic_fluent_sparkle_off_24_regular",
@@ -34791,6 +35622,7 @@
         "48": "ic_fluent_sparkle_off_48_regular"
       },
       "filled": {
+        "12": "ic_fluent_sparkle_off_12_filled",
         "16": "ic_fluent_sparkle_off_16_filled",
         "20": "ic_fluent_sparkle_off_20_filled",
         "24": "ic_fluent_sparkle_off_24_filled",
@@ -34905,6 +35737,16 @@
         "16": "ic_fluent_speaker_box_16_filled",
         "20": "ic_fluent_speaker_box_20_filled",
         "24": "ic_fluent_speaker_box_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Speaker Box Keyboard",
+      "regular": {
+        "20": "ic_fluent_speaker_box_keyboard_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_speaker_box_keyboard_20_filled"
       },
       "color": {}
     },
@@ -35998,6 +36840,16 @@
       "filled": {
         "20": "ic_fluent_stream_output_20_filled",
         "24": "ic_fluent_stream_output_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Street Home",
+      "regular": {
+        "20": "ic_fluent_street_home_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_street_home_20_filled"
       },
       "color": {}
     },
@@ -37439,6 +38291,20 @@
       "color": {}
     },
     {
+      "name": "Table Select Range",
+      "regular": {
+        "16": "ic_fluent_table_select_range_16_regular",
+        "20": "ic_fluent_table_select_range_20_regular",
+        "24": "ic_fluent_table_select_range_24_regular"
+      },
+      "filled": {
+        "16": "ic_fluent_table_select_range_16_filled",
+        "20": "ic_fluent_table_select_range_20_filled",
+        "24": "ic_fluent_table_select_range_24_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Table Settings",
       "regular": {
         "16": "ic_fluent_table_settings_16_regular",
@@ -37679,6 +38545,16 @@
       "filled": {
         "20": "ic_fluent_tablet_laptop_20_filled",
         "24": "ic_fluent_tablet_laptop_24_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Tablet Phone Desktop",
+      "regular": {
+        "20": "ic_fluent_tablet_phone_desktop_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_tablet_phone_desktop_20_filled"
       },
       "color": {}
     },
@@ -38062,6 +38938,16 @@
       "color": {}
     },
     {
+      "name": "Task List Rectangle",
+      "regular": {
+        "28": "ic_fluent_task_list_rectangle_28_regular"
+      },
+      "filled": {
+        "28": "ic_fluent_task_list_rectangle_28_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Task List RTL",
       "regular": {
         "20": "ic_fluent_task_list_rtl_20_regular",
@@ -38399,11 +39285,15 @@
       "name": "Text Add T",
       "regular": {
         "20": "ic_fluent_text_add_t_20_regular",
-        "24": "ic_fluent_text_add_t_24_regular"
+        "24": "ic_fluent_text_add_t_24_regular",
+        "28": "ic_fluent_text_add_t_28_regular",
+        "32": "ic_fluent_text_add_t_32_regular"
       },
       "filled": {
         "20": "ic_fluent_text_add_t_20_filled",
-        "24": "ic_fluent_text_add_t_24_filled"
+        "24": "ic_fluent_text_add_t_24_filled",
+        "28": "ic_fluent_text_add_t_28_filled",
+        "32": "ic_fluent_text_add_t_32_filled"
       },
       "color": {}
     },
@@ -38800,6 +39690,16 @@
       "color": {}
     },
     {
+      "name": "Text Bullet List Edit",
+      "regular": {
+        "20": "ic_fluent_text_bullet_list_edit_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_text_bullet_list_edit_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Text Bullet List LTR",
       "regular": {
         "16": "ic_fluent_text_bullet_list_ltr_16_regular",
@@ -38891,12 +39791,16 @@
     {
       "name": "Text Bullet List Square Clock",
       "regular": {
+        "16": "ic_fluent_text_bullet_list_square_clock_16_regular",
         "20": "ic_fluent_text_bullet_list_square_clock_20_regular",
-        "24": "ic_fluent_text_bullet_list_square_clock_24_regular"
+        "24": "ic_fluent_text_bullet_list_square_clock_24_regular",
+        "28": "ic_fluent_text_bullet_list_square_clock_28_regular"
       },
       "filled": {
+        "16": "ic_fluent_text_bullet_list_square_clock_16_filled",
         "20": "ic_fluent_text_bullet_list_square_clock_20_filled",
-        "24": "ic_fluent_text_bullet_list_square_clock_24_filled"
+        "24": "ic_fluent_text_bullet_list_square_clock_24_filled",
+        "28": "ic_fluent_text_bullet_list_square_clock_28_filled"
       },
       "color": {}
     },
@@ -39100,12 +40004,18 @@
     {
       "name": "Text Collapse",
       "regular": {
+        "16": "ic_fluent_text_collapse_16_regular",
         "20": "ic_fluent_text_collapse_20_regular",
-        "24": "ic_fluent_text_collapse_24_regular"
+        "24": "ic_fluent_text_collapse_24_regular",
+        "28": "ic_fluent_text_collapse_28_regular",
+        "32": "ic_fluent_text_collapse_32_regular"
       },
       "filled": {
+        "16": "ic_fluent_text_collapse_16_filled",
         "20": "ic_fluent_text_collapse_20_filled",
-        "24": "ic_fluent_text_collapse_24_filled"
+        "24": "ic_fluent_text_collapse_24_filled",
+        "28": "ic_fluent_text_collapse_28_filled",
+        "32": "ic_fluent_text_collapse_32_filled"
       },
       "color": {}
     },
@@ -40296,12 +41206,14 @@
       "regular": {
         "16": "ic_fluent_text_number_list_ltr_16_regular",
         "20": "ic_fluent_text_number_list_ltr_20_regular",
-        "24": "ic_fluent_text_number_list_ltr_24_regular"
+        "24": "ic_fluent_text_number_list_ltr_24_regular",
+        "28": "ic_fluent_text_number_list_ltr_28_regular"
       },
       "filled": {
         "16": "ic_fluent_text_number_list_ltr_16_filled",
         "20": "ic_fluent_text_number_list_ltr_20_filled",
-        "24": "ic_fluent_text_number_list_ltr_24_filled"
+        "24": "ic_fluent_text_number_list_ltr_24_filled",
+        "28": "ic_fluent_text_number_list_ltr_28_filled"
       },
       "color": {}
     },
@@ -40321,11 +41233,23 @@
       "name": "Text Number List LTR Rotate 270",
       "regular": {
         "20": "ic_fluent_text_number_list_ltr_rotate_270_20_regular",
-        "24": "ic_fluent_text_number_list_ltr_rotate_270_24_regular"
+        "24": "ic_fluent_text_number_list_ltr_rotate_270_24_regular",
+        "28": "ic_fluent_text_number_list_ltr_rotate_270_28_regular"
       },
       "filled": {
         "20": "ic_fluent_text_number_list_ltr_rotate_270_20_filled",
-        "24": "ic_fluent_text_number_list_ltr_rotate_270_24_filled"
+        "24": "ic_fluent_text_number_list_ltr_rotate_270_24_filled",
+        "28": "ic_fluent_text_number_list_ltr_rotate_270_28_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Text Number List LTR Rotate 90",
+      "regular": {
+        "28": "ic_fluent_text_number_list_ltr_rotate_90_28_regular"
+      },
+      "filled": {
+        "28": "ic_fluent_text_number_list_ltr_rotate_90_28_filled"
       },
       "color": {}
     },
@@ -40358,12 +41282,14 @@
       "regular": {
         "16": "ic_fluent_text_number_list_rtl_16_regular",
         "20": "ic_fluent_text_number_list_rtl_20_regular",
-        "24": "ic_fluent_text_number_list_rtl_24_regular"
+        "24": "ic_fluent_text_number_list_rtl_24_regular",
+        "28": "ic_fluent_text_number_list_rtl_28_regular"
       },
       "filled": {
         "16": "ic_fluent_text_number_list_rtl_16_filled",
         "20": "ic_fluent_text_number_list_rtl_20_filled",
-        "24": "ic_fluent_text_number_list_rtl_24_filled"
+        "24": "ic_fluent_text_number_list_rtl_24_filled",
+        "28": "ic_fluent_text_number_list_rtl_28_filled"
       },
       "color": {}
     },
@@ -40383,11 +41309,23 @@
       "name": "Text Number List RTL Rotate 270",
       "regular": {
         "20": "ic_fluent_text_number_list_rtl_rotate_270_20_regular",
-        "24": "ic_fluent_text_number_list_rtl_rotate_270_24_regular"
+        "24": "ic_fluent_text_number_list_rtl_rotate_270_24_regular",
+        "28": "ic_fluent_text_number_list_rtl_rotate_270_28_regular"
       },
       "filled": {
         "20": "ic_fluent_text_number_list_rtl_rotate_270_20_filled",
-        "24": "ic_fluent_text_number_list_rtl_rotate_270_24_filled"
+        "24": "ic_fluent_text_number_list_rtl_rotate_270_24_filled",
+        "28": "ic_fluent_text_number_list_rtl_rotate_270_28_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Text Number List RTL Rotate 90",
+      "regular": {
+        "28": "ic_fluent_text_number_list_rtl_rotate_90_28_regular"
+      },
+      "filled": {
+        "28": "ic_fluent_text_number_list_rtl_rotate_90_28_filled"
       },
       "color": {}
     },
@@ -41040,6 +41978,16 @@
       "color": {}
     },
     {
+      "name": "Textbox Align Top Arrow Clockwise",
+      "regular": {
+        "20": "ic_fluent_textbox_align_top_arrow_clockwise_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_textbox_align_top_arrow_clockwise_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Textbox Align Top Center",
       "regular": {
         "16": "ic_fluent_textbox_align_top_center_16_regular",
@@ -41213,13 +42161,17 @@
         "16": "ic_fluent_ticket_diagonal_16_regular",
         "20": "ic_fluent_ticket_diagonal_20_regular",
         "24": "ic_fluent_ticket_diagonal_24_regular",
-        "28": "ic_fluent_ticket_diagonal_28_regular"
+        "28": "ic_fluent_ticket_diagonal_28_regular",
+        "32": "ic_fluent_ticket_diagonal_32_regular",
+        "48": "ic_fluent_ticket_diagonal_48_regular"
       },
       "filled": {
         "16": "ic_fluent_ticket_diagonal_16_filled",
         "20": "ic_fluent_ticket_diagonal_20_filled",
         "24": "ic_fluent_ticket_diagonal_24_filled",
-        "28": "ic_fluent_ticket_diagonal_28_filled"
+        "28": "ic_fluent_ticket_diagonal_28_filled",
+        "32": "ic_fluent_ticket_diagonal_32_filled",
+        "48": "ic_fluent_ticket_diagonal_48_filled"
       },
       "color": {}
     },
@@ -43683,11 +44635,13 @@
       "name": "Wifi 1",
       "regular": {
         "20": "ic_fluent_wifi_1_20_regular",
-        "24": "ic_fluent_wifi_1_24_regular"
+        "24": "ic_fluent_wifi_1_24_regular",
+        "48": "ic_fluent_wifi_1_48_regular"
       },
       "filled": {
         "20": "ic_fluent_wifi_1_20_filled",
-        "24": "ic_fluent_wifi_1_24_filled"
+        "24": "ic_fluent_wifi_1_24_filled",
+        "48": "ic_fluent_wifi_1_48_filled"
       },
       "color": {}
     },
@@ -43743,11 +44697,13 @@
       "name": "Wifi Off",
       "regular": {
         "20": "ic_fluent_wifi_off_20_regular",
-        "24": "ic_fluent_wifi_off_24_regular"
+        "24": "ic_fluent_wifi_off_24_regular",
+        "48": "ic_fluent_wifi_off_48_regular"
       },
       "filled": {
         "20": "ic_fluent_wifi_off_20_filled",
-        "24": "ic_fluent_wifi_off_24_filled"
+        "24": "ic_fluent_wifi_off_24_filled",
+        "48": "ic_fluent_wifi_off_48_filled"
       },
       "color": {}
     },
@@ -44229,6 +45185,16 @@
       "color": {}
     },
     {
+      "name": "Window Toolbox",
+      "regular": {
+        "20": "ic_fluent_window_toolbox_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_window_toolbox_20_filled"
+      },
+      "color": {}
+    },
+    {
       "name": "Window Wrench",
       "regular": {
         "16": "ic_fluent_window_wrench_16_regular",
@@ -44363,6 +45329,16 @@
         "24": "ic_fluent_xbox_controller_error_24_filled",
         "32": "ic_fluent_xbox_controller_error_32_filled",
         "48": "ic_fluent_xbox_controller_error_48_filled"
+      },
+      "color": {}
+    },
+    {
+      "name": "Xbox One Console",
+      "regular": {
+        "20": "ic_fluent_xbox_one_console_20_regular"
+      },
+      "filled": {
+        "20": "ic_fluent_xbox_one_console_20_filled"
       },
       "color": {}
     },

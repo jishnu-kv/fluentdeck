@@ -63,6 +63,14 @@ export default {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
         },
+        slideInRight: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideOutRight: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
         'toast-in': {
           'from': { opacity: '0', transform: 'translateX(100%)' },
           'to': { opacity: '1', transform: 'translateX(0)' },
@@ -109,6 +117,8 @@ export default {
         slideUp: 'slideUp 0.35s ease-in-out forwards',
         slideInLeft: 'slideInLeft 0.3s ease-in-out',
         slideOutLeft: 'slideOutLeft 0.3s ease-in-out',
+        slideInRight: 'slideInRight 0.35s ease-in-out forwards',
+        slideOutRight: 'slideOutRight 0.35s ease-in-out forwards',
         'toast-in': 'toast-in 0.35s ease-out forwards',
         'toast-out': 'toast-out 0.35s ease-out forwards',
         'bounce-sm': 'bounce-sm 0.3s ease-in-out',

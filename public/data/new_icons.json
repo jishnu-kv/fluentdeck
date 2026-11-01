@@ -1,731 +1,853 @@
 [
   {
-    "name": "Agents Sync",
+    "name": "Agents Person",
     "regular": {
-      "20": "ic_fluent_agents_sync_20_regular",
-      "24": "ic_fluent_agents_sync_24_regular",
-      "28": "ic_fluent_agents_sync_28_regular"
+      "16": "ic_fluent_agents_person_16_regular",
+      "20": "ic_fluent_agents_person_20_regular",
+      "24": "ic_fluent_agents_person_24_regular"
     },
     "filled": {
-      "20": "ic_fluent_agents_sync_20_filled",
-      "24": "ic_fluent_agents_sync_24_filled",
-      "28": "ic_fluent_agents_sync_28_filled"
+      "16": "ic_fluent_agents_person_16_filled",
+      "20": "ic_fluent_agents_person_20_filled",
+      "24": "ic_fluent_agents_person_24_filled"
     },
     "color": {}
   },
   {
-    "name": "Album Subtract",
+    "name": "Arrow Export LTR",
     "regular": {
-      "20": "ic_fluent_album_subtract_20_regular",
-      "24": "ic_fluent_album_subtract_24_regular"
+      "28": "ic_fluent_arrow_export_ltr_28_regular",
+      "32": "ic_fluent_arrow_export_ltr_32_regular"
     },
     "filled": {
-      "20": "ic_fluent_album_subtract_20_filled",
-      "24": "ic_fluent_album_subtract_24_filled"
+      "28": "ic_fluent_arrow_export_ltr_28_filled",
+      "32": "ic_fluent_arrow_export_ltr_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Arrow Flow Square Multiple",
+    "name": "Arrow Export RTL",
     "regular": {
-      "16": "ic_fluent_arrow_flow_square_multiple_16_regular",
-      "20": "ic_fluent_arrow_flow_square_multiple_20_regular",
-      "24": "ic_fluent_arrow_flow_square_multiple_24_regular",
-      "28": "ic_fluent_arrow_flow_square_multiple_28_regular",
-      "32": "ic_fluent_arrow_flow_square_multiple_32_regular",
-      "48": "ic_fluent_arrow_flow_square_multiple_48_regular"
+      "28": "ic_fluent_arrow_export_rtl_28_regular",
+      "32": "ic_fluent_arrow_export_rtl_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_arrow_flow_square_multiple_16_filled",
-      "20": "ic_fluent_arrow_flow_square_multiple_20_filled",
-      "24": "ic_fluent_arrow_flow_square_multiple_24_filled",
-      "28": "ic_fluent_arrow_flow_square_multiple_28_filled",
-      "32": "ic_fluent_arrow_flow_square_multiple_32_filled",
-      "48": "ic_fluent_arrow_flow_square_multiple_48_filled"
+      "28": "ic_fluent_arrow_export_rtl_28_filled",
+      "32": "ic_fluent_arrow_export_rtl_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Call Chevron Down",
+    "name": "Arrow Export Up",
     "regular": {
-      "16": "ic_fluent_call_chevron_down_16_regular",
-      "20": "ic_fluent_call_chevron_down_20_regular",
-      "24": "ic_fluent_call_chevron_down_24_regular",
-      "28": "ic_fluent_call_chevron_down_28_regular",
-      "32": "ic_fluent_call_chevron_down_32_regular",
-      "48": "ic_fluent_call_chevron_down_48_regular"
+      "28": "ic_fluent_arrow_export_up_28_regular",
+      "32": "ic_fluent_arrow_export_up_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_call_chevron_down_16_filled",
-      "20": "ic_fluent_call_chevron_down_20_filled",
-      "24": "ic_fluent_call_chevron_down_24_filled",
-      "28": "ic_fluent_call_chevron_down_28_filled",
-      "32": "ic_fluent_call_chevron_down_32_filled",
-      "48": "ic_fluent_call_chevron_down_48_filled"
+      "28": "ic_fluent_arrow_export_up_28_filled",
+      "32": "ic_fluent_arrow_export_up_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Card Ui Info",
+    "name": "Arrow Import",
     "regular": {
-      "16": "ic_fluent_card_ui_info_16_regular",
-      "20": "ic_fluent_card_ui_info_20_regular",
-      "24": "ic_fluent_card_ui_info_24_regular"
+      "28": "ic_fluent_arrow_import_28_regular",
+      "32": "ic_fluent_arrow_import_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_card_ui_info_16_filled",
-      "20": "ic_fluent_card_ui_info_20_filled",
-      "24": "ic_fluent_card_ui_info_24_filled"
+      "28": "ic_fluent_arrow_import_28_filled",
+      "32": "ic_fluent_arrow_import_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Certificate Off",
+    "name": "Arrow Rotate Clockwise",
     "regular": {
-      "16": "ic_fluent_certificate_off_16_regular",
-      "20": "ic_fluent_certificate_off_20_regular",
-      "24": "ic_fluent_certificate_off_24_regular"
+      "28": "ic_fluent_arrow_rotate_clockwise_28_regular",
+      "32": "ic_fluent_arrow_rotate_clockwise_32_regular",
+      "48": "ic_fluent_arrow_rotate_clockwise_48_regular"
     },
     "filled": {
-      "16": "ic_fluent_certificate_off_16_filled",
-      "20": "ic_fluent_certificate_off_20_filled",
-      "24": "ic_fluent_certificate_off_24_filled"
+      "28": "ic_fluent_arrow_rotate_clockwise_28_filled",
+      "32": "ic_fluent_arrow_rotate_clockwise_32_filled",
+      "48": "ic_fluent_arrow_rotate_clockwise_48_filled"
     },
     "color": {}
   },
   {
-    "name": "Chat Checkmark",
+    "name": "Arrow Rotate Counterclockwise",
     "regular": {
-      "12": "ic_fluent_chat_checkmark_12_regular",
-      "16": "ic_fluent_chat_checkmark_16_regular",
-      "20": "ic_fluent_chat_checkmark_20_regular",
-      "24": "ic_fluent_chat_checkmark_24_regular",
-      "28": "ic_fluent_chat_checkmark_28_regular",
-      "32": "ic_fluent_chat_checkmark_32_regular",
-      "48": "ic_fluent_chat_checkmark_48_regular"
+      "16": "ic_fluent_arrow_rotate_counterclockwise_16_regular",
+      "28": "ic_fluent_arrow_rotate_counterclockwise_28_regular",
+      "32": "ic_fluent_arrow_rotate_counterclockwise_32_regular",
+      "48": "ic_fluent_arrow_rotate_counterclockwise_48_regular"
     },
     "filled": {
-      "12": "ic_fluent_chat_checkmark_12_filled",
-      "16": "ic_fluent_chat_checkmark_16_filled",
-      "20": "ic_fluent_chat_checkmark_20_filled",
-      "24": "ic_fluent_chat_checkmark_24_filled",
-      "28": "ic_fluent_chat_checkmark_28_filled",
-      "32": "ic_fluent_chat_checkmark_32_filled",
-      "48": "ic_fluent_chat_checkmark_48_filled"
+      "16": "ic_fluent_arrow_rotate_counterclockwise_16_filled",
+      "28": "ic_fluent_arrow_rotate_counterclockwise_28_filled",
+      "32": "ic_fluent_arrow_rotate_counterclockwise_32_filled",
+      "48": "ic_fluent_arrow_rotate_counterclockwise_48_filled"
     },
     "color": {}
   },
   {
-    "name": "Chat Multiple Person",
+    "name": "Autopilot",
     "regular": {
-      "16": "ic_fluent_chat_multiple_person_16_regular",
-      "20": "ic_fluent_chat_multiple_person_20_regular",
-      "24": "ic_fluent_chat_multiple_person_24_regular",
-      "28": "ic_fluent_chat_multiple_person_28_regular",
-      "32": "ic_fluent_chat_multiple_person_32_regular",
-      "48": "ic_fluent_chat_multiple_person_48_regular"
+      "20": "ic_fluent_autopilot_20_regular",
+      "24": "ic_fluent_autopilot_24_regular",
+      "28": "ic_fluent_autopilot_28_regular",
+      "32": "ic_fluent_autopilot_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_chat_multiple_person_16_filled",
-      "20": "ic_fluent_chat_multiple_person_20_filled",
-      "24": "ic_fluent_chat_multiple_person_24_filled",
-      "28": "ic_fluent_chat_multiple_person_28_filled",
-      "32": "ic_fluent_chat_multiple_person_32_filled",
-      "48": "ic_fluent_chat_multiple_person_48_filled"
+      "20": "ic_fluent_autopilot_20_filled",
+      "24": "ic_fluent_autopilot_24_filled",
+      "28": "ic_fluent_autopilot_28_filled",
+      "32": "ic_fluent_autopilot_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Checkmark Circle Sparkle",
+    "name": "Calendar Agenda",
     "regular": {
-      "20": "ic_fluent_checkmark_circle_sparkle_20_regular",
-      "24": "ic_fluent_checkmark_circle_sparkle_24_regular"
+      "16": "ic_fluent_calendar_agenda_16_regular"
     },
     "filled": {
-      "20": "ic_fluent_checkmark_circle_sparkle_20_filled",
-      "24": "ic_fluent_checkmark_circle_sparkle_24_filled"
+      "16": "ic_fluent_calendar_agenda_16_filled"
     },
     "color": {}
   },
   {
-    "name": "Clipboard Off",
+    "name": "Calendar Agenda Clock",
     "regular": {
-      "16": "ic_fluent_clipboard_off_16_regular",
-      "20": "ic_fluent_clipboard_off_20_regular",
-      "24": "ic_fluent_clipboard_off_24_regular"
+      "16": "ic_fluent_calendar_agenda_clock_16_regular",
+      "20": "ic_fluent_calendar_agenda_clock_20_regular",
+      "24": "ic_fluent_calendar_agenda_clock_24_regular",
+      "28": "ic_fluent_calendar_agenda_clock_28_regular"
     },
     "filled": {
-      "16": "ic_fluent_clipboard_off_16_filled",
-      "20": "ic_fluent_clipboard_off_20_filled",
-      "24": "ic_fluent_clipboard_off_24_filled"
+      "16": "ic_fluent_calendar_agenda_clock_16_filled",
+      "20": "ic_fluent_calendar_agenda_clock_20_filled",
+      "24": "ic_fluent_calendar_agenda_clock_24_filled",
+      "28": "ic_fluent_calendar_agenda_clock_28_filled"
     },
     "color": {}
   },
   {
-    "name": "Code Off",
+    "name": "Call Warning",
     "regular": {
-      "16": "ic_fluent_code_off_16_regular",
-      "20": "ic_fluent_code_off_20_regular",
-      "24": "ic_fluent_code_off_24_regular"
+      "28": "ic_fluent_call_warning_28_regular"
     },
     "filled": {
-      "16": "ic_fluent_code_off_16_filled",
-      "20": "ic_fluent_code_off_20_filled",
-      "24": "ic_fluent_code_off_24_filled"
+      "28": "ic_fluent_call_warning_28_filled"
     },
     "color": {}
   },
   {
-    "name": "Desk Checkmark",
+    "name": "Channel Arrow Right",
     "regular": {
-      "16": "ic_fluent_desk_checkmark_16_regular",
-      "20": "ic_fluent_desk_checkmark_20_regular",
-      "24": "ic_fluent_desk_checkmark_24_regular",
-      "28": "ic_fluent_desk_checkmark_28_regular"
+      "16": "ic_fluent_channel_arrow_right_16_regular",
+      "20": "ic_fluent_channel_arrow_right_20_regular",
+      "24": "ic_fluent_channel_arrow_right_24_regular",
+      "28": "ic_fluent_channel_arrow_right_28_regular"
     },
     "filled": {
-      "16": "ic_fluent_desk_checkmark_16_filled",
-      "20": "ic_fluent_desk_checkmark_20_filled",
-      "24": "ic_fluent_desk_checkmark_24_filled",
-      "28": "ic_fluent_desk_checkmark_28_filled"
+      "16": "ic_fluent_channel_arrow_right_16_filled",
+      "20": "ic_fluent_channel_arrow_right_20_filled",
+      "24": "ic_fluent_channel_arrow_right_24_filled",
+      "28": "ic_fluent_channel_arrow_right_28_filled"
     },
     "color": {}
   },
   {
-    "name": "Desk Multiple Checkmark",
+    "name": "Chart Multiple",
     "regular": {
-      "20": "ic_fluent_desk_multiple_checkmark_20_regular",
-      "24": "ic_fluent_desk_multiple_checkmark_24_regular",
-      "28": "ic_fluent_desk_multiple_checkmark_28_regular"
+      "28": "ic_fluent_chart_multiple_28_regular"
     },
     "filled": {
-      "20": "ic_fluent_desk_multiple_checkmark_20_filled",
-      "24": "ic_fluent_desk_multiple_checkmark_24_filled",
-      "28": "ic_fluent_desk_multiple_checkmark_28_filled"
+      "28": "ic_fluent_chart_multiple_28_filled"
     },
     "color": {}
   },
   {
-    "name": "Device Meeting Room Microphone Above",
+    "name": "Circle Hint",
     "regular": {
-      "16": "ic_fluent_device_meeting_room_microphone_above_16_regular",
-      "20": "ic_fluent_device_meeting_room_microphone_above_20_regular"
+      "12": "ic_fluent_circle_hint_12_regular"
     },
     "filled": {
-      "16": "ic_fluent_device_meeting_room_microphone_above_16_filled",
-      "20": "ic_fluent_device_meeting_room_microphone_above_20_filled"
+      "12": "ic_fluent_circle_hint_12_filled"
     },
     "color": {}
   },
   {
-    "name": "Device Meeting Room Microphone Below",
+    "name": "Circle Image Off",
     "regular": {
-      "16": "ic_fluent_device_meeting_room_microphone_below_16_regular",
-      "20": "ic_fluent_device_meeting_room_microphone_below_20_regular"
+      "20": "ic_fluent_circle_image_off_20_regular"
     },
     "filled": {
-      "16": "ic_fluent_device_meeting_room_microphone_below_16_filled",
-      "20": "ic_fluent_device_meeting_room_microphone_below_20_filled"
+      "20": "ic_fluent_circle_image_off_20_filled"
     },
     "color": {}
   },
   {
-    "name": "Document Arrow Down Off",
+    "name": "Circle Multiple Concentric Dashes",
     "regular": {
-      "20": "ic_fluent_document_arrow_down_off_20_regular",
-      "24": "ic_fluent_document_arrow_down_off_24_regular"
+      "16": "ic_fluent_circle_multiple_concentric_dashes_16_regular",
+      "20": "ic_fluent_circle_multiple_concentric_dashes_20_regular",
+      "24": "ic_fluent_circle_multiple_concentric_dashes_24_regular",
+      "28": "ic_fluent_circle_multiple_concentric_dashes_28_regular",
+      "32": "ic_fluent_circle_multiple_concentric_dashes_32_regular",
+      "48": "ic_fluent_circle_multiple_concentric_dashes_48_regular"
     },
     "filled": {
-      "20": "ic_fluent_document_arrow_down_off_20_filled",
-      "24": "ic_fluent_document_arrow_down_off_24_filled"
+      "16": "ic_fluent_circle_multiple_concentric_dashes_16_filled",
+      "20": "ic_fluent_circle_multiple_concentric_dashes_20_filled",
+      "24": "ic_fluent_circle_multiple_concentric_dashes_24_filled",
+      "28": "ic_fluent_circle_multiple_concentric_dashes_28_filled",
+      "32": "ic_fluent_circle_multiple_concentric_dashes_32_filled",
+      "48": "ic_fluent_circle_multiple_concentric_dashes_48_filled"
     },
     "color": {}
   },
   {
-    "name": "Document Markdown",
+    "name": "Clipboard Markdown",
     "regular": {
-      "16": "ic_fluent_document_markdown_16_regular",
-      "20": "ic_fluent_document_markdown_20_regular"
+      "16": "ic_fluent_clipboard_markdown_16_regular",
+      "20": "ic_fluent_clipboard_markdown_20_regular",
+      "24": "ic_fluent_clipboard_markdown_24_regular"
     },
     "filled": {
-      "16": "ic_fluent_document_markdown_16_filled",
-      "20": "ic_fluent_document_markdown_20_filled"
+      "16": "ic_fluent_clipboard_markdown_16_filled",
+      "20": "ic_fluent_clipboard_markdown_20_filled",
+      "24": "ic_fluent_clipboard_markdown_24_filled"
     },
     "color": {}
   },
   {
-    "name": "Document Word",
+    "name": "Color",
     "regular": {
-      "16": "ic_fluent_document_word_16_regular",
-      "20": "ic_fluent_document_word_20_regular",
-      "24": "ic_fluent_document_word_24_regular",
-      "28": "ic_fluent_document_word_28_regular",
-      "32": "ic_fluent_document_word_32_regular",
-      "48": "ic_fluent_document_word_48_regular"
+      "28": "ic_fluent_color_28_regular",
+      "32": "ic_fluent_color_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_document_word_16_filled",
-      "20": "ic_fluent_document_word_20_filled",
-      "24": "ic_fluent_document_word_24_filled",
-      "28": "ic_fluent_document_word_28_filled",
-      "32": "ic_fluent_document_word_32_filled",
-      "48": "ic_fluent_document_word_48_filled"
+      "28": "ic_fluent_color_28_filled",
+      "32": "ic_fluent_color_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Error Circle Hint",
+    "name": "Color Off",
     "regular": {
-      "16": "ic_fluent_error_circle_hint_16_regular",
-      "20": "ic_fluent_error_circle_hint_20_regular",
-      "24": "ic_fluent_error_circle_hint_24_regular"
+      "20": "ic_fluent_color_off_20_regular",
+      "24": "ic_fluent_color_off_24_regular",
+      "28": "ic_fluent_color_off_28_regular"
     },
     "filled": {
-      "16": "ic_fluent_error_circle_hint_16_filled",
-      "20": "ic_fluent_error_circle_hint_20_filled",
-      "24": "ic_fluent_error_circle_hint_24_filled"
+      "20": "ic_fluent_color_off_20_filled",
+      "24": "ic_fluent_color_off_24_filled",
+      "28": "ic_fluent_color_off_28_filled"
     },
     "color": {}
   },
   {
-    "name": "Headphones Convertible",
+    "name": "Cowork",
     "regular": {
-      "16": "ic_fluent_headphones_convertible_16_regular",
-      "20": "ic_fluent_headphones_convertible_20_regular"
+      "16": "ic_fluent_cowork_16_regular",
+      "20": "ic_fluent_cowork_20_regular",
+      "24": "ic_fluent_cowork_24_regular",
+      "28": "ic_fluent_cowork_28_regular",
+      "32": "ic_fluent_cowork_32_regular",
+      "48": "ic_fluent_cowork_48_regular"
     },
     "filled": {
-      "16": "ic_fluent_headphones_convertible_16_filled",
-      "20": "ic_fluent_headphones_convertible_20_filled"
+      "16": "ic_fluent_cowork_16_filled",
+      "20": "ic_fluent_cowork_20_filled",
+      "24": "ic_fluent_cowork_24_filled",
+      "28": "ic_fluent_cowork_28_filled",
+      "32": "ic_fluent_cowork_32_filled",
+      "48": "ic_fluent_cowork_48_filled"
     },
     "color": {}
   },
   {
-    "name": "Headphones Monoaural",
+    "name": "Database Settings",
     "regular": {
-      "16": "ic_fluent_headphones_monoaural_16_regular",
-      "20": "ic_fluent_headphones_monoaural_20_regular"
+      "16": "ic_fluent_database_settings_16_regular",
+      "20": "ic_fluent_database_settings_20_regular",
+      "24": "ic_fluent_database_settings_24_regular"
     },
     "filled": {
-      "16": "ic_fluent_headphones_monoaural_16_filled",
-      "20": "ic_fluent_headphones_monoaural_20_filled"
+      "16": "ic_fluent_database_settings_16_filled",
+      "20": "ic_fluent_database_settings_20_filled",
+      "24": "ic_fluent_database_settings_24_filled"
     },
     "color": {}
   },
   {
-    "name": "Headset VR Off",
+    "name": "Document Dismiss",
     "regular": {
-      "20": "ic_fluent_headset_vr_off_20_regular",
-      "24": "ic_fluent_headset_vr_off_24_regular"
+      "48": "ic_fluent_document_dismiss_48_regular"
     },
     "filled": {
-      "20": "ic_fluent_headset_vr_off_20_filled",
-      "24": "ic_fluent_headset_vr_off_24_filled"
+      "48": "ic_fluent_document_dismiss_48_filled"
     },
     "color": {}
   },
   {
-    "name": "Home Money",
+    "name": "Door Add",
     "regular": {
-      "16": "ic_fluent_home_money_16_regular",
-      "20": "ic_fluent_home_money_20_regular",
-      "24": "ic_fluent_home_money_24_regular"
+      "16": "ic_fluent_door_add_16_regular",
+      "20": "ic_fluent_door_add_20_regular",
+      "24": "ic_fluent_door_add_24_regular"
     },
     "filled": {
-      "16": "ic_fluent_home_money_16_filled",
-      "20": "ic_fluent_home_money_20_filled",
-      "24": "ic_fluent_home_money_24_filled"
+      "16": "ic_fluent_door_add_16_filled",
+      "20": "ic_fluent_door_add_20_filled",
+      "24": "ic_fluent_door_add_24_filled"
     },
     "color": {}
   },
   {
-    "name": "Keyboard Off",
+    "name": "Filmstrip Arrow Up",
     "regular": {
-      "16": "ic_fluent_keyboard_off_16_regular",
-      "20": "ic_fluent_keyboard_off_20_regular",
-      "24": "ic_fluent_keyboard_off_24_regular"
+      "16": "ic_fluent_filmstrip_arrow_up_16_regular",
+      "20": "ic_fluent_filmstrip_arrow_up_20_regular",
+      "24": "ic_fluent_filmstrip_arrow_up_24_regular",
+      "32": "ic_fluent_filmstrip_arrow_up_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_keyboard_off_16_filled",
-      "20": "ic_fluent_keyboard_off_20_filled",
-      "24": "ic_fluent_keyboard_off_24_filled"
+      "16": "ic_fluent_filmstrip_arrow_up_16_filled",
+      "20": "ic_fluent_filmstrip_arrow_up_20_filled",
+      "24": "ic_fluent_filmstrip_arrow_up_24_filled",
+      "32": "ic_fluent_filmstrip_arrow_up_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Laptop Off",
+    "name": "Filmstrip Globe",
     "regular": {
-      "16": "ic_fluent_laptop_off_16_regular",
-      "20": "ic_fluent_laptop_off_20_regular",
-      "24": "ic_fluent_laptop_off_24_regular"
+      "16": "ic_fluent_filmstrip_globe_16_regular",
+      "20": "ic_fluent_filmstrip_globe_20_regular",
+      "24": "ic_fluent_filmstrip_globe_24_regular",
+      "32": "ic_fluent_filmstrip_globe_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_laptop_off_16_filled",
-      "20": "ic_fluent_laptop_off_20_filled",
-      "24": "ic_fluent_laptop_off_24_filled"
+      "16": "ic_fluent_filmstrip_globe_16_filled",
+      "20": "ic_fluent_filmstrip_globe_20_filled",
+      "24": "ic_fluent_filmstrip_globe_24_filled",
+      "32": "ic_fluent_filmstrip_globe_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Layout Infographic",
+    "name": "Filter Add",
     "regular": {
-      "16": "ic_fluent_layout_infographic_16_regular",
-      "20": "ic_fluent_layout_infographic_20_regular",
-      "24": "ic_fluent_layout_infographic_24_regular",
-      "28": "ic_fluent_layout_infographic_28_regular",
-      "32": "ic_fluent_layout_infographic_32_regular"
+      "16": "ic_fluent_filter_add_16_regular"
     },
     "filled": {
-      "16": "ic_fluent_layout_infographic_16_filled",
-      "20": "ic_fluent_layout_infographic_20_filled",
-      "24": "ic_fluent_layout_infographic_24_filled",
-      "28": "ic_fluent_layout_infographic_28_filled",
-      "32": "ic_fluent_layout_infographic_32_filled"
+      "16": "ic_fluent_filter_add_16_filled"
     },
     "color": {}
   },
   {
-    "name": "Lightbulb Pulse",
+    "name": "Filter Sync",
     "regular": {
-      "16": "ic_fluent_lightbulb_pulse_16_regular",
-      "20": "ic_fluent_lightbulb_pulse_20_regular",
-      "24": "ic_fluent_lightbulb_pulse_24_regular",
-      "28": "ic_fluent_lightbulb_pulse_28_regular",
-      "32": "ic_fluent_lightbulb_pulse_32_regular",
-      "48": "ic_fluent_lightbulb_pulse_48_regular"
+      "16": "ic_fluent_filter_sync_16_regular"
     },
     "filled": {
-      "16": "ic_fluent_lightbulb_pulse_16_filled",
-      "20": "ic_fluent_lightbulb_pulse_20_filled",
-      "24": "ic_fluent_lightbulb_pulse_24_filled",
-      "28": "ic_fluent_lightbulb_pulse_28_filled",
-      "32": "ic_fluent_lightbulb_pulse_32_filled",
-      "48": "ic_fluent_lightbulb_pulse_48_filled"
+      "16": "ic_fluent_filter_sync_16_filled"
     },
     "color": {}
   },
   {
-    "name": "Medal",
+    "name": "Flow Arrow",
     "regular": {
-      "16": "ic_fluent_medal_16_regular",
-      "20": "ic_fluent_medal_20_regular",
-      "24": "ic_fluent_medal_24_regular"
+      "16": "ic_fluent_flow_arrow_16_regular",
+      "20": "ic_fluent_flow_arrow_20_regular",
+      "24": "ic_fluent_flow_arrow_24_regular",
+      "28": "ic_fluent_flow_arrow_28_regular",
+      "32": "ic_fluent_flow_arrow_32_regular",
+      "48": "ic_fluent_flow_arrow_48_regular"
     },
     "filled": {
-      "16": "ic_fluent_medal_16_filled",
-      "20": "ic_fluent_medal_20_filled",
-      "24": "ic_fluent_medal_24_filled"
+      "16": "ic_fluent_flow_arrow_16_filled",
+      "20": "ic_fluent_flow_arrow_20_filled",
+      "24": "ic_fluent_flow_arrow_24_filled",
+      "28": "ic_fluent_flow_arrow_28_filled",
+      "32": "ic_fluent_flow_arrow_32_filled",
+      "48": "ic_fluent_flow_arrow_48_filled"
     },
     "color": {}
   },
   {
-    "name": "Microphone Chat",
+    "name": "Folder Dismiss",
     "regular": {
-      "16": "ic_fluent_microphone_chat_16_regular",
-      "20": "ic_fluent_microphone_chat_20_regular",
-      "24": "ic_fluent_microphone_chat_24_regular",
-      "28": "ic_fluent_microphone_chat_28_regular",
-      "32": "ic_fluent_microphone_chat_32_regular",
-      "48": "ic_fluent_microphone_chat_48_regular"
+      "16": "ic_fluent_folder_dismiss_16_regular",
+      "20": "ic_fluent_folder_dismiss_20_regular",
+      "24": "ic_fluent_folder_dismiss_24_regular"
     },
     "filled": {
-      "16": "ic_fluent_microphone_chat_16_filled",
-      "20": "ic_fluent_microphone_chat_20_filled",
-      "24": "ic_fluent_microphone_chat_24_filled",
-      "28": "ic_fluent_microphone_chat_28_filled",
-      "32": "ic_fluent_microphone_chat_32_filled",
-      "48": "ic_fluent_microphone_chat_48_filled"
+      "16": "ic_fluent_folder_dismiss_16_filled",
+      "20": "ic_fluent_folder_dismiss_20_filled",
+      "24": "ic_fluent_folder_dismiss_24_filled"
     },
     "color": {}
   },
   {
-    "name": "MIDI Off",
+    "name": "Form",
     "regular": {
-      "16": "ic_fluent_midi_off_16_regular",
-      "20": "ic_fluent_midi_off_20_regular",
-      "24": "ic_fluent_midi_off_24_regular"
+      "32": "ic_fluent_form_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_midi_off_16_filled",
-      "20": "ic_fluent_midi_off_20_filled",
-      "24": "ic_fluent_midi_off_24_filled"
+      "32": "ic_fluent_form_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Organization Add",
+    "name": "Form New",
     "regular": {
-      "16": "ic_fluent_organization_add_16_regular",
-      "20": "ic_fluent_organization_add_20_regular",
-      "24": "ic_fluent_organization_add_24_regular"
+      "32": "ic_fluent_form_new_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_organization_add_16_filled",
-      "20": "ic_fluent_organization_add_20_filled",
-      "24": "ic_fluent_organization_add_24_filled"
+      "32": "ic_fluent_form_new_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Person Circle Off",
+    "name": "Hand Multiple Stack",
     "regular": {
-      "12": "ic_fluent_person_circle_off_12_regular",
-      "16": "ic_fluent_person_circle_off_16_regular",
-      "20": "ic_fluent_person_circle_off_20_regular",
-      "24": "ic_fluent_person_circle_off_24_regular",
-      "28": "ic_fluent_person_circle_off_28_regular",
-      "32": "ic_fluent_person_circle_off_32_regular"
+      "20": "ic_fluent_hand_multiple_stack_20_regular",
+      "24": "ic_fluent_hand_multiple_stack_24_regular",
+      "28": "ic_fluent_hand_multiple_stack_28_regular"
     },
     "filled": {
-      "12": "ic_fluent_person_circle_off_12_filled",
-      "16": "ic_fluent_person_circle_off_16_filled",
-      "20": "ic_fluent_person_circle_off_20_filled",
-      "24": "ic_fluent_person_circle_off_24_filled",
-      "28": "ic_fluent_person_circle_off_28_filled",
-      "32": "ic_fluent_person_circle_off_32_filled"
+      "20": "ic_fluent_hand_multiple_stack_20_filled",
+      "24": "ic_fluent_hand_multiple_stack_24_filled",
+      "28": "ic_fluent_hand_multiple_stack_28_filled"
     },
     "color": {}
   },
   {
-    "name": "Router Off",
+    "name": "Keyboard Mouse",
     "regular": {
-      "20": "ic_fluent_router_off_20_regular",
-      "24": "ic_fluent_router_off_24_regular"
+      "20": "ic_fluent_keyboard_mouse_20_regular"
     },
     "filled": {
-      "20": "ic_fluent_router_off_20_filled",
-      "24": "ic_fluent_router_off_24_filled"
+      "20": "ic_fluent_keyboard_mouse_20_filled"
     },
     "color": {}
   },
   {
-    "name": "Serial Port Off",
+    "name": "Keyboard Mouse Off",
     "regular": {
-      "16": "ic_fluent_serial_port_off_16_regular",
-      "20": "ic_fluent_serial_port_off_20_regular",
-      "24": "ic_fluent_serial_port_off_24_regular"
+      "20": "ic_fluent_keyboard_mouse_off_20_regular"
     },
     "filled": {
-      "16": "ic_fluent_serial_port_off_16_filled",
-      "20": "ic_fluent_serial_port_off_20_filled",
-      "24": "ic_fluent_serial_port_off_24_filled"
+      "20": "ic_fluent_keyboard_mouse_off_20_filled"
     },
     "color": {}
   },
   {
-    "name": "Sound Wave Circle Sparkle Off",
+    "name": "Layout Infographic Two Sparkle",
     "regular": {
-      "16": "ic_fluent_sound_wave_circle_sparkle_off_16_regular",
-      "20": "ic_fluent_sound_wave_circle_sparkle_off_20_regular",
-      "24": "ic_fluent_sound_wave_circle_sparkle_off_24_regular",
-      "28": "ic_fluent_sound_wave_circle_sparkle_off_28_regular"
+      "16": "ic_fluent_layout_infographic_two_sparkle_16_regular",
+      "20": "ic_fluent_layout_infographic_two_sparkle_20_regular"
     },
     "filled": {
-      "16": "ic_fluent_sound_wave_circle_sparkle_off_16_filled",
-      "20": "ic_fluent_sound_wave_circle_sparkle_off_20_filled",
-      "24": "ic_fluent_sound_wave_circle_sparkle_off_24_filled",
-      "28": "ic_fluent_sound_wave_circle_sparkle_off_28_filled"
+      "16": "ic_fluent_layout_infographic_two_sparkle_16_filled",
+      "20": "ic_fluent_layout_infographic_two_sparkle_20_filled"
     },
     "color": {}
   },
   {
-    "name": "Sparkle Circle Off",
+    "name": "Lightbulb Sparkle",
     "regular": {
-      "16": "ic_fluent_sparkle_circle_off_16_regular",
-      "20": "ic_fluent_sparkle_circle_off_20_regular",
-      "24": "ic_fluent_sparkle_circle_off_24_regular",
-      "28": "ic_fluent_sparkle_circle_off_28_regular"
+      "16": "ic_fluent_lightbulb_sparkle_16_regular",
+      "20": "ic_fluent_lightbulb_sparkle_20_regular",
+      "24": "ic_fluent_lightbulb_sparkle_24_regular"
     },
     "filled": {
-      "16": "ic_fluent_sparkle_circle_off_16_filled",
-      "20": "ic_fluent_sparkle_circle_off_20_filled",
-      "24": "ic_fluent_sparkle_circle_off_24_filled",
-      "28": "ic_fluent_sparkle_circle_off_28_filled"
+      "16": "ic_fluent_lightbulb_sparkle_16_filled",
+      "20": "ic_fluent_lightbulb_sparkle_20_filled",
+      "24": "ic_fluent_lightbulb_sparkle_24_filled"
     },
     "color": {}
   },
   {
-    "name": "Sparkle Off",
+    "name": "Link Off",
     "regular": {
-      "16": "ic_fluent_sparkle_off_16_regular",
-      "20": "ic_fluent_sparkle_off_20_regular",
-      "24": "ic_fluent_sparkle_off_24_regular",
-      "28": "ic_fluent_sparkle_off_28_regular",
-      "32": "ic_fluent_sparkle_off_32_regular",
-      "48": "ic_fluent_sparkle_off_48_regular"
+      "20": "ic_fluent_link_off_20_regular",
+      "24": "ic_fluent_link_off_24_regular",
+      "28": "ic_fluent_link_off_28_regular"
     },
     "filled": {
-      "16": "ic_fluent_sparkle_off_16_filled",
-      "20": "ic_fluent_sparkle_off_20_filled",
-      "24": "ic_fluent_sparkle_off_24_filled",
-      "28": "ic_fluent_sparkle_off_28_filled",
-      "32": "ic_fluent_sparkle_off_32_filled",
-      "48": "ic_fluent_sparkle_off_48_filled"
+      "20": "ic_fluent_link_off_20_filled",
+      "24": "ic_fluent_link_off_24_filled",
+      "28": "ic_fluent_link_off_28_filled"
     },
     "color": {}
   },
   {
-    "name": "Table Cell Cross",
+    "name": "Omega",
     "regular": {
-      "16": "ic_fluent_table_cell_cross_16_regular",
-      "20": "ic_fluent_table_cell_cross_20_regular",
-      "24": "ic_fluent_table_cell_cross_24_regular"
+      "16": "ic_fluent_omega_16_regular",
+      "20": "ic_fluent_omega_20_regular",
+      "24": "ic_fluent_omega_24_regular",
+      "28": "ic_fluent_omega_28_regular",
+      "32": "ic_fluent_omega_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_table_cell_cross_16_filled",
-      "20": "ic_fluent_table_cell_cross_20_filled",
-      "24": "ic_fluent_table_cell_cross_24_filled"
+      "16": "ic_fluent_omega_16_filled",
+      "20": "ic_fluent_omega_20_filled",
+      "24": "ic_fluent_omega_24_filled",
+      "28": "ic_fluent_omega_28_filled",
+      "32": "ic_fluent_omega_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Table Cell Cross Brush",
+    "name": "Options Speaker",
     "regular": {
-      "16": "ic_fluent_table_cell_cross_brush_16_regular",
-      "20": "ic_fluent_table_cell_cross_brush_20_regular",
-      "24": "ic_fluent_table_cell_cross_brush_24_regular"
+      "16": "ic_fluent_options_speaker_16_regular",
+      "20": "ic_fluent_options_speaker_20_regular",
+      "24": "ic_fluent_options_speaker_24_regular",
+      "28": "ic_fluent_options_speaker_28_regular"
     },
     "filled": {
-      "16": "ic_fluent_table_cell_cross_brush_16_filled",
-      "20": "ic_fluent_table_cell_cross_brush_20_filled",
-      "24": "ic_fluent_table_cell_cross_brush_24_filled"
+      "16": "ic_fluent_options_speaker_16_filled",
+      "20": "ic_fluent_options_speaker_20_filled",
+      "24": "ic_fluent_options_speaker_24_filled",
+      "28": "ic_fluent_options_speaker_28_filled"
     },
     "color": {}
   },
   {
-    "name": "Text Font Size Off",
+    "name": "Orientation Portrait",
     "regular": {
-      "16": "ic_fluent_text_font_size_off_16_regular",
-      "20": "ic_fluent_text_font_size_off_20_regular",
-      "24": "ic_fluent_text_font_size_off_24_regular"
+      "20": "ic_fluent_orientation_portrait_20_regular",
+      "24": "ic_fluent_orientation_portrait_24_regular"
     },
     "filled": {
-      "16": "ic_fluent_text_font_size_off_16_filled",
-      "20": "ic_fluent_text_font_size_off_20_filled",
-      "24": "ic_fluent_text_font_size_off_24_filled"
+      "20": "ic_fluent_orientation_portrait_20_filled",
+      "24": "ic_fluent_orientation_portrait_24_filled"
     },
     "color": {}
   },
   {
-    "name": "USB",
+    "name": "Pair",
     "regular": {
-      "16": "ic_fluent_usb_16_regular",
-      "20": "ic_fluent_usb_20_regular",
-      "24": "ic_fluent_usb_24_regular"
+      "16": "ic_fluent_pair_16_regular"
     },
     "filled": {
-      "16": "ic_fluent_usb_16_filled",
-      "20": "ic_fluent_usb_20_filled",
-      "24": "ic_fluent_usb_24_filled"
+      "16": "ic_fluent_pair_16_filled"
     },
     "color": {}
   },
   {
-    "name": "USB Off",
+    "name": "Panel Left Tall",
     "regular": {
-      "16": "ic_fluent_usb_off_16_regular",
-      "20": "ic_fluent_usb_off_20_regular",
-      "24": "ic_fluent_usb_off_24_regular"
+      "20": "ic_fluent_panel_left_tall_20_regular"
     },
     "filled": {
-      "16": "ic_fluent_usb_off_16_filled",
-      "20": "ic_fluent_usb_off_20_filled",
-      "24": "ic_fluent_usb_off_24_filled"
+      "20": "ic_fluent_panel_left_tall_20_filled"
     },
     "color": {}
   },
   {
-    "name": "VIP",
+    "name": "People Lock",
     "regular": {
-      "16": "ic_fluent_vip_16_regular",
-      "20": "ic_fluent_vip_20_regular",
-      "24": "ic_fluent_vip_24_regular",
-      "28": "ic_fluent_vip_28_regular",
-      "32": "ic_fluent_vip_32_regular",
-      "48": "ic_fluent_vip_48_regular"
+      "16": "ic_fluent_people_lock_16_regular"
     },
     "filled": {
-      "16": "ic_fluent_vip_16_filled",
-      "20": "ic_fluent_vip_20_filled",
-      "24": "ic_fluent_vip_24_filled",
-      "28": "ic_fluent_vip_28_filled",
-      "32": "ic_fluent_vip_32_filled",
-      "48": "ic_fluent_vip_48_filled"
+      "16": "ic_fluent_people_lock_16_filled"
     },
     "color": {}
   },
   {
-    "name": "Weather Humidity",
+    "name": "People Prohibited",
     "regular": {
-      "12": "ic_fluent_weather_humidity_12_regular",
-      "16": "ic_fluent_weather_humidity_16_regular",
-      "20": "ic_fluent_weather_humidity_20_regular",
-      "24": "ic_fluent_weather_humidity_24_regular",
-      "28": "ic_fluent_weather_humidity_28_regular",
-      "32": "ic_fluent_weather_humidity_32_regular",
-      "48": "ic_fluent_weather_humidity_48_regular"
+      "48": "ic_fluent_people_prohibited_48_regular"
     },
     "filled": {
-      "12": "ic_fluent_weather_humidity_12_filled",
-      "16": "ic_fluent_weather_humidity_16_filled",
-      "20": "ic_fluent_weather_humidity_20_filled",
-      "24": "ic_fluent_weather_humidity_24_filled",
-      "28": "ic_fluent_weather_humidity_28_filled",
-      "32": "ic_fluent_weather_humidity_32_filled",
-      "48": "ic_fluent_weather_humidity_48_filled"
+      "48": "ic_fluent_people_prohibited_48_filled"
     },
     "color": {}
   },
   {
-    "name": "Window Multiple Off",
+    "name": "Pivot",
     "regular": {
-      "16": "ic_fluent_window_multiple_off_16_regular",
-      "20": "ic_fluent_window_multiple_off_20_regular",
-      "24": "ic_fluent_window_multiple_off_24_regular"
+      "16": "ic_fluent_pivot_16_regular"
     },
     "filled": {
-      "16": "ic_fluent_window_multiple_off_16_filled",
-      "20": "ic_fluent_window_multiple_off_20_filled",
-      "24": "ic_fluent_window_multiple_off_24_filled"
+      "16": "ic_fluent_pivot_16_filled"
     },
     "color": {}
   },
   {
-    "name": "Window New Rotate 180",
+    "name": "Plug Puzzle",
     "regular": {
-      "16": "ic_fluent_window_new_rotate_180_16_regular",
-      "20": "ic_fluent_window_new_rotate_180_20_regular",
-      "24": "ic_fluent_window_new_rotate_180_24_regular",
-      "28": "ic_fluent_window_new_rotate_180_28_regular",
-      "32": "ic_fluent_window_new_rotate_180_32_regular",
-      "48": "ic_fluent_window_new_rotate_180_48_regular"
+      "16": "ic_fluent_plug_puzzle_16_regular",
+      "20": "ic_fluent_plug_puzzle_20_regular",
+      "24": "ic_fluent_plug_puzzle_24_regular",
+      "32": "ic_fluent_plug_puzzle_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_window_new_rotate_180_16_filled",
-      "20": "ic_fluent_window_new_rotate_180_20_filled",
-      "24": "ic_fluent_window_new_rotate_180_24_filled",
-      "28": "ic_fluent_window_new_rotate_180_28_filled",
-      "32": "ic_fluent_window_new_rotate_180_32_filled",
-      "48": "ic_fluent_window_new_rotate_180_48_filled"
+      "16": "ic_fluent_plug_puzzle_16_filled",
+      "20": "ic_fluent_plug_puzzle_20_filled",
+      "24": "ic_fluent_plug_puzzle_24_filled",
+      "32": "ic_fluent_plug_puzzle_32_filled"
     },
     "color": {}
   },
   {
-    "name": "Work IQ",
+    "name": "Preview Link",
     "regular": {
-      "16": "ic_fluent_work_iq_16_regular",
-      "20": "ic_fluent_work_iq_20_regular",
-      "24": "ic_fluent_work_iq_24_regular",
-      "28": "ic_fluent_work_iq_28_regular",
-      "32": "ic_fluent_work_iq_32_regular",
-      "48": "ic_fluent_work_iq_48_regular"
+      "28": "ic_fluent_preview_link_28_regular",
+      "32": "ic_fluent_preview_link_32_regular"
     },
     "filled": {
-      "16": "ic_fluent_work_iq_16_filled",
-      "20": "ic_fluent_work_iq_20_filled",
-      "24": "ic_fluent_work_iq_24_filled",
-      "28": "ic_fluent_work_iq_28_filled",
-      "32": "ic_fluent_work_iq_32_filled",
-      "48": "ic_fluent_work_iq_48_filled"
+      "28": "ic_fluent_preview_link_28_filled",
+      "32": "ic_fluent_preview_link_32_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Rename A",
+    "regular": {
+      "16": "ic_fluent_rename_a_16_regular",
+      "28": "ic_fluent_rename_a_28_regular"
+    },
+    "filled": {
+      "16": "ic_fluent_rename_a_16_filled",
+      "28": "ic_fluent_rename_a_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Ribbon",
+    "regular": {
+      "28": "ic_fluent_ribbon_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_ribbon_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Ribbon Off",
+    "regular": {
+      "28": "ic_fluent_ribbon_off_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_ribbon_off_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Scales",
+    "regular": {
+      "16": "ic_fluent_scales_16_regular",
+      "28": "ic_fluent_scales_28_regular",
+      "48": "ic_fluent_scales_48_regular"
+    },
+    "filled": {
+      "16": "ic_fluent_scales_16_filled",
+      "28": "ic_fluent_scales_28_filled",
+      "48": "ic_fluent_scales_48_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Select Object",
+    "regular": {
+      "16": "ic_fluent_select_object_16_regular"
+    },
+    "filled": {
+      "16": "ic_fluent_select_object_16_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Select Object Skew",
+    "regular": {
+      "16": "ic_fluent_select_object_skew_16_regular"
+    },
+    "filled": {
+      "16": "ic_fluent_select_object_skew_16_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Shield Dismiss",
+    "regular": {
+      "48": "ic_fluent_shield_dismiss_48_regular"
+    },
+    "filled": {
+      "48": "ic_fluent_shield_dismiss_48_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Slide Arrow Forward",
+    "regular": {
+      "20": "ic_fluent_slide_arrow_forward_20_regular",
+      "24": "ic_fluent_slide_arrow_forward_24_regular"
+    },
+    "filled": {
+      "20": "ic_fluent_slide_arrow_forward_20_filled",
+      "24": "ic_fluent_slide_arrow_forward_24_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Slide Link",
+    "regular": {
+      "28": "ic_fluent_slide_link_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_slide_link_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Slide Multiple",
+    "regular": {
+      "16": "ic_fluent_slide_multiple_16_regular"
+    },
+    "filled": {
+      "16": "ic_fluent_slide_multiple_16_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Table Select Range",
+    "regular": {
+      "16": "ic_fluent_table_select_range_16_regular",
+      "20": "ic_fluent_table_select_range_20_regular",
+      "24": "ic_fluent_table_select_range_24_regular"
+    },
+    "filled": {
+      "16": "ic_fluent_table_select_range_16_filled",
+      "20": "ic_fluent_table_select_range_20_filled",
+      "24": "ic_fluent_table_select_range_24_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Add T",
+    "regular": {
+      "28": "ic_fluent_text_add_t_28_regular",
+      "32": "ic_fluent_text_add_t_32_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_text_add_t_28_filled",
+      "32": "ic_fluent_text_add_t_32_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Bullet List Square Clock",
+    "regular": {
+      "16": "ic_fluent_text_bullet_list_square_clock_16_regular",
+      "28": "ic_fluent_text_bullet_list_square_clock_28_regular"
+    },
+    "filled": {
+      "16": "ic_fluent_text_bullet_list_square_clock_16_filled",
+      "28": "ic_fluent_text_bullet_list_square_clock_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Collapse",
+    "regular": {
+      "16": "ic_fluent_text_collapse_16_regular",
+      "28": "ic_fluent_text_collapse_28_regular",
+      "32": "ic_fluent_text_collapse_32_regular"
+    },
+    "filled": {
+      "16": "ic_fluent_text_collapse_16_filled",
+      "28": "ic_fluent_text_collapse_28_filled",
+      "32": "ic_fluent_text_collapse_32_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Number List LTR",
+    "regular": {
+      "28": "ic_fluent_text_number_list_ltr_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_text_number_list_ltr_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Number List LTR Rotate 270",
+    "regular": {
+      "28": "ic_fluent_text_number_list_ltr_rotate_270_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_text_number_list_ltr_rotate_270_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Number List LTR Rotate 90",
+    "regular": {
+      "28": "ic_fluent_text_number_list_ltr_rotate_90_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_text_number_list_ltr_rotate_90_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Number List RTL",
+    "regular": {
+      "28": "ic_fluent_text_number_list_rtl_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_text_number_list_rtl_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Number List RTL Rotate 270",
+    "regular": {
+      "28": "ic_fluent_text_number_list_rtl_rotate_270_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_text_number_list_rtl_rotate_270_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Text Number List RTL Rotate 90",
+    "regular": {
+      "28": "ic_fluent_text_number_list_rtl_rotate_90_28_regular"
+    },
+    "filled": {
+      "28": "ic_fluent_text_number_list_rtl_rotate_90_28_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Wifi 1",
+    "regular": {
+      "48": "ic_fluent_wifi_1_48_regular"
+    },
+    "filled": {
+      "48": "ic_fluent_wifi_1_48_filled"
+    },
+    "color": {}
+  },
+  {
+    "name": "Wifi Off",
+    "regular": {
+      "48": "ic_fluent_wifi_off_48_regular"
+    },
+    "filled": {
+      "48": "ic_fluent_wifi_off_48_filled"
     },
     "color": {}
   }

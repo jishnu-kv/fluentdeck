@@ -56,6 +56,10 @@
         "id": "agents-add-9617"
     },
     {
+        "name": "Agents Person",
+        "id": "agents-person-2357"
+    },
+    {
         "name": "Agents Sync",
         "id": "agents-sync-8413"
     },
@@ -262,6 +266,10 @@
     {
         "name": "Apps Add In Off",
         "id": "apps-add-in-off-1036"
+    },
+    {
+        "name": "Apps Bullet List",
+        "id": "apps-bullet-list-1950"
     },
     {
         "name": "Apps List",
@@ -930,6 +938,10 @@
     {
         "name": "Autocorrect",
         "id": "autocorrect-3017"
+    },
+    {
+        "name": "Autopilot",
+        "id": "autopilot-7753"
     },
     {
         "name": "Autosum",
@@ -1692,6 +1704,10 @@
         "id": "calendar-agenda-0539"
     },
     {
+        "name": "Calendar Agenda Clock",
+        "id": "calendar-agenda-clock-3554"
+    },
+    {
         "name": "Calendar Arrow Counterclockwise",
         "id": "calendar-arrow-counterclockwise-0229"
     },
@@ -2136,6 +2152,10 @@
         "id": "channel-arrow-left-7047"
     },
     {
+        "name": "Channel Arrow Right",
+        "id": "channel-arrow-right-3468"
+    },
+    {
         "name": "Channel Dismiss",
         "id": "channel-dismiss-8188"
     },
@@ -2242,6 +2262,10 @@
     {
         "name": "Chat Off",
         "id": "chat-off-2014"
+    },
+    {
+        "name": "Chat Person",
+        "id": "chat-person-9648"
     },
     {
         "name": "Chat Settings",
@@ -2448,12 +2472,20 @@
         "id": "circle-image-4271"
     },
     {
+        "name": "Circle Image Off",
+        "id": "circle-image-off-5958"
+    },
+    {
         "name": "Circle Line",
         "id": "circle-line-9995"
     },
     {
         "name": "Circle Multiple Concentric",
         "id": "circle-multiple-concentric-6915"
+    },
+    {
+        "name": "Circle Multiple Concentric Dashes",
+        "id": "circle-multiple-concentric-dashes-8213"
     },
     {
         "name": "Circle Multiple Hint Checkmark",
@@ -2570,6 +2602,10 @@
     {
         "name": "Clipboard Link",
         "id": "clipboard-link-7919"
+    },
+    {
+        "name": "Clipboard Markdown",
+        "id": "clipboard-markdown-9788"
     },
     {
         "name": "Clipboard Math Formula",
@@ -2928,6 +2964,10 @@
         "id": "color-line-accent-1143"
     },
     {
+        "name": "Color Off",
+        "id": "color-off-5447"
+    },
+    {
         "name": "Column",
         "id": "column-5026"
     },
@@ -3172,6 +3212,10 @@
         "id": "counter-6746"
     },
     {
+        "name": "Cowork",
+        "id": "cowork-1207"
+    },
+    {
         "name": "Credit Card Clock",
         "id": "credit-card-clock-2476"
     },
@@ -3286,6 +3330,10 @@
     {
         "name": "Dark Theme",
         "id": "dark-theme-6912"
+    },
+    {
+        "name": "Dashboard",
+        "id": "dashboard-1493"
     },
     {
         "name": "Data Area",
@@ -3432,6 +3480,10 @@
         "id": "database-search-4418"
     },
     {
+        "name": "Database Settings",
+        "id": "database-settings-5910"
+    },
+    {
         "name": "Database Stack",
         "id": "database-stack-0891"
     },
@@ -3566,6 +3618,10 @@
     {
         "name": "Desktop Sync",
         "id": "desktop-sync-0263"
+    },
+    {
+        "name": "Desktop Tag",
+        "id": "desktop-tag-8226"
     },
     {
         "name": "Desktop Toolbox",
@@ -3738,6 +3794,10 @@
     {
         "name": "Document Briefcase",
         "id": "document-briefcase-8600"
+    },
+    {
+        "name": "Document Broken",
+        "id": "document-broken-3341"
     },
     {
         "name": "Document Bullet List",
@@ -4200,6 +4260,10 @@
         "id": "door-9793"
     },
     {
+        "name": "Door Add",
+        "id": "door-add-5275"
+    },
+    {
         "name": "Door Arrow Left",
         "id": "door-arrow-left-8293"
     },
@@ -4620,8 +4684,20 @@
         "id": "filmstrip-8925"
     },
     {
+        "name": "Filmstrip Arrow Up",
+        "id": "filmstrip-arrow-up-4638"
+    },
+    {
+        "name": "Filmstrip Globe",
+        "id": "filmstrip-globe-2315"
+    },
+    {
         "name": "Filmstrip Image",
         "id": "filmstrip-image-9252"
+    },
+    {
+        "name": "Filmstrip Music Note 2",
+        "id": "filmstrip-music-note-2-8490"
     },
     {
         "name": "Filmstrip Off",
@@ -4756,6 +4832,10 @@
         "id": "flow-3117"
     },
     {
+        "name": "Flow Arrow",
+        "id": "flow-arrow-4279"
+    },
+    {
         "name": "Flow Dot",
         "id": "flow-dot-0589"
     },
@@ -4804,12 +4884,28 @@
         "id": "folder-briefcase-0219"
     },
     {
+        "name": "Folder Data Bar",
+        "id": "folder-data-bar-2447"
+    },
+    {
+        "name": "Folder Dismiss",
+        "id": "folder-dismiss-7972"
+    },
+    {
         "name": "Folder Document",
         "id": "folder-document-7114"
     },
     {
         "name": "Folder Globe",
         "id": "folder-globe-4035"
+    },
+    {
+        "name": "Folder Hint",
+        "id": "folder-hint-1560"
+    },
+    {
+        "name": "Folder Holder",
+        "id": "folder-holder-3397"
     },
     {
         "name": "Folder Lightning",
@@ -4984,6 +5080,38 @@
         "id": "game-chat-0959"
     },
     {
+        "name": "Game Controller Bumper Left",
+        "id": "game-controller-bumper-left-8103"
+    },
+    {
+        "name": "Game Controller Bumper Right",
+        "id": "game-controller-bumper-right-6445"
+    },
+    {
+        "name": "Game Controller Button A",
+        "id": "game-controller-button-a-2511"
+    },
+    {
+        "name": "Game Controller Button B",
+        "id": "game-controller-button-b-7809"
+    },
+    {
+        "name": "Game Controller Button X",
+        "id": "game-controller-button-x-4779"
+    },
+    {
+        "name": "Game Controller Button Y",
+        "id": "game-controller-button-y-2796"
+    },
+    {
+        "name": "Game Controller Trigger Left",
+        "id": "game-controller-trigger-left-7418"
+    },
+    {
+        "name": "Game Controller Trigger Right",
+        "id": "game-controller-trigger-right-1054"
+    },
+    {
         "name": "Games",
         "id": "games-3699"
     },
@@ -5014,6 +5142,14 @@
     {
         "name": "Gauge Add",
         "id": "gauge-add-9783"
+    },
+    {
+        "name": "Gauge Rotate 0",
+        "id": "gauge-rotate-0-4871"
+    },
+    {
+        "name": "Gauge Rotate 315",
+        "id": "gauge-rotate-315-1929"
     },
     {
         "name": "Gavel",
@@ -5140,6 +5276,10 @@
         "id": "globe-shield-9687"
     },
     {
+        "name": "Globe Stand",
+        "id": "globe-stand-5270"
+    },
+    {
         "name": "Globe Star",
         "id": "globe-star-1075"
     },
@@ -5222,6 +5362,10 @@
     {
         "name": "Hand Multiple",
         "id": "hand-multiple-0241"
+    },
+    {
+        "name": "Hand Multiple Stack",
+        "id": "hand-multiple-stack-9692"
     },
     {
         "name": "Hand Open Heart",
@@ -5496,6 +5640,10 @@
         "id": "image-copy-4410"
     },
     {
+        "name": "Image Dismiss",
+        "id": "image-dismiss-3799"
+    },
+    {
         "name": "Image Edit",
         "id": "image-edit-3599"
     },
@@ -5542,6 +5690,10 @@
     {
         "name": "Image Stack",
         "id": "image-stack-7262"
+    },
+    {
+        "name": "Image Style Guide",
+        "id": "image-style-guide-6719"
     },
     {
         "name": "Image Table",
@@ -5684,6 +5836,10 @@
         "id": "keyboard-mouse-0857"
     },
     {
+        "name": "Keyboard Mouse Off",
+        "id": "keyboard-mouse-off-8099"
+    },
+    {
         "name": "Keyboard Off",
         "id": "keyboard-off-6816"
     },
@@ -5710,6 +5866,10 @@
     {
         "name": "Laptop Briefcase",
         "id": "laptop-briefcase-1793"
+    },
+    {
+        "name": "Laptop Checkmark",
+        "id": "laptop-checkmark-2291"
     },
     {
         "name": "Laptop Dismiss",
@@ -5900,6 +6060,10 @@
         "id": "layout-infographic-5575"
     },
     {
+        "name": "Layout Infographic Two Sparkle",
+        "id": "layout-infographic-two-sparkle-8903"
+    },
+    {
         "name": "Layout Row Four",
         "id": "layout-row-four-1399"
     },
@@ -6032,6 +6196,10 @@
         "id": "lightbulb-pulse-6249"
     },
     {
+        "name": "Lightbulb Sparkle",
+        "id": "lightbulb-sparkle-6002"
+    },
+    {
         "name": "Likert",
         "id": "likert-3170"
     },
@@ -6120,6 +6288,10 @@
         "id": "link-multiple-4463"
     },
     {
+        "name": "Link Off",
+        "id": "link-off-5267"
+    },
+    {
         "name": "Link Person",
         "id": "link-person-2012"
     },
@@ -6166,6 +6338,10 @@
     {
         "name": "Local Language",
         "id": "local-language-0466"
+    },
+    {
+        "name": "Local Language Globe",
+        "id": "local-language-globe-3802"
     },
     {
         "name": "Location",
@@ -6454,6 +6630,10 @@
     {
         "name": "Map Drive",
         "id": "map-drive-7823"
+    },
+    {
+        "name": "Map Pin",
+        "id": "map-pin-8562"
     },
     {
         "name": "Markdown",
@@ -6896,6 +7076,10 @@
         "id": "number-symbol-square-1507"
     },
     {
+        "name": "Omega",
+        "id": "omega-5962"
+    },
+    {
         "name": "Open",
         "id": "open-4790"
     },
@@ -6910,6 +7094,10 @@
     {
         "name": "Options",
         "id": "options-1963"
+    },
+    {
+        "name": "Options Speaker",
+        "id": "options-speaker-4590"
     },
     {
         "name": "Org",
@@ -6930,6 +7118,10 @@
     {
         "name": "Orientation",
         "id": "orientation-7661"
+    },
+    {
+        "name": "Orientation Portrait",
+        "id": "orientation-portrait-8720"
     },
     {
         "name": "Oval",
@@ -7042,6 +7234,10 @@
     {
         "name": "Panel Left Key",
         "id": "panel-left-key-3820"
+    },
+    {
+        "name": "Panel Left Tall",
+        "id": "panel-left-tall-1053"
     },
     {
         "name": "Panel Left Text",
@@ -7222,6 +7418,10 @@
     {
         "name": "People Eye",
         "id": "people-eye-4692"
+    },
+    {
+        "name": "People Game Controller",
+        "id": "people-game-controller-4730"
     },
     {
         "name": "People Home",
@@ -7820,6 +8020,10 @@
         "id": "plug-disconnected-5155"
     },
     {
+        "name": "Plug Puzzle",
+        "id": "plug-puzzle-8365"
+    },
+    {
         "name": "Point Scan",
         "id": "point-scan-1690"
     },
@@ -8152,8 +8356,20 @@
         "id": "rectangle-landscape-3630"
     },
     {
+        "name": "Rectangle Landscape Clock",
+        "id": "rectangle-landscape-clock-7226"
+    },
+    {
         "name": "Rectangle Landscape Hint Copy",
         "id": "rectangle-landscape-hint-copy-1774"
+    },
+    {
+        "name": "Rectangle Landscape Line Horizontal",
+        "id": "rectangle-landscape-line-horizontal-1922"
+    },
+    {
+        "name": "Rectangle Landscape Off",
+        "id": "rectangle-landscape-off-5730"
     },
     {
         "name": "Rectangle Landscape Sparkle",
@@ -8572,6 +8788,10 @@
         "id": "settings-cog-multiple-9050"
     },
     {
+        "name": "Settings Sync",
+        "id": "settings-sync-4272"
+    },
+    {
         "name": "Shape Exclude",
         "id": "shape-exclude-7462"
     },
@@ -8752,6 +8972,10 @@
         "id": "shifts-team-9934"
     },
     {
+        "name": "Shirt",
+        "id": "shirt-2340"
+    },
+    {
         "name": "Shopping Bag",
         "id": "shopping-bag-6612"
     },
@@ -8854,6 +9078,10 @@
     {
         "name": "Slide Add",
         "id": "slide-add-4722"
+    },
+    {
+        "name": "Slide Arrow Forward",
+        "id": "slide-arrow-forward-2721"
     },
     {
         "name": "Slide Arrow Right",
@@ -9062,6 +9290,10 @@
     {
         "name": "Speaker Box",
         "id": "speaker-box-1391"
+    },
+    {
+        "name": "Speaker Box Keyboard",
+        "id": "speaker-box-keyboard-2787"
     },
     {
         "name": "Speaker Edit",
@@ -9338,6 +9570,10 @@
     {
         "name": "Stream Output",
         "id": "stream-output-3353"
+    },
+    {
+        "name": "Street Home",
+        "id": "street-home-5068"
     },
     {
         "name": "Street Sign",
@@ -9736,6 +9972,10 @@
         "id": "table-search-2699"
     },
     {
+        "name": "Table Select Range",
+        "id": "table-select-range-6457"
+    },
+    {
         "name": "Table Settings",
         "id": "table-settings-9234"
     },
@@ -9794,6 +10034,10 @@
     {
         "name": "Tablet Laptop",
         "id": "tablet-laptop-3988"
+    },
+    {
+        "name": "Tablet Phone Desktop",
+        "id": "tablet-phone-desktop-6407"
     },
     {
         "name": "Tablet Speaker",
@@ -9898,6 +10142,10 @@
     {
         "name": "Task List LTR",
         "id": "task-list-ltr-3255"
+    },
+    {
+        "name": "Task List Rectangle",
+        "id": "task-list-rectangle-2134"
     },
     {
         "name": "Task List RTL",
@@ -10110,6 +10358,10 @@
     {
         "name": "Text Bullet List Dismiss",
         "id": "text-bullet-list-dismiss-2049"
+    },
+    {
+        "name": "Text Bullet List Edit",
+        "id": "text-bullet-list-edit-3812"
     },
     {
         "name": "Text Bullet List LTR",
@@ -10572,6 +10824,10 @@
         "id": "text-number-list-ltr-rotate-270-5106"
     },
     {
+        "name": "Text Number List LTR Rotate 90",
+        "id": "text-number-list-ltr-rotate-90-3066"
+    },
+    {
         "name": "Text Number List Rotate 270",
         "id": "text-number-list-rotate-270-8585"
     },
@@ -10590,6 +10846,10 @@
     {
         "name": "Text Number List RTL Rotate 270",
         "id": "text-number-list-rtl-rotate-270-2446"
+    },
+    {
+        "name": "Text Number List RTL Rotate 90",
+        "id": "text-number-list-rtl-rotate-90-9842"
     },
     {
         "name": "Text Paragraph",
@@ -10778,6 +11038,10 @@
     {
         "name": "Textbox Align Top",
         "id": "textbox-align-top-7395"
+    },
+    {
+        "name": "Textbox Align Top Arrow Clockwise",
+        "id": "textbox-align-top-arrow-clockwise-1616"
     },
     {
         "name": "Textbox Align Top Center",
@@ -11624,6 +11888,10 @@
         "id": "window-text-1625"
     },
     {
+        "name": "Window Toolbox",
+        "id": "window-toolbox-3112"
+    },
+    {
         "name": "Window Wrench",
         "id": "window-wrench-6917"
     },
@@ -11654,6 +11922,10 @@
     {
         "name": "Xbox Controller Error",
         "id": "xbox-controller-error-5216"
+    },
+    {
+        "name": "Xbox One Console",
+        "id": "xbox-one-console-8660"
     },
     {
         "name": "Xray",

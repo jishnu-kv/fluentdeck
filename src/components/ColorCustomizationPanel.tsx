@@ -3,27 +3,27 @@ import { CheckmarkIcon, EyedropperIcon, ResetIcon } from '@/components/Icons';
 import { Tabs } from '@/components/SegmentedControl';
 
 const presetColors = [
-	"#000000", "#333333", "#666666", "#999999", "#CCCCCC",
-	"#EF4444", "#F97316", "#EAB308", "#22C55E", "#06B6D4",
-	"#3B82F6", "#8B5CF6", "#EC4899", "#F43F5E"
+    "#000000", "#333333", "#666666", "#999999", "#CCCCCC",
+    "#EF4444", "#F97316", "#EAB308", "#22C55E", "#06B6D4",
+    "#3B82F6", "#8B5CF6", "#EC4899", "#F43F5E"
 ];
 
 const gradientPalettes = [
-	{ start: "#FF5F6D", end: "#FFC371" },
-	{ start: "#36D1DC", end: "#5B86E5" },
-	{ start: "#43E97B", end: "#38F9D7" },
-	{ start: "#F857A6", end: "#FF5858" },
-	{ start: "#A8EDEA", end: "#FED6E3" },
-	{ start: "#9C6CFE", end: "#7A41DC" },
-	{ start: "#FFA17F", end: "#00223E" },
-	{ start: "#4ECDC4", end: "#556270" },
-	{ start: "#ff7c10", end: "#be8329" },
-	{ start: "#909b2a", end: "#bcf289" },
-	{ start: "#5AD86A", end: "#1F7F84" },
-	{ start: "#FF70A2", end: "#6B3FB8" },
-	{ start: "#2BD3E8", end: "#0177D8" },
-	{ start: "#0CA4F0", end: "#C015C8" },
-	{ start: "#5A667F", end: "#313d55" }
+    { start: "#0094F0", end: "#2764E7" }, // Blue to Dark Blue
+    { start: "#16BBDA", end: "#2052CB" }, // Cyan to Blue/Indigo
+    { start: "#0CA4F0", end: "#C015C8" }, // Sky Blue to Deep Fuchsia
+    { start: "#36D1DC", end: "#5B86E5" }, // Turquoise to Royal Blue
+    { start: "#B3E0FF", end: "#8CD0FF" }, // Light Sky Blue to Soft Blue
+    { start: "#9C6CFE", end: "#5B2AB5" }, // Soft Violet to Deep Purple
+    { start: "#5A667F", end: "#313D55" }, // Steel Slate to Midnight Navy
+    { start: "#DCF8FF", end: "#FF6CE8" }, // Ice Blue to Neon Pink
+    { start: "#52D17C", end: "#22918B" }, // Green to Teal/Emerald
+    { start: "#43E97B", end: "#38F9D7" }, // Bright Lime to Mint Green
+    { start: "#E656EB", end: "#D7257D" }, // Pink to Magenta
+    { start: "#DD3CE2", end: "#5B2AB5" }, // Purple to Dark Violet
+    { start: "#FF921F", end: "#EB4824" }, // Orange to Red (Paw/Fire)
+    { start: "#FF6F47", end: "#FFCD0F" }, // Coral/Salmon to Yellow
+    { start: "#F83F54", end: "#CA2134" }, // Yellow/Gold to Red
 ];
 
 const GRADIENT_REGEX = /^grad-([0-9a-fA-F]{6})-([0-9a-fA-F]{6})$/;
@@ -35,17 +35,14 @@ interface ColorCustomizationPanelProps {
 }
 
 export const ColorCustomizationPanel: React.FC<ColorCustomizationPanelProps> = ({ color, onColorChange, isDark }) => {
-    const [colorPaletteMode, setColorPaletteMode] = useState<'solid' | 'gradient'>('solid');
+    const [colorPaletteMode, setColorPaletteMode] = useState<'solid' | 'gradient'>(
+        color.match(GRADIENT_REGEX) ? 'gradient' : 'solid'
+    );
     const [customColor, setCustomColor] = useState("#FFFFFF");
     const colorPickerRef = useRef<HTMLInputElement>(null);
 
     return (
         <>
-            {/* Title */}
-            <h3 className="text-sm font-semibold text-text-primary uppercase tracking-wide mb-4">
-                Customize Color
-            </h3>
-
             {/* Color Palette */}
             <div className="p-3 rounded-lg border border-border-primary bg-bg-primary h-[calc(100%-2rem)]">
                 {colorPaletteMode === 'solid' ? (

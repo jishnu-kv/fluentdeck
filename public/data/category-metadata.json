@@ -12,10 +12,6 @@
       "name": "Books & Reference",
       "icon": "books-reference.svg"
     },
-    "💼 Application Store": {
-      "name": "Application Store",
-      "icon": "application-store.svg"
-    },
     "🌐 Browser": {
       "name": "Browser",
       "icon": "browser.svg"
@@ -23,14 +19,6 @@
     "🧑‍💻 Developer Tools": {
       "name": "Developer Tools",
       "icon": "developer-tools.svg"
-    },
-    "GitHub Client": {
-      "name": "GitHub Client",
-      "icon": "github-client.svg"
-    },
-    "Other": {
-      "name": "Other",
-      "icon": "other.svg"
     },
     "🎓 Education": {
       "name": "Education",
@@ -48,25 +36,17 @@
       "name": "Games",
       "icon": "games.svg"
     },
-    "Game Tools": {
-      "name": "Game Tools",
-      "icon": "games-tools.svg"
-    },
     "🙎‍♂️ Lifestyle": {
       "name": "Lifestyle",
       "icon": "lifestyle.svg"
     },
     "🎬 Media": {
       "name": "Media",
-      "icon": "media.svg"
+      "icon": "media.png"
     },
     "🎧 Music Players": {
       "name": "Music Players",
       "icon": "music-players.svg"
-    },
-    "Spotify Client": {
-      "name": "Spotify Client",
-      "icon": "spotify-client.svg"
     },
     "📄 PDF Viewer": {
       "name": "PDF Viewer",
@@ -179,6 +159,58 @@
     "👨‍💻 Social Media": {
       "name": "Social Media",
       "icon": "social-media.svg"
+    },
+    "🛍️ Application Store": {
+      "name": "Application Store",
+      "icon": "application-store.svg"
+    },
+    "💼 Business": {
+      "name": "Business",
+      "icon": "application-store.svg"
+    },
+    "📦 Catalogs": {
+      "name": "Catalogs",
+      "icon": "developer-tools.svg"
+    },
+    "⬇️ Download Managers": {
+      "name": "Download Managers",
+      "icon": "utilities.svg"
+    },
+    "📧 Email": {
+      "name": "Email",
+      "icon": "email-clients.svg"
+    },
+    "🖼️ Images": {
+      "name": "Images",
+      "icon": "photo-viewer.svg"
+    },
+    "🎧 Music": {
+      "name": "Music",
+      "icon": "music-players.svg"
+    },
+    "📄 Documents": {
+      "name": "Documents",
+      "icon": "pdf-viewer.svg"
+    },
+    "🎙️ Podcasts": {
+      "name": "Podcasts",
+      "icon": "podcast.svg"
+    },
+    "🎬 Video": {
+      "name": "Video",
+      "icon": "video-players.svg"
+    },
+    "📰 News": {
+      "name": "News",
+      "icon": "news-weather.svg"
+    },
+    "🌤️ Weather": {
+      "name": "Weather",
+      "icon": "news-weather.svg"
+    },
+    "📖 Miscellaneous": {
+      "name": "Miscellaneous",
+      "icon": "other.svg"
     }
   }
 }

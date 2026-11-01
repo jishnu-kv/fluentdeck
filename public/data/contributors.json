@@ -174,22 +174,10 @@
     "id": 80087248
   },
   {
-    "login": "ryanlua",
-    "html_url": "https://github.com/ryanlua",
-    "avatar_url": "/assets/contributors/ryanlua.webp",
-    "id": 80087248
-  },
-  {
     "login": "Brick-Bug",
     "html_url": "https://github.com/Brick-Bug",
     "avatar_url": "/assets/contributors/brick-bug.webp",
     "id": 116721224
-  },
-  {
-    "login": "jishnu-kv",
-    "html_url": "https://github.com/jishnu-kv",
-    "avatar_url": "/assets/contributors/jishnu-kv.webp",
-    "id": 108184606
   },
   {
     "login": "ysfemreAlbyrk",
@@ -220,5 +208,77 @@
     "html_url": "https://github.com/SLT-World",
     "avatar_url": "/assets/contributors/slt-world.webp",
     "id": 76160587
+  },
+  {
+    "login": "TXG0Fk3",
+    "html_url": "https://github.com/TXG0Fk3",
+    "avatar_url": "/assets/contributors/txg0fk3.webp",
+    "id": 137466333
+  },
+  {
+    "login": "AshishX0MC",
+    "html_url": "https://github.com/AshishX0MC",
+    "avatar_url": "/assets/contributors/ashishx0mc.webp",
+    "id": 86341519
+  },
+  {
+    "login": "kinema-app",
+    "html_url": "https://github.com/kinema-app",
+    "avatar_url": "/assets/contributors/kinema-app.webp",
+    "id": 334122660
+  },
+  {
+    "login": "fbtwitter",
+    "html_url": "https://github.com/fbtwitter",
+    "avatar_url": "/assets/contributors/fbtwitter.webp",
+    "id": 33839891
+  },
+  {
+    "login": "congchuahiep",
+    "html_url": "https://github.com/congchuahiep",
+    "avatar_url": "/assets/contributors/congchuahiep.webp",
+    "id": 69245481
+  },
+  {
+    "login": "mishzx",
+    "html_url": "https://github.com/mishzx",
+    "avatar_url": "/assets/contributors/mishzx.webp",
+    "id": 101400913
+  },
+  {
+    "login": "avikeid2007",
+    "html_url": "https://github.com/avikeid2007",
+    "avatar_url": "/assets/contributors/avikeid2007.webp",
+    "id": 11132795
+  },
+  {
+    "login": "jingcjie",
+    "html_url": "https://github.com/jingcjie",
+    "avatar_url": "/assets/contributors/jingcjie.webp",
+    "id": 24523017
+  },
+  {
+    "login": "cherepets",
+    "html_url": "https://github.com/cherepets",
+    "avatar_url": "/assets/contributors/cherepets.webp",
+    "id": 12017106
+  },
+  {
+    "login": "matthewcc123",
+    "html_url": "https://github.com/matthewcc123",
+    "avatar_url": "/assets/contributors/matthewcc123.webp",
+    "id": 40161370
+  },
+  {
+    "login": "karnyadavdev",
+    "html_url": "https://github.com/karnyadavdev",
+    "avatar_url": "/assets/contributors/karnyadavdev.webp",
+    "id": 47368518
+  },
+  {
+    "login": "AhmedDevEG",
+    "html_url": "https://github.com/AhmedDevEG",
+    "avatar_url": "/assets/contributors/ahmeddeveg.webp",
+    "id": 188709060
   }
 ]

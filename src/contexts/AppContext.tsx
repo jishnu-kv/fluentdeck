@@ -58,12 +58,24 @@ const buildCategories = (appItems: ContentGroup[], categoryMetadata: { [key: str
         for (const subgroup of group.subgroups) {
             if (subgroup.subheading) {
                 const subMetadata = categoryMetadata[subgroup.subheading] || { name: subgroup.subheading.replace(/<[^>]+>/g, '').trim(), icon: '' };
-                categoryNode.children.push({
+                const subNode: CategoryNode = {
                     id: slugify(subMetadata.name),
                     label: subMetadata.name,
                     icon: subgroup.icon_url || (subMetadata.icon ? `/assets/category/${subMetadata.icon}` : undefined),
                     children: [] 
-                });
+                };
+
+                if (subgroup.sections && subgroup.sections.length > 0) {
+                    for (const section of subgroup.sections) {
+                        subNode.children.push({
+                            id: slugify(section.heading),
+                            label: section.heading,
+                            children: []
+                        });
+                    }
+                }
+
+                categoryNode.children.push(subNode);
             }
         }
         parsedCategories.push(categoryNode);
@@ -262,7 +274,13 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
                 ...subgroup,
                 apps: subgroup.apps.map(app => 
                     app.name === appName ? { ...app, logo_url: newLogoUrl } : app
-                )
+                ),
+                sections: subgroup.sections ? subgroup.sections.map(section => ({
+                    ...section,
+                    apps: section.apps.map(app =>
+                        app.name === appName ? { ...app, logo_url: newLogoUrl } : app
+                    )
+                })) : undefined
             }))
         }))
     );

@@ -16,44 +16,119 @@ interface NetworkVisualizationProps {
 
 const NetworkVisualization: React.FC<NetworkVisualizationProps> = ({ onNavigate, contributors = [], loading }) => {
 	if (loading) {
-		return <div className="flex justify-center py-8"><LoadingSpinner text="Loading contributors..." /></div>
+		return (
+			<div className="flex justify-center py-12">
+				<LoadingSpinner text="Loading community contributors..." />
+			</div>
+		);
 	}
 
 	if (contributors.length === 0) {
 		return (
-			<div className="relative w-full max-w-5xl mx-auto text-center py-8">
+			<div className="relative w-full max-w-4xl mx-auto text-center py-12">
 				<p className="text-text-secondary">No contributors to display.</p>
 			</div>
 		);
 	}
 
+	// Split contributors into two balanced rows
+	const half = Math.ceil(contributors.length / 2);
+	const row1 = contributors.slice(0, half);
+	const row2 = contributors.slice(half);
+
 	return (
-		<div className="relative w-full max-w-6xl mx-auto" onClick={onNavigate} style={{ cursor: 'pointer' }}>
-			<div
-				className="relative flex gap-6 overflow-hidden p-4 bg-bg-secondary/60 backdrop-blur-md rounded-2xl shadow-lg border border-border-primary [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]"
-			>
-				<div className="flex gap-6 animate-marquee-scroll">
-					{[...contributors, ...contributors].map((contributor, index) => (
-						<a
-							key={`${contributor.id}-${index}`}
-							href={contributor.html_url}
-							target="_blank"
-							rel="noopener noreferrer"
-							onClick={(e) => e.stopPropagation()}
-							className="flex-shrink-0 flex flex-col items-center gap-2 text-center w-24 group/avatar"
-						>
-							<img
-								src={contributor.avatar_url}
-								alt={`Avatar of ${contributor.login}`}
-								loading="lazy"
-								decoding="async"
-								width="64"
-								height="64"
-								className="w-16 h-16 rounded-full object-cover border-2 border-bg-secondary dark:border-bg-secondary shadow-md group-hover/avatar:scale-105 transition-transform duration-300 ease-in-out"
-							/>
-							<span className="text-xs font-medium text-text-primary dark:text-text-secondary truncate w-full">{contributor.login}</span>
-						</a>
-					))}
+		<div className="relative w-full max-w-5xl mx-auto select-none">
+			{/* Container matching standard Fluent Card aesthetics */}
+			<div className="relative rounded-2xl border border-border-primary bg-bg-secondary p-4 sm:p-6 overflow-hidden shadow-sm">
+				{/* Header info */}
+				<div className="flex items-center justify-between px-1 pb-4 mb-3 border-b border-border-primary text-xs">
+					<div className="flex items-center gap-2 text-text-secondary font-medium">
+						<span className="relative flex h-2 w-2">
+							<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+							<span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+						</span>
+						<span>Active Open Source Community</span>
+					</div>
+					<div className="flex items-center gap-1.5 text-text-secondary">
+						<span className="font-semibold text-text-primary">{contributors.length}</span>
+						<span>members</span>
+					</div>
+				</div>
+
+				{/* Continuous Marquee Track */}
+				<div className="relative overflow-hidden space-y-3 [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]">
+					{/* Row 1 */}
+					<div className="flex gap-3 animate-marquee-scroll min-w-full shrink-0">
+						{[...row1, ...row1].map((contributor, idx) => (
+							<a
+								key={`r1-${contributor.id}-${idx}`}
+								href={contributor.html_url}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="group/card flex items-center gap-2.5 px-3 py-2 rounded-xl bg-card-primary border border-border-primary hover:border-border-tertiary hover:bg-bg-active shadow-sm transition-colors duration-150 shrink-0"
+							>
+								<img
+									src={contributor.avatar_url}
+									alt={contributor.login}
+									loading="lazy"
+									decoding="async"
+									width="32"
+									height="32"
+									className="w-8 h-8 rounded-full object-cover ring-1 ring-border-primary"
+								/>
+								<div className="flex flex-col text-left">
+									<span className="text-xs font-medium text-text-primary group-hover/card:text-accent transition-colors max-w-[110px] truncate">
+										{contributor.login}
+									</span>
+									<span className="text-[10px] text-text-secondary leading-tight">
+										Contributor
+									</span>
+								</div>
+							</a>
+						))}
+					</div>
+
+					{/* Row 2 - Reverse Direction */}
+					<div className="flex gap-3 animate-marquee-scroll min-w-full shrink-0 [animation-direction:reverse]">
+						{[...row2, ...row2].map((contributor, idx) => (
+							<a
+								key={`r2-${contributor.id}-${idx}`}
+								href={contributor.html_url}
+								target="_blank"
+								rel="noopener noreferrer"
+								className="group/card flex items-center gap-2.5 px-3 py-2 rounded-xl bg-card-primary border border-border-primary hover:border-border-tertiary hover:bg-bg-active shadow-sm transition-colors duration-150 shrink-0"
+							>
+								<img
+									src={contributor.avatar_url}
+									alt={contributor.login}
+									loading="lazy"
+									decoding="async"
+									width="32"
+									height="32"
+									className="w-8 h-8 rounded-full object-cover ring-1 ring-border-primary"
+								/>
+								<div className="flex flex-col text-left">
+									<span className="text-xs font-medium text-text-primary group-hover/card:text-accent transition-colors max-w-[110px] truncate">
+										{contributor.login}
+									</span>
+									<span className="text-[10px] text-text-secondary leading-tight">
+										Contributor
+									</span>
+								</div>
+							</a>
+						))}
+					</div>
+				</div>
+
+				{/* Footer bar */}
+				<div className="mt-4 pt-3 flex items-center justify-between border-t border-border-primary text-xs text-text-secondary px-1">
+					<span className="hidden sm:inline">Windows Fluent Design open source project</span>
+					<button
+						onClick={onNavigate}
+						className="font-medium text-text-primary hover:text-accent transition-colors flex items-center gap-1 ml-auto"
+					>
+						Become a contributor <span aria-hidden="true">&rarr;</span>
+					</button>
 				</div>
 			</div>
 		</div>

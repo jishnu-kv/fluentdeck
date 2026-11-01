@@ -160,7 +160,7 @@ const EmojiPage: React.FC = () => {
             if (createCollection(newName.trim())) {
                 const newItem = { ...itemForNewCollection, style: selectedStyle, itemType: 'emoji' as const };
                 addItemToCollection(newName.trim(), newItem, 'emoji');
-            } else alert(`Collection exists.`);
+            }
         }
         setShowCreateCollectionModal(false); setItemForNewCollection(null);
     }, [itemForNewCollection, createCollection, selectedStyle, addItemToCollection]);
@@ -211,7 +211,7 @@ const EmojiPage: React.FC = () => {
                 skeleton={<GridSkeleton />}
                 loadMoreRef={loadMoreRef as any}
             >
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-8 gap-4">
+                <div className="card-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-8 gap-4">
                     {emojisToDisplay.map((emoji, index) => {
                         const item = { ...emoji, style: selectedStyle, itemType: 'emoji' as const };
                         return (

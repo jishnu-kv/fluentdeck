@@ -17,7 +17,7 @@ const NotFoundPage: React.FC = () => {
 			</p>
 			<button
 				onClick={() => navigate('/')}
-				className="mt-8 px-6 py-3 font-semibold text-bg-primary bg-accent rounded-lg hover:opacity-90"
+				className="mt-8 px-6 py-3 font-semibold text-bg-primary bg-[var(--win-accent)] rounded-[var(--win-radius-sm)] text-white hover:opacity-90"
 			>
 				Go Back to Home
 			</button>

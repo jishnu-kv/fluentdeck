@@ -153,14 +153,33 @@ const AppsPage: React.FC = () => {
 
 		return allContent.map(group => {
 			const filteredSubgroups = group.subgroups.map(subgroup => {
-				const filteredApps = subgroup.apps.filter(app => {
+				const filterApp = (app: AppData): boolean => {
 					const searchMatch = checkAppMatch(app);
 					const priceMatch = deferredPrice === 'All Pricing' || app.price === deferredPrice;
-					const tagMatch = deferredTag === 'All tags' || app.tag === deferredTag;
+					const tagMatch = deferredTag === 'All tags' ||
+						(app.tags ? app.tags.includes(deferredTag as any) : false) ||
+						app.tag === deferredTag ||
+						(typeof app.tag === 'string' && app.tag.includes(deferredTag));
 					return searchMatch && priceMatch && tagMatch;
-				});
+				};
+
+				if (subgroup.sections && subgroup.sections.length > 0) {
+					const filteredSections = subgroup.sections.map(section => {
+						const filteredApps = section.apps.filter(filterApp);
+						return { ...section, apps: filteredApps };
+					}).filter(section => section.apps.length > 0);
+
+					const allSectionApps = filteredSections.flatMap(s => s.apps);
+					return {
+						...subgroup,
+						sections: filteredSections,
+						apps: allSectionApps
+					};
+				}
+
+				const filteredApps = subgroup.apps.filter(filterApp);
 				return { ...subgroup, apps: filteredApps };
-			}).filter(subgroup => subgroup.apps.length > 0);
+			}).filter(subgroup => (subgroup.sections ? subgroup.sections.length > 0 : subgroup.apps.length > 0));
 
 			return { ...group, subgroups: filteredSubgroups };
 		}).filter(group => group.subgroups.length > 0);
@@ -372,23 +391,67 @@ const AppsPage: React.FC = () => {
 													</div>
 												</a>
 											)}
-											<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
-												{subgroup.apps.map((app, appIndex) => {
-													const isLCPCard = isFirstGroup && appIndex === 0;
-													return (
-														<MemoizedAppCard
-															key={app.link}
-															app={app}
-															index={appIndex}
-															isLCP={isLCPCard}
-															onContextMenu={handleContextMenu}
-															isSelectionMode={isSelectionMode}
-															isSelected={isItemSelected(app, 'app')}
-															onToggleSelection={toggleSelection}
-														/>
-													);
-												})}
-											</div>
+											{subgroup.sections && subgroup.sections.length > 0 ? (
+												<div className="space-y-6">
+													{subgroup.sections.map((section, secIndex) => {
+														const sectionMeta = categoryMetadata[section.heading];
+														const sectionSlug = slugify(sectionMeta?.name || section.heading);
+														return (
+															<div key={`${section.heading}-${secIndex}`}>
+																<a
+																	href={`#${sectionSlug}`}
+																	onClick={(e) => { e.preventDefault(); handleCategorySelect(sectionSlug); }}
+																>
+																	<div
+																		id={sectionSlug}
+																		className="text-lg font-medium tracking-tight text-text-secondary/80 mb-3 scroll-mt-40 flex items-center gap-2 hover:text-accent"
+																	>
+																		{(section.icon_url || sectionMeta?.icon) && (
+																			<img src={section.icon_url || `/assets/category/${sectionMeta.icon}`} alt="" className="w-5 h-5" />
+																		)}
+																		<span>{sectionMeta?.name || section.heading}</span>
+																	</div>
+																</a>
+																<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
+																	{section.apps.map((app, appIndex) => {
+																		const isLCPCard = isFirstGroup && secIndex === 0 && appIndex === 0;
+																		return (
+																			<MemoizedAppCard
+																				key={app.link}
+																				app={app}
+																				index={appIndex}
+																				isLCP={isLCPCard}
+																				onContextMenu={handleContextMenu}
+																				isSelectionMode={isSelectionMode}
+																				isSelected={isItemSelected(app, 'app')}
+																				onToggleSelection={toggleSelection}
+																			/>
+																		);
+																	})}
+																</div>
+															</div>
+														);
+													})}
+												</div>
+											) : (
+												<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
+													{subgroup.apps.map((app, appIndex) => {
+														const isLCPCard = isFirstGroup && appIndex === 0;
+														return (
+															<MemoizedAppCard
+																key={app.link}
+																app={app}
+																index={appIndex}
+																isLCP={isLCPCard}
+																onContextMenu={handleContextMenu}
+																isSelectionMode={isSelectionMode}
+																isSelected={isItemSelected(app, 'app')}
+																onToggleSelection={toggleSelection}
+															/>
+														);
+													})}
+												</div>
+											)}
 										</div>
 									);
 								})}

@@ -31,7 +31,7 @@ const Header: React.FC = () => {
 	return (
 		<>
 			{/* HEADER */}
-			<header className="fixed top-0 w-full bg-bg-secondary z-40 border-b border-border-primary">
+			<header className="fixed top-0 left-0 right-0 bg-bg-secondary z-40 border-b border-border-primary">
 				<div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
 
 					{/* LEFT: Mobile Menu + Logo */}

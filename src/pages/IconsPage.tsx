@@ -51,7 +51,7 @@ const IconsPage: React.FC = () => {
 
     const collectionsContext = useContext(CollectionsContext);
     if (!collectionsContext) throw new Error('CollectionsContext not found');
-    const { getCollectionNames, createCollection, addItemToCollection, removeItemFrom_collection: removeItemFromCollection, isItemInCollection, getCollectionType } = collectionsContext as any;
+    const { getCollectionNames, createCollection, addItemToCollection, removeItemFromCollection, isItemInCollection, getCollectionType } = collectionsContext;
 
     const location = useLocation();
 
@@ -164,13 +164,15 @@ const IconsPage: React.FC = () => {
 
     // --- Event Handlers ---
     const handleIconClick = useCallback((icon: IconType) => {
-        if (selectedIcon?.name === icon.name) {
-            setSelectedIcon(null);
-        } else {
-            setDetailViewStyle(selectedStyle);
-            setSelectedIcon(icon);
+        if (!isSelectionMode) {
+            if (selectedIcon?.name === icon.name) {
+                setSelectedIcon(null);
+            } else {
+                setDetailViewStyle(selectedStyle);
+                setSelectedIcon(icon);
+            }
         }
-    }, [selectedIcon, selectedStyle]);
+    }, [selectedIcon, selectedStyle, isSelectionMode]);
 
     const handleContextMenu = useCallback((e: React.MouseEvent, icon: IconType) => {
         e.preventDefault();
@@ -182,8 +184,6 @@ const IconsPage: React.FC = () => {
             if (createCollection(newName.trim())) {
                 const newItem = { ...itemForNewCollection, style: selectedStyle, itemType: 'icon' as const };
                 addItemToCollection(newName.trim(), newItem, 'icon');
-            } else {
-                alert(`Collection "${newName.trim()}" already exists.`);
             }
         }
         setShowCreateCollectionModal(false);
@@ -234,7 +234,7 @@ const IconsPage: React.FC = () => {
                 skeleton={<GridSkeleton />}
                 loadMoreRef={loadMoreRef as any}
             >
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-8 gap-4">
+                <div className="card-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cols-8 gap-4">
                     {iconsToDisplay.map((icon, index) => {
                         const item = { ...icon, style: selectedStyle, itemType: 'icon' as const };
                         return (

@@ -20,17 +20,15 @@ const parseChangelog = (text: string): ChangelogEntry[] => {
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
 
-        // Match version headers like: ## Version 2.0.0 (2025-12-10)
+        // Match version headers: ## Version 2.4.0 (29-05-2026)
         const versionMatch = line.match(/^##\s+Version\s+([\d.]+)\s+\((\d{2}-\d{2}-\d{4})\)/);
 
         if (versionMatch) {
-            // Save previous entry if exists
             if (currentEntry) {
                 currentEntry.content = contentLines.join('\n').trim();
                 entries.push(currentEntry);
             }
 
-            // Start new entry
             currentEntry = {
                 version: `v${versionMatch[1]}`,
                 date: versionMatch[2],
@@ -38,12 +36,10 @@ const parseChangelog = (text: string): ChangelogEntry[] => {
             };
             contentLines = [];
         } else if (currentEntry && line.trim() !== '' && !line.startsWith('# Changelog')) {
-            // Add content to current entry
             contentLines.push(line);
         }
     }
 
-    // Don't forget the last entry
     if (currentEntry) {
         currentEntry.content = contentLines.join('\n').trim();
         entries.push(currentEntry);
@@ -53,7 +49,6 @@ const parseChangelog = (text: string): ChangelogEntry[] => {
 };
 
 const renderInlineMarkdown = (text: string) => {
-    // 1. Split by inline code blocks
     const codeParts = text.split(/(`[^`]+`)/g);
 
     return codeParts.flatMap((codePart, codeIdx) => {
@@ -61,14 +56,13 @@ const renderInlineMarkdown = (text: string) => {
             return (
                 <code
                     key={`code-${codeIdx}`}
-                    className="px-1.5 py-0.5 rounded bg-bg-active text-sm font-mono text-text-primary"
+                    className="px-1.5 py-0.5 rounded bg-bg-active text-xs font-mono text-text-primary"
                 >
                     {codePart.slice(1, -1)}
                 </code>
             );
         }
 
-        // 2. Split non-code text by bold blocks
         const boldParts = codePart.split(/(\*\*[^*]+\*\*)/g);
         return boldParts.map((boldPart, boldIdx) => {
             if (boldPart.startsWith('**') && boldPart.endsWith('**')) {
@@ -83,7 +77,6 @@ const renderInlineMarkdown = (text: string) => {
     });
 };
 
-// Simple markdown renderer for changelog content
 const renderMarkdown = (content: string) => {
     const lines = content.split('\n');
     const elements: JSX.Element[] = [];
@@ -94,9 +87,9 @@ const renderMarkdown = (content: string) => {
     const flushList = () => {
         if (listItems.length > 0) {
             elements.push(
-                <ul key={elements.length} className="mt-4 space-y-2.5 list-none">
+                <ul key={elements.length} className="my-3 space-y-2 list-none">
                     {listItems.map((item, idx) => (
-                        <li key={idx} className="flex items-start">
+                        <li key={idx} className="flex items-start text-sm">
                             <span className="text-text-secondary mr-3 mt-0.5 flex-shrink-0">•</span>
                             <span className="text-text-secondary leading-relaxed">
                                 {renderInlineMarkdown(item)}
@@ -112,17 +105,17 @@ const renderMarkdown = (content: string) => {
     const flushTable = () => {
         if (tableRows.length > 0) {
             const headers = tableRows[0];
-            const dataRows = tableRows.slice(2); // Skip header separator row
+            const dataRows = tableRows.slice(2);
 
             elements.push(
-                <div key={elements.length} className="mt-6 mb-6 overflow-x-auto rounded-lg border border-border-primary">
-                    <table className="min-w-full divide-y divide-border-primary">
+                <div key={elements.length} className="my-4 overflow-x-auto rounded-lg border border-border-primary">
+                    <table className="min-w-full divide-y divide-border-primary text-sm">
                         <thead className="bg-bg-active">
                             <tr>
                                 {headers.map((header, idx) => (
                                     <th
                                         key={idx}
-                                        className="px-6 py-3.5 text-left text-sm font-semibold text-text-primary"
+                                        className="px-4 py-3 text-left font-semibold text-text-primary"
                                     >
                                         {renderInlineMarkdown(header.trim())}
                                     </th>
@@ -135,10 +128,7 @@ const renderMarkdown = (content: string) => {
                                     {row.map((cell, cellIdx) => (
                                         <td
                                             key={cellIdx}
-                                            className={`px-6 py-4 text-sm ${cellIdx === 0
-                                                ? 'font-medium text-text-primary'
-                                                : 'text-text-secondary'
-                                                }`}
+                                            className={`px-4 py-3 ${cellIdx === 0 ? 'font-medium text-text-primary' : 'text-text-secondary'}`}
                                         >
                                             {renderInlineMarkdown(cell.trim())}
                                         </td>
@@ -155,42 +145,33 @@ const renderMarkdown = (content: string) => {
     };
 
     lines.forEach((line) => {
-        // Handle headers
         if (line.startsWith('### ')) {
             flushList();
             flushTable();
             elements.push(
-                <h3 key={elements.length} className="text-lg font-bold text-text-primary mt-6 mb-3">
+                <h3 key={elements.length} className="text-base font-bold text-text-primary mt-6 mb-2">
                     {line.replace('### ', '')}
                 </h3>
             );
-        }
-        // Handle tables
-        else if (line.includes('|')) {
+        } else if (line.includes('|')) {
             flushList();
             inTable = true;
             const cells = line.split('|').map(cell => cell.trim()).filter(cell => cell);
             tableRows.push(cells);
-        }
-        // Handle list items
-        else if (line.startsWith('- ')) {
+        } else if (line.startsWith('- ')) {
             if (inTable) flushTable();
             listItems.push(line.substring(2));
-        }
-        // Handle horizontal rules
-        else if (line.trim() === '---') {
+        } else if (line.trim() === '---') {
             flushList();
             flushTable();
             elements.push(
-                <hr key={elements.length} className="my-6 border-border-primary" />
+                <hr key={elements.length} className="my-5 border-border-primary" />
             );
-        }
-        // Handle paragraphs
-        else if (line.trim() && !line.startsWith('|')) {
+        } else if (line.trim() && !line.startsWith('|')) {
             if (inTable) flushTable();
             flushList();
             elements.push(
-                <p key={elements.length} className="text-text-secondary mt-3 leading-relaxed">
+                <p key={elements.length} className="text-sm text-text-secondary mt-2 leading-relaxed">
                     {renderInlineMarkdown(line)}
                 </p>
             );
@@ -235,20 +216,10 @@ const ChangelogPage: React.FC = () => {
                 image="/assets/cover-changelog.png"
                 imageAlt="A summary of recent updates and changes to Fluent Deck."
                 type="article"
-                schema={{
-                    "@context": "https://schema.org",
-                    "@type": "Article",
-                    "mainEntityOfPage": {
-                        "@type": "WebPage",
-                        "@id": "https://fluentdeck.vercel.app/changelog"
-                    },
-                    "headline": "Fluent Deck Changelog",
-                    "description": "Track the latest updates, improvements, and new features added to Fluent Deck."
-                }}
             />
-            <div className="py-10 px-4 sm:px-6 lg:px-8">
-                <div className="max-w-5xl mx-auto">
 
+            <div className="py-8 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-5xl mx-auto">
                     {/* Header */}
                     <div className="flex items-center space-x-3">
                         <HistoryIcon className="w-8 h-8 text-text-primary" />
@@ -257,7 +228,7 @@ const ChangelogPage: React.FC = () => {
                         </h1>
                     </div>
 
-                    <p className="mt-4 text-base text-text-secondary">
+                    <p className="mt-2 text-base text-text-secondary">
                         Track the latest updates, improvements, and new features added to Fluent Deck.
                     </p>
 
@@ -270,24 +241,26 @@ const ChangelogPage: React.FC = () => {
                             {changelog.map((entry, index) => (
                                 <div
                                     key={index}
-                                    className="bg-bg-secondary border border-border-primary rounded-xl p-4 sm:p-6 lg:p-8"
+                                    className="bg-bg-secondary border border-border-primary rounded-xl p-5 sm:p-6"
                                 >
                                     {/* Version and Date */}
-                                    <div className="flex items-center justify-between flex-wrap gap-2 mb-4">
-                                        <h2 className="text-2xl font-bold text-text-primary flex items-center gap-3">
-                                            {entry.version}
+                                    <div className="flex items-center justify-between flex-wrap gap-2 mb-4 pb-3 border-b border-border-primary">
+                                        <div className="flex items-center gap-3">
+                                            <h2 className="text-xl sm:text-2xl font-bold text-text-primary">
+                                                {entry.version}
+                                            </h2>
 
                                             {index === 0 && (
-                                                <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-bg-active text-text-primary border border-border-primary">
+                                                <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-bg-active text-text-primary border border-border-primary">
                                                     Latest
                                                 </span>
                                             )}
-                                        </h2>
+                                        </div>
 
                                         {entry.date && (
-                                            <p className="text-sm font-medium text-text-secondary uppercase tracking-wide">
+                                            <span className="text-xs font-medium text-text-secondary uppercase tracking-wider">
                                                 {entry.date}
-                                            </p>
+                                            </span>
                                         )}
                                     </div>
 
@@ -299,7 +272,6 @@ const ChangelogPage: React.FC = () => {
                             ))}
                         </div>
                     )}
-
                 </div>
             </div>
         </>

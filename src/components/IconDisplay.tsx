@@ -75,7 +75,13 @@ const IconDisplay: React.FC<IconDisplayProps> = ({ icon, style, className, urlRe
 		);
 	}
 
-	return <div className={className} style={containerStyle} dangerouslySetInnerHTML={{ __html: svgContent }} />;
+	return (
+		<div
+			className={`flex items-center justify-center [&>svg]:block [&>svg]:shrink-0 [backface-visibility:hidden] [transform:translateZ(0)] ${className || ''}`}
+			style={containerStyle}
+			dangerouslySetInnerHTML={{ __html: svgContent }}
+		/>
+	);
 };
 
 export default IconDisplay;

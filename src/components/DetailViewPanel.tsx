@@ -38,9 +38,20 @@ export const DetailViewPanel: React.FC<DetailViewPanelProps> = ({ title, onClose
 		};
 	}, [handleClose]);
 
+	useEffect(() => {
+		if (isClosing) {
+			document.documentElement.classList.remove('detail-view-open');
+		} else {
+			document.documentElement.classList.add('detail-view-open');
+		}
+		return () => {
+			document.documentElement.classList.remove('detail-view-open');
+		};
+	}, [isClosing]);
+
 	return (
 		<div 
-			className={`fixed bottom-0 left-0 right-0 z-40 flex flex-col max-h-[90vh] lg:max-h-[80vh] xl:max-h-[80vh] bg-bg-secondary border-t border-border-primary shadow-[0_-4px_12px_rgba(0,0,0,0.05)] dark:shadow-[0_-4px_12px_rgba(0,0,0,0.2)] mt-16 md:mt-0 ${isClosing ? 'animate-slideDown' : 'animate-slideUp'}`}
+			className={`fixed bottom-0 left-0 right-0 lg:top-16 lg:bottom-0 lg:left-auto lg:right-0 lg:w-[460px] lg:h-[calc(100vh-64px)] z-40 flex flex-col max-h-[90vh] lg:max-h-none bg-bg-secondary border-t lg:border-t-0 lg:border-l border-border-primary shadow-[0_-4px_12px_rgba(0,0,0,0.05)] dark:shadow-[0_-4px_12px_rgba(0,0,0,0.2)] lg:shadow-[-4px_0_12px_rgba(0,0,0,0.05)] lg:dark:shadow-[-4px_0_12px_rgba(0,0,0,0.2)] mt-16 md:mt-0 lg:mt-0 ${isClosing ? 'animate-slideDown lg:animate-slideOutRight' : 'animate-slideUp lg:animate-slideInRight'}`}
 			onAnimationEnd={handleAnimationEnd}
 		>
 			{/* Header */}

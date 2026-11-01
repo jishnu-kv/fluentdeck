@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useContext, useMemo } from "react";
+import React, { useState, useEffect, useContext, useMemo, useRef } from "react";
 import {
 	HtmlIcon, SvgIcon, ReactIcon,
-	VueIcon, ShareIcon
+	VueIcon, ShareIcon, XIcon
 } from "@/components/Icons";
 import { ColorCustomizationPanel } from "@/components/ColorCustomizationPanel";
 import { ActionRow } from '@/components/ActionRow';
@@ -67,6 +67,7 @@ export const IconDetailView: React.FC<{
 	const [svgContent, setSvgContent] = useState<string | null>(null);
 	const [isLoading, setIsLoading] = useState(true);
 	const [copiedFormat, setCopiedFormat] = useState<Format | null>(null);
+	const [showColorCustomizer, setShowColorCustomizer] = useState(false);
 	const [selectedSize, setSelectedSize] = useState<string>('24');
 	const [color, setColor] = useState("currentColor");
 
@@ -83,6 +84,27 @@ export const IconDetailView: React.FC<{
 		mq.addEventListener("change", update);
 		return () => mq.removeEventListener("change", update);
 	}, [theme]);
+
+	const customizerRef = useRef<HTMLDivElement>(null);
+	const triggerButtonRef = useRef<HTMLButtonElement>(null);
+
+	useEffect(() => {
+		if (!showColorCustomizer) return;
+		const handleClickOutside = (event: MouseEvent) => {
+			if (
+				customizerRef.current &&
+				!customizerRef.current.contains(event.target as Node) &&
+				triggerButtonRef.current &&
+				!triggerButtonRef.current.contains(event.target as Node)
+			) {
+				setShowColorCustomizer(false);
+			}
+		};
+		document.addEventListener('mousedown', handleClickOutside);
+		return () => {
+			document.removeEventListener('mousedown', handleClickOutside);
+		};
+	}, [showColorCustomizer]);
 
 	const availableSizes = useMemo(() => {
 		const styleKey = selectedStyle.toLowerCase() as 'filled' | 'regular' | 'color';
@@ -229,24 +251,13 @@ export const IconDetailView: React.FC<{
 				</div>
 			}
 		>
-			<div
-				className="flex flex-col gap-6 lg:gap-8 lg:flex-row overflow-visible"
-				style={{
-					"--preview-w": SECTION_WIDTHS.preview,
-					"--color-w": SECTION_WIDTHS.colorCustomization
-				} as React.CSSProperties}
-			>
+			<div className="flex flex-col gap-6 lg:min-h-[calc(100vh-230px)] overflow-visible">
 
 				{/* 1. Preview Section */}
-				<div className="w-full lg:w-[var(--preview-w)] flex-shrink-0">
+				<div className="w-full flex-grow flex flex-col">
 
-					{/* Title */}
-					<h3 className="text-sm font-semibold text-text-primary uppercase tracking-wide mb-4">
-						Preview
-					</h3>
-
-					{/* Preview */}
-					<div className="flex flex-col items-center justify-center p-4 rounded-xl bg-bg-primary border border-border-primary h-64 lg:h-80 relative flex-shrink-0 max-w-full">
+					{/* Preview Container */}
+					<div className="flex-1 flex flex-col items-center justify-center p-4 rounded-xl bg-bg-primary border border-border-primary min-h-[256px] relative max-w-full">
 						<div className="absolute inset-0 opacity-5 dark:opacity-100"
 							style={{
 								backgroundImage: "radial-gradient(currentColor 1px, transparent 1px)",
@@ -277,6 +288,32 @@ export const IconDetailView: React.FC<{
 								)
 							)}
 						</div>
+
+						{/* Floating Paintbrush Color Trigger & Popover Overlay */}
+						{selectedStyle !== "Color" && (
+							<>
+								<button
+									ref={triggerButtonRef}
+									onClick={() => setShowColorCustomizer(prev => !prev)}
+									className="absolute bottom-3 right-3 z-20 p-2.5 rounded-full bg-bg-secondary border border-border-primary text-text-primary shadow-md hover:bg-bg-active focus:outline-none transition-colors"
+									title="Customize Color"
+								>
+									<svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+										<path strokeLinecap="round" strokeLinejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+									</svg>
+								</button>
+
+								{showColorCustomizer && (
+									<div ref={customizerRef} className="absolute top-48 right-14 z-30 w-72 p-4 bg-bg-secondary border border-border-primary rounded-xl shadow-xl animate-scaleIn">
+										<ColorCustomizationPanel
+											color={color}
+											onColorChange={setColor}
+											isDark={isDark}
+										/>
+									</div>
+								)}
+							</>
+						)}
 					</div>
 
 					{/* Style Switcher */}
@@ -299,19 +336,8 @@ export const IconDetailView: React.FC<{
 					</div>
 				</div>
 
-				{/* 2. Color Customization */}
-				{selectedStyle !== "Color" && (
-					<div className="w-full lg:w-[var(--color-w)] flex-shrink-0 lg:h-[22rem] mt-6 lg:mt-0">
-						<ColorCustomizationPanel
-							color={color}
-							onColorChange={setColor}
-							isDark={isDark}
-						/>
-					</div>
-				)}
-
 				{/* 3. EXPORT OPTIONS */}
-				<div className="w-full lg:flex-1 lg:min-w-0 flex flex-col mt-6 lg:mt-0">
+				<div className="w-full flex flex-col lg:justify-end lg:mt-auto">
 					{/* Title */}
 					<h3 className="text-sm font-semibold text-text-primary uppercase tracking-wide mb-4">
 						Export Options
@@ -329,7 +355,7 @@ export const IconDetailView: React.FC<{
 					)}
 
 					{/* Export buttons */}
-					<div className="flex-1 flex flex-col justify-between space-y-2">
+					<div className="flex flex-col space-y-2">
 						<ActionRow
 							title="SVG Code"
 							description="Raw SVG markup"

@@ -40,7 +40,7 @@ export const Tabs: FC<TabsProps> = ({
           </div>
         );
 
-        const buttonClasses = `grow px-3 text-sm rounded-md flex items-center justify-center focus:outline-none h-full ${tabButtonClassName || ''} ${
+        const buttonClasses = `grow shrink-0 px-3 text-sm rounded-md flex items-center justify-center focus:outline-none h-full ${tabButtonClassName || ''} ${
             value === option.value
                 ? activeTabClassName
                 : inactiveTabClassName
