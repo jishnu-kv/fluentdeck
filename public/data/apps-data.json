@@ -6,15 +6,27 @@
         "subheading": "",
         "apps": [
           {
-            "name": "Allium",
-            "link": "https://github.com/fwOnion/Allium",
-            "tag": "WD",
+            "name": "AF Media Bar",
+            "link": "https://github.com/Fervent-Tempo/AF-Media-Bar",
+            "tag": "WDM",
             "tags": [
-              "WD"
+              "WDM",
+              "WDA"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/allium.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/fwOnion/Allium/refs/heads/main/assets/allium-icon.png"
+            "logo_url": "/assets/apps/af-media-bar.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Fervent-Tempo/AF-Media-Bar/main/src/AFMediaBar/Assets/icon_dark.png"
+          },
+          {
+            "name": "AMWin-RichPresence",
+            "link": "https://github.com/PKBeam/AMWin-RP",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/amwin-richpresence.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/PKBeam/AMWin-RP/master/AMWin-RichPresence/Resources/AMWinRP-128x.png"
           },
           {
             "name": "APK Installer",
@@ -28,15 +40,38 @@
             "original_logo_url": "https://raw.githubusercontent.com/Paving-Base/APK-Installer/refs/heads/main/APKInstaller/APKInstaller/Assets/Square150x150Logo.scale-100.png"
           },
           {
-            "name": "AtlasOS Toolbox",
-            "link": "https://github.com/Atlas-OS/atlas-toolbox",
+            "name": "AppControl Manager",
+            "link": "https://github.com/HotCakeX/Harden-Windows-Security",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/atlasos-toolbox.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Atlas-OS/atlas-toolbox/main/AtlasToolbox/Assets/Logo/atlas-logo.png"
+            "logo_url": "/assets/apps/appcontrol-manager.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/AppControl%20Manager/Assets/StoreLogo.scale-400.png"
+          },
+          {
+            "name": "AppGroup",
+            "link": "https://github.com/iandiv/AppGroup",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/appgroup.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/iandiv/AppGroup/master/AppGroup/AppGroup.png"
+          },
+          {
+            "name": "AsrTools",
+            "link": "https://github.com/WEIFENG2333/AsrTools",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/asrtools.webp",
+            "original_logo_url": "https://avatars.githubusercontent.com/u/61730227?v=4"
           },
           {
             "name": "Audio Router",
@@ -50,6 +85,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/ShortDevelopment/Audio-Router/main/src/Assets/Square150x150Logo.scale-200.png"
           },
           {
+            "name": "AZMusicDownloader",
+            "link": "https://github.com/AZ-Studio-2023/AZMusicDownloader",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/azmusicdownloader.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/AZ-Studio-2023/AZMusicDownloader/main/resource/logo.png"
+          },
+          {
             "name": "Better Endfield",
             "link": "https://github.com/Dr-hydra/Better-Endfield",
             "tag": "WDM",
@@ -57,6 +103,17 @@
               "WDM"
             ],
             "price": "FOSS"
+          },
+          {
+            "name": "Better Win Clipboard",
+            "link": "https://github.com/uponatime2019/BetterWinClipboard",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/better-win-clipboard.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/BetterWinClipboard/main/Assets/AppIcon.ico"
           },
           {
             "name": "BetterGI",
@@ -70,37 +127,26 @@
             "original_logo_url": "https://raw.githubusercontent.com/babalae/better-genshin-impact/main/BetterGenshinImpact/Resources/Images/logo.png"
           },
           {
-            "name": "Bluetooth Audio Codec",
-            "link": "https://github.com/A-BenLi06/Bluetooth-Audio-Codec-Viewer-WinUI3",
-            "tag": "WD",
+            "name": "Bing Wallpaper",
+            "link": "https://apps.microsoft.com/detail/xpfp7f8rl7mb1w",
+            "tag": "WDM",
             "tags": [
-              "WD"
+              "WDM"
             ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/bluetooth-audio-codec.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/A-BenLi06/Bluetooth-Audio-Codec-Viewer-WinUI3/refs/heads/main/BluetoothAudioCodec.WinUI/Assets/StoreLogo.scale-150.png"
+            "price": "Free",
+            "logo_url": "/assets/apps/bing-wallpaper.webp",
+            "original_logo_url": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBeRogmRf1xieDJbrjYvc.hUvqidNQtgZY7VtoCuVM31yHuXAFled7S57y0AM6xx1XMCHawJ_zIRORv7SCOGYUFs-&format=source&h=115"
           },
           {
-            "name": "CC98 Desktop",
-            "link": "https://github.com/Ansherly/CC98-Desktop",
-            "tag": "WDA",
-            "tags": [
-              "WDA"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/cc98-desktop.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Ansherly/CC98-Desktop/Lab/Assets/SquareLogo.altform-lightunplated_targetsize-256.png"
-          },
-          {
-            "name": "CDPI UI",
-            "link": "https://github.com/Storik4pro/cdpiui",
+            "name": "Blue Archive Auto Script",
+            "link": "https://github.com/pur1fying/blue_archive_auto_script",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/cdpi-ui.webp",
-            "original_logo_url": "https://github.com/user-attachments/assets/b448f284-4a04-4a65-ac34-f0a0880d01d3"
+            "logo_url": "/assets/apps/blue-archive-auto-script.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/pur1fying/blue_archive_auto_script/master/deploy/installer/logo.ico"
           },
           {
             "name": "Clipboard Inspector",
@@ -114,6 +160,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/TheJoeFin/clipboard-inspector/refs/heads/main/clipboard-inspector/Assets/StoreLogo.scale-150.png"
           },
           {
+            "name": "Clipboard Next",
+            "link": "https://github.com/jamesmontemagno/clipboard-next",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/clipboard-next.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/jamesmontemagno/clipboard-next/main/windows/src/ClipboardNext.App/Assets/AppIcon-256.png"
+          },
+          {
             "name": "Clippy",
             "link": "https://github.com/FireCubeStudios/Clippy",
             "tag": "WDA",
@@ -125,6 +182,18 @@
             "original_logo_url": "https://raw.githubusercontent.com/FireCubeStudios/Clippy/master/Clippy/Assets/Square150x150Logo.scale-200.png"
           },
           {
+            "name": "CompactGUI",
+            "link": "https://github.com/IridiumIO/CompactGUI",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/compactgui.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/IridiumIO/CompactGUI/master/CompactGUI/icon.ico"
+          },
+          {
             "name": "CompInfo",
             "link": "https://github.com/OceanCyanTech/CompInfo",
             "tag": "WD",
@@ -134,6 +203,39 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/compinfo.webp",
             "original_logo_url": "https://raw.githubusercontent.com/OceanCyanTech/CompInfo/refs/heads/main/CompInfoIcon.ico"
+          },
+          {
+            "name": "Context Menu Manager Plus",
+            "link": "https://github.com/PLFJY/ContextMenuMgr",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/context-menu-manager-plus.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/PLFJY/ContextMenuMgr/main/ContextMenuMgr.Frontend/Assets/AppIcon.png"
+          },
+          {
+            "name": "DarkMode 2",
+            "link": "https://github.com/Lunova-Studio/DarkMode2",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/darkmode-2.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Lunova-Studio/DarkMode2/release/Resources/logo-new.ico"
+          },
+          {
+            "name": "Diamond DiskMark And SMART",
+            "link": "https://github.com/uponatime2019/DiamondDiskMarkAndSMART",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/diamond-diskmark-and-smart.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/DiamondDiskMarkAndSMART/main/Assets/AppIcon.ico"
           },
           {
             "name": "DTran",
@@ -169,6 +271,51 @@
             "original_logo_url": "https://raw.githubusercontent.com/EricZhang233/EricGameLauncher/refs/heads/master/ico.ico"
           },
           {
+            "name": "EverythingQuickSearch",
+            "link": "https://github.com/PinchToDebug/EverythingQuickSearch",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/everythingquicksearch.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/PinchToDebug/EverythingQuickSearch/master/EverythingQuickSearch/Icon/icon.ico"
+          },
+          {
+            "name": "ExHyperV",
+            "link": "https://github.com/Justsenger/ExHyperV",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/exhyperv.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Justsenger/ExHyperV/main/img/logo.png"
+          },
+          {
+            "name": "Fairy Kekkai Workshop",
+            "link": "https://github.com/Fairy-Oracle-Sanctuary/Fairy-Kekkai-Workshop",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/fairy-kekkai-workshop.webp",
+            "original_logo_url": "https://avatars.githubusercontent.com/u/207427828?v=4"
+          },
+          {
+            "name": "Fluent Icon Finder",
+            "link": "https://github.com/TheJoeFin/Draw-Symbol-Finder",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/fluent-icon-finder.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/TheJoeFin/Draw-Symbol-Finder/main/Assets/Icon-Draw.png"
+          },
+          {
             "name": "Fluent M3U8",
             "link": "https://github.com/zhiyiYo/Fluent-M3U8",
             "tag": "WDM",
@@ -191,6 +338,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/snw-mint/fluent-scrobbler/refs/heads/main/Assets/StoreLogo.png"
           },
           {
+            "name": "FluentYTDL",
+            "link": "https://github.com/SakuraForgot/FluentYTDL",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/fluentytdl.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/SakuraForgot/FluentYTDL/main/assets/logo_128.png"
+          },
+          {
             "name": "Flux Reader",
             "link": "https://github.com/lomirus/flux-reader",
             "tag": "WD",
@@ -200,6 +358,29 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/flux-reader.webp",
             "original_logo_url": "https://raw.githubusercontent.com/lomirus/flux-reader/refs/heads/main/assets/brand/fluxreader-icon-unread.ico"
+          },
+          {
+            "name": "FormatMaster",
+            "link": "https://github.com/Gu-0312/FormatMaster-EN",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/formatmaster.webp",
+            "original_logo_url": "https://avatars.githubusercontent.com/u/126770449?v=4"
+          },
+          {
+            "name": "FufuLauncher",
+            "link": "https://github.com/FufuLauncher/FufuLauncher",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/fufulauncher.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/FufuLauncher/FufuLauncher/master/FufuLauncher/Assets/icon.png"
           },
           {
             "name": "Genshin Music Studio",
@@ -246,6 +427,28 @@
             "original_logo_url": "https://raw.githubusercontent.com/JAD-Apps/Inklet/refs/heads/master/Inklet (Package)/Images/StoreLogo.scale-150.png"
           },
           {
+            "name": "iPaint",
+            "link": "https://github.com/uponatime2019/iPaint",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/ipaint.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/iPaint/main/Assets/AppIcon.ico"
+          },
+          {
+            "name": "iPhoneMirror",
+            "link": "https://github.com/RayrenSX/iPhoneMirror",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/iphonemirror.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/RayrenSX/iPhoneMirror/main/src/App/Assets/iPhoneMirror.png"
+          },
+          {
             "name": "IT Admin Toolkit",
             "link": "https://github.com/nkasco/IT-Admin-Toolkit-WinUI",
             "tag": "WDM",
@@ -255,6 +458,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/it-admin-toolkit.webp",
             "original_logo_url": "https://raw.githubusercontent.com/nkasco/IT-Admin-Toolkit-WinUI/refs/heads/master/Assets/Powershell5.png"
+          },
+          {
+            "name": "IwaraTool",
+            "link": "https://github.com/Moeary/IwaraTool",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/iwaratool.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Moeary/IwaraTool/main/docs/iwaratool_logo.png"
           },
           {
             "name": "Jailbreak Tool",
@@ -290,466 +504,393 @@
             "original_logo_url": "https://raw.githubusercontent.com/ffrafat/JBLControl/refs/heads/main/windows/JBLControl.Windows/Assets/Store/StoreLogo.png"
           },
           {
-            "name": "Koda",
-            "link": "https://github.com/Ivorisnoob/koda-windows",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/koda.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Ivorisnoob/koda-windows/refs/heads/main/src/Koda/Assets/StoreLogo.png"
-          },
-          {
-            "name": "LightNovelSelector",
-            "link": "https://github.com/chenhaoxiang05/LightNovelSelector",
+            "name": "Kanban Files",
+            "link": "https://github.com/TheJoeFin/kanban-files",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/lightnovelselector.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/chenhaoxiang05/LightNovelSelector/refs/heads/main/native/LightNovelSelector.WinUI/Assets/StoreLogo.png"
+            "logo_url": "/assets/apps/kanban-files.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/TheJoeFin/kanban-files/master/KanbanFiles/Assets/Square150x150Logo.png"
           },
           {
-            "name": "Llama App",
-            "link": "https://github.com/ggml-org/Llama-Windows",
+            "name": "Koncentro",
+            "link": "https://github.com/kun-codes/Koncentro",
             "tag": "WDM",
             "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/llama-app.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/ggml-org/Llama-Windows/main/Assets/llama_256.png"
-          },
-          {
-            "name": "Lunox",
-            "link": "https://github.com/Soferity/Lunox",
-            "tag": "WDA",
-            "tags": [
+              "WDM",
               "WDA"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/lunox.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Soferity/Lunox/develop/.images/Logo.png"
+            "logo_url": "/assets/apps/koncentro.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/kun-codes/Koncentro/main/assets/logo_256x256.png"
           },
           {
-            "name": "Lyricod",
-            "link": "https://github.com/Indarkdust/Lyricod-App",
-            "tag": "WDA",
-            "tags": [
-              "WDA"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/lyricod.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Indarkdust/Lyricod-App/refs/heads/main/src/Lyricod.App/Assets/Lyricod-256.png"
-          },
-          {
-            "name": "MahiroToolbox",
-            "link": "https://github.com/Eanya-Tonic/MahiroToolbox",
+            "name": "Lenovo Legion Toolkit",
+            "link": "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/mahirotoolbox.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Eanya-Tonic/MahiroToolbox/main/img/logo.png"
+            "logo_url": "/assets/apps/lenovo-legion-toolkit.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/master/LenovoLegionToolkit.LampArray/Images/Square150x150Logo.scale-200.png"
           },
           {
-            "name": "March7thAssistant",
-            "link": "https://github.com/moesnow/March7thAssistant",
+            "name": "LiveCaptions Translator",
+            "link": "https://github.com/SakiRinn/LiveCaptions-Translator",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/march7thassistant.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/moesnow/March7thAssistant/main/apple-touch-icon.png"
+            "logo_url": "/assets/apps/livecaptions-translator.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/SakiRinn/LiveCaptions-Translator/master/src/LiveCaptions-Translator.ico"
           },
           {
-            "name": "Mem Reduct WinUI",
-            "link": "https://github.com/Pimnghi/memreduct-winui",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/mem-reduct-winui.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Pimnghi/memreduct-winui/refs/heads/main/src/MemReduct.WinUI/Assets/AppIcon.ico"
-          },
-          {
-            "name": "Mercury Converter",
-            "link": "https://github.com/AfridexD/MercuryConverter",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/mercury-converter.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/AfridexD/MercuryConverter/refs/heads/main/src/Mercury.Converter.App/Assets/AppIcon.ico"
-          },
-          {
-            "name": "Microsoft PC Manager",
-            "link": "https://apps.microsoft.com/detail/9pm860492szd",
+            "name": "LogLens - Agent Session Viewer",
+            "link": "https://apps.microsoft.com/detail/9pdb5kdqgw91",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "Free",
-            "logo_url": "/assets/apps/microsoft-pc-manager.webp",
-            "original_logo_url": "https://store-images.s-microsoft.com/image/apps.5035.14298090620665013.cb25e253-e091-4d54-8b38-83056d549887.6cb80d38-5f06-461c-800f-34ac2c478fec?h=115"
+            "logo_url": "/assets/apps/loglens-agent-session-viewer.webp",
+            "original_logo_url": "https://store-images.s-microsoft.com/image/apps.17393.14153368627499340.3841fd65-ccb9-4c46-b6df-0170eb34a881.2a703213-6c78-4358-b18b-e52c5af166a6?h=115"
           },
           {
-            "name": "MihomoDeck",
-            "link": "https://github.com/KarlRaphel/MihomoDeck",
+            "name": "MCSL 2",
+            "link": "https://github.com/MCSLTeam/MCSL2",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "https://raw.githubusercontent.com/KarlRaphel/MihomoDeck/refs/heads/main/Assets/MihomoDeck.ico",
-            "original_logo_url": "https://raw.githubusercontent.com/KarlRaphel/MihomoDeck/refs/heads/main/Assets/MihomoDeck.ico"
+            "logo_url": "/assets/apps/mcsl-2.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/MCSLTeam/MCSL2/master/Icons/MCSL2.png"
           },
           {
-            "name": "Nearclip",
-            "link": "https://github.com/ivLis-Studio/nearclip",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/nearclip.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/ivLis-Studio/nearclip/refs/heads/main/design/out/msix/StoreLogo.scale-150.png"
-          },
-          {
-            "name": "ok-duet-night-abyss",
-            "link": "https://github.com/BnanZ0/ok-duet-night-abyss",
+            "name": "MotionWallpaper",
+            "link": "https://github.com/1114656/MotionWallpaper",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/ok-duet-night-abyss.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/BnanZ0/ok-duet-night-abyss/master/icons/icon.png"
+            "logo_url": "/assets/apps/motionwallpaper.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/1114656/MotionWallpaper/main/native/MotionWallpaper.App/Assets/motion-logo.png"
           },
           {
-            "name": "ok-nte",
-            "link": "https://github.com/BnanZ0/ok-nte",
+            "name": "MyComputerManager",
+            "link": "https://github.com/1357310795/MyComputerManager",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/ok-nte.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/BnanZ0/ok-nte/main/icons/icon.png"
+            "logo_url": "/assets/apps/mycomputermanager.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/1357310795/MyComputerManager/master/MyComputerManager/Resources/openbox.svg"
           },
           {
-            "name": "ok-wuthering-waves",
-            "link": "https://github.com/ok-oldking/ok-wuthering-waves",
+            "name": "RevitLookup",
+            "link": "https://github.com/lookup-foundation/RevitLookup",
             "tag": "WDM",
             "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/ok-wuthering-waves.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/ok-oldking/ok-wuthering-waves/master/icons/icon.png"
-          },
-          {
-            "name": "Pakko",
-            "link": "https://github.com/pakkoapp-oss/pakko",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/pakko.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/pakkoapp-oss/pakko/refs/heads/main/src/Archiver.App/Assets/StoreLogo.png"
-          },
-          {
-            "name": "Photos Backup",
-            "link": "https://github.com/ayush5harma/google-photos-backup",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/photos-backup.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/ayush5harma/google-photos-backup/refs/heads/main/Android/app/src/main/res/drawable-night/app_icon.png"
-          },
-          {
-            "name": "Plotree",
-            "link": "https://github.com/Htkym/Plotree",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/plotree.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Htkym/Plotree/refs/heads/main/src/Plotree/Assets/StoreLogo.png"
-          },
-          {
-            "name": "QNote",
-            "link": "https://github.com/Mr-Second/QNote",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/qnote.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Mr-Second/QNote/refs/heads/main/src/QNote/Assets/StoreLogo.png"
-          },
-          {
-            "name": "Reframe",
-            "link": "https://github.com/shuiandy/Reframe",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/reframe.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/shuiandy/Reframe/refs/heads/main/Assets/reframe.ico"
-          },
-          {
-            "name": "Sefirah",
-            "link": "https://github.com/shrimqy/Sefirah",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/sefirah.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/shrimqy/Sefirah/master/dist/icons/256x256/com.castle.sefirah.png"
-          },
-          {
-            "name": "SilverMation",
-            "link": "https://github.com/GID0317/SilverMation",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/silvermation.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/GID0317/SilverMation/refs/heads/main/Source/Assets/IMG_SilverMation_Icon.png"
-          },
-          {
-            "name": "Siraj",
-            "link": "https://github.com/TheVeryStarlk/Siraj",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/siraj.webp",
-            "original_logo_url": "https://store-images.s-microsoft.com/image/apps.45843.13837622056252294.56c0e2ec-6d68-4369-8556-828e66b22c6b.2de81eb6-556c-496b-920e-2d2c261dec55?h=102"
-          },
-          {
-            "name": "SlidePace",
-            "link": "https://github.com/hongjiapeng/SlidePace",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/slidepace.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/hongjiapeng/SlidePace/refs/heads/main/src/SlidePace.App/Assets/StoreLogo.png"
-          },
-          {
-            "name": "Smoove 2.0",
-            "link": "https://github.com/starkovskypro-code/Smoove-2.0",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/smoove-2-0.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/starkovskypro-code/Smoove-2.0/refs/heads/main/assets/branding/Smoove-128.png"
-          },
-          {
-            "name": "Snap Hutao Remastered",
-            "link": "https://github.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/snap-hutao-remastered.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/SnapHutaoRemasteringProject/Snap.Hutao.Remastered/main/res/HutaoLogo/HutaoIcon2.png"
-          },
-          {
-            "name": "SpanFinder",
-            "link": "https://github.com/LumiBearStudio/SpanFinder",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/spanfinder.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/LumiBearStudio/SpanFinder/refs/heads/main/src/Span/Span/Assets/Onboarding/app-icon.png"
-          },
-          {
-            "name": "Starlight GUI",
-            "link": "https://github.com/OpenStarlight/StarlightGUI",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/starlight-gui.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/OpenStarlight/StarlightGUI/refs/heads/master/StarlightGUI/Assets/Starlight.png"
-          },
-          {
-            "name": "StarRailOneDragon",
-            "link": "https://github.com/OneDragon-Anything/StarRailOneDragon",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/starrailonedragon.webp",
-            "original_logo_url": "https://avatars.githubusercontent.com/u/186776212?v=4"
-          },
-          {
-            "name": "Starshot",
-            "link": "https://github.com/loliri/Starshot",
-            "tag": "WDM",
-            "tags": [
-              "WDM"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/starshot.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/loliri/Starshot/refs/heads/main/src/logo.png"
-          },
-          {
-            "name": "Starward",
-            "link": "https://github.com/Scighost/Starward",
-            "tag": "WDA",
-            "tags": [
+              "WDM",
               "WDA"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/starward.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Scighost/Starward/main/src/logo.ico"
+            "logo_url": "/assets/apps/revitlookup.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/lookup-foundation/RevitLookup/develop/source/RevitLookup.UI.Framework/Resources/Images/ProductIcon.png"
           },
           {
-            "name": "Symbolic11",
-            "link": "https://github.com/Benisgo/Symbolic11",
+            "name": "RoomRelay",
+            "link": "https://github.com/guicn555/RoomRelay",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/symbolic11.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Benisgo/Symbolic11/master/Assets/sym11-icon-256.png"
+            "logo_url": "/assets/apps/roomrelay.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/guicn555/RoomRelay/main/csharp/src/SonosStreaming.App/Assets/roomrelay-mark.png"
           },
           {
-            "name": "SyncClipboard",
-            "link": "https://github.com/Jeric-X/SyncClipboard",
+            "name": "Saku Overclock",
+            "link": "https://github.com/Erruar/Saku-Overclock",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/syncclipboard.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Jeric-X/SyncClipboard/master/build/linux/icons/icon.svg"
+            "logo_url": "/assets/apps/saku-overclock.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Erruar/Saku-Overclock/master/Saku%20Overclock/Assets/LockScreenLogo.scale-200.png"
           },
           {
-            "name": "Tailscale Client",
-            "link": "https://github.com/uwu/tailscale-client",
+            "name": "Sakura Launcher GUI",
+            "link": "https://github.com/PiDanShouRouZhouXD/Sakura_Launcher_GUI",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/tailscale-client.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/uwu/tailscale-client/main/Assets/Icons/AppIconBase-Dark.png"
+            "logo_url": "/assets/apps/sakura-launcher-gui.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/PiDanShouRouZhouXD/Sakura_Launcher_GUI/main/icon.ico"
           },
           {
-            "name": "TaskbarGroupsFluent",
-            "link": "https://github.com/Mun1to/TaskbarGroupsFluent",
+            "name": "SCSKiller",
+            "link": "https://github.com/BlueHeisenberg/SCSKiller",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/taskbargroupsfluent.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Mun1to/TaskbarGroupsFluent/main/brand/logo.png"
+            "logo_url": "/assets/apps/scskiller.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/BlueHeisenberg/SCSKiller/main/.github/assets/logo.png"
           },
           {
-            "name": "Tiny Tracker",
-            "link": "https://github.com/Bikuuuu/tiny-tracker",
-            "tag": "WDA",
+            "name": "Services Manager",
+            "link": "https://github.com/sky22333/services",
+            "tag": "WDM",
             "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/services-manager.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/sky22333/services/main/ServicesApp/Assets/icon.ico"
+          },
+          {
+            "name": "Simple Binance Crypto Charts",
+            "link": "https://github.com/uponatime2019/SimpleBinanceCryptoCharts",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/simple-binance-crypto-charts.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/SimpleBinanceCryptoCharts/main/Assets/AppIcon.ico"
+          },
+          {
+            "name": "Simple SQL Client",
+            "link": "https://github.com/uponatime2019/SimpleSQLClient",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/simple-sql-client.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/SimpleSQLClient/main/Assets/AppIcon.ico"
+          },
+          {
+            "name": "Sleepy Client",
+            "link": "https://github.com/RinLit-233-shiroko/sleepy-client",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/sleepy-client.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/RinLit-233-shiroko/sleepy-client/master/assets/images/favicon.png"
+          },
+          {
+            "name": "Stack Solver",
+            "link": "https://github.com/VladM7/Stack-Solver",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/stack-solver.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/VladM7/Stack-Solver/main/stacksolverlogo.png"
+          },
+          {
+            "name": "Stress Relief Coloring Book",
+            "link": "https://github.com/uponatime2019/NewColoringbook",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/stress-relief-coloring-book.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/NewColoringbook/main/Assets/AppIcon.ico"
+          },
+          {
+            "name": "Super Media Suites",
+            "link": "https://github.com/uponatime2019/SuperMediaSuites",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/super-media-suites.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/SuperMediaSuites/main/Assets/AppIcon.ico"
+          },
+          {
+            "name": "ThreeFingerDragOnWindows",
+            "link": "https://github.com/ClementGre/ThreeFingerDragOnWindows",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/threefingerdragonwindows.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/ClementGre/ThreeFingerDragOnWindows/main/ThreeFingerDragOnWindows/Assets/LargeTile.scale-200.png"
+          },
+          {
+            "name": "TiviIPTVPlayer",
+            "link": "https://github.com/uponatime2019/TiviIPTVPlayer",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/tiviiptvplayer.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/TiviIPTVPlayer/main/Assets/AppIcon.ico"
+          },
+          {
+            "name": "UFCase",
+            "link": "https://github.com/seven-mile/UFCase",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/ufcase.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/seven-mile/UFCase/main/UFCase/Assets/LargeTile.scale-200.png"
+          },
+          {
+            "name": "Universal x86 Tuning Utility",
+            "link": "https://github.com/JamesCJ60/Universal-x86-Tuning-Utility",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/universal-x86-tuning-utility.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/JamesCJ60/Universal-x86-Tuning-Utility/master/Universal%20x86%20Tuning%20Utility/Assets/applicationIcon-256.png"
+          },
+          {
+            "name": "VideoCaptioner",
+            "link": "https://github.com/WEIFENG2333/VideoCaptioner",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/videocaptioner.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/WEIFENG2333/VideoCaptioner/master/docs/images/logo.png"
+          },
+          {
+            "name": "WaveTools",
+            "link": "https://github.com/JamXi233/WaveTools",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
               "WDA"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/tiny-tracker.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/Bikuuuu/tiny-tracker/refs/heads/main/assets/icon/generated/app-64.png"
+            "logo_url": "/assets/apps/wavetools.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/JamXi233/WaveTools/main/WaveTools/Imgs/Logo.png"
           },
           {
-            "name": "TranslateWithDictCC",
-            "link": "https://github.com/chausner/TranslateWithDictCC",
+            "name": "Win Power ToolBox",
+            "link": "https://github.com/uponatime2019/WinPowerToolBox",
             "tag": "WD",
             "tags": [
               "WD"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/translatewithdictcc.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/chausner/TranslateWithDictCC/refs/heads/master/TranslateWithDictCC (Package)/Assets/StoreLogo.scale-150.png"
+            "logo_url": "/assets/apps/win-power-toolbox.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/WinPowerToolBox/main/Assets/AppIcon.ico"
           },
           {
-            "name": "UnityPackage Extractor",
-            "link": "https://github.com/SamarthMP/unitypackage-extractor",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/unitypackage-extractor.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/SamarthMP/unitypackage-extractor/refs/heads/main/Assets/favicon.png"
-          },
-          {
-            "name": "UWin",
-            "link": "https://github.com/bnsware/UWin",
-            "tag": "WD",
-            "tags": [
-              "WD"
-            ],
-            "price": "FOSS",
-            "logo_url": "/assets/apps/uwin.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/bnsware/UWin/refs/heads/main/kaynak/UWin.Uygulama/Varliklar/uwin-64.png"
-          },
-          {
-            "name": "VoxRack",
-            "link": "https://github.com/vpainer/voxrack",
+            "name": "WinDevUtility",
+            "link": "https://github.com/avikeid2007/WinDev-Utility",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/voxrack.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/vpainer/voxrack/refs/heads/main/docs/images/icon.png"
+            "logo_url": "/assets/apps/windevutility.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/avikeid2007/WinDev-Utility/master/src/UWP/WinDevUtility/Assets/Square44x44Logo.altform-unplated_targetsize-256.png"
           },
           {
-            "name": "Win Folder Monitor",
-            "link": "https://github.com/uponatime2019/WinFolderMonitor",
+            "name": "WinScreenBrightness",
+            "link": "https://github.com/uponatime2019/WinScreenBrightness",
             "tag": "WD",
             "tags": [
               "WD"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/win-folder-monitor.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/WinFolderMonitor/refs/heads/main/Assets/StoreLogo.png"
+            "logo_url": "/assets/apps/winscreenbrightness.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/WinScreenBrightness/main/Assets/AppIcon.ico"
           },
           {
-            "name": "ZenlessZoneZero-OneDragon",
-            "link": "https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon",
+            "name": "WinWidgetDock",
+            "link": "https://github.com/uponatime2019/WinWidgetDock",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/winwidgetdock.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/WinWidgetDock/main/Assets/AppIcon.ico"
+          },
+          {
+            "name": "WSL Container Desktop",
+            "link": "https://github.com/mhackermsft/wslcontainerdesktop",
             "tag": "WDM",
             "tags": [
               "WDM"
             ],
             "price": "FOSS",
-            "logo_url": "/assets/apps/zenlesszonezero-onedragon.webp",
-            "original_logo_url": "https://raw.githubusercontent.com/OneDragon-Anything/ZenlessZoneZero-OneDragon/main/.github/image/ellen.png"
+            "logo_url": "/assets/apps/wsl-container-desktop.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/mhackermsft/wslcontainerdesktop/main/src/WslContainerDesktop/Assets/StoreLogo.png"
+          },
+          {
+            "name": "WSL Toolbox",
+            "link": "https://github.com/FalconNL93/WslToolbox",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/wsl-toolbox.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/FalconNL93/WslToolbox/master/WslToolbox.Msix/Images/Square150x150Logo.scale-200.png"
+          },
+          {
+            "name": "XJTUToolBox",
+            "link": "https://github.com/yan-xiaoo/XJTUToolBox",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/xjtutoolbox.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/yan-xiaoo/XJTUToolBox/main/assets/icons/main_icon.ico"
+          },
+          {
+            "name": "ZenlessTools",
+            "link": "https://github.com/JamXi233/ZenlessTools",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/zenlesstools.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/JamXi233/ZenlessTools/main/ZenlessTools/Assets/LargeTile.scale-150.png"
+          },
+          {
+            "name": "ZenNotes",
+            "link": "https://github.com/rohankishore/ZenNotes",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/zennotes.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/rohankishore/ZenNotes/main/icon.png"
           }
         ]
       }
@@ -1257,6 +1398,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/romanowsky-stain-slide-analyzer.webp",
             "original_logo_url": "https://raw.githubusercontent.com/h-ch22/RomanowskyStainSlideAnalyzer_Windows/main/RomanowskyStainSlideAnalyzer/Assets/StoreLogo.scale-150.png"
+          },
+          {
+            "name": "Sakura Launcher GUI",
+            "link": "https://github.com/PiDanShouRouZhouXD/Sakura_Launcher_GUI",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/sakura-launcher-gui.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/PiDanShouRouZhouXD/Sakura_Launcher_GUI/main/icon.ico"
           },
           {
             "name": "Sodalite",
@@ -2015,6 +2167,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.55756.14090227034701259.656857ea-1f6f-4d31-918c-ecd5a4b612c3.6aa6a0ed-3716-46d1-92df-984590060956?h=115"
           },
           {
+            "name": "ExHyperV",
+            "link": "https://github.com/Justsenger/ExHyperV",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/exhyperv.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Justsenger/ExHyperV/main/img/logo.png"
+          },
+          {
             "name": "EzGit",
             "link": "https://github.com/uponatime2019/EzGit",
             "tag": "WD",
@@ -2057,6 +2220,17 @@
             "price": "Free",
             "logo_url": "/assets/apps/fluent-devtools.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.12968.14328729455196954.3a978e0b-6269-4cd9-a489-a247b6a0d81d.c92eaad0-ea5c-4fa0-bd07-48ccc02166a7?h=102"
+          },
+          {
+            "name": "Fluent Icon Finder",
+            "link": "https://github.com/TheJoeFin/Draw-Symbol-Finder",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/fluent-icon-finder.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/TheJoeFin/Draw-Symbol-Finder/main/Assets/Icon-Draw.png"
           },
           {
             "name": "FluentHub",
@@ -2246,6 +2420,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/MidnightCrowing/KeyPocket/main/KeyPocket.UI/Assets/StoreLogo.scale-150.png"
           },
           {
+            "name": "LogLens - Agent Session Viewer",
+            "link": "https://apps.microsoft.com/detail/9pdb5kdqgw91",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "Free",
+            "logo_url": "/assets/apps/loglens-agent-session-viewer.webp",
+            "original_logo_url": "https://store-images.s-microsoft.com/image/apps.17393.14153368627499340.3841fd65-ccb9-4c46-b6df-0170eb34a881.2a703213-6c78-4358-b18b-e52c5af166a6?h=115"
+          },
+          {
             "name": "Loopback Manager",
             "link": "https://github.com/Richasy/LoopbackManager.Desktop",
             "tag": "WDM",
@@ -2399,6 +2584,18 @@
             "original_logo_url": "https://raw.githubusercontent.com/avikeid2007/Retro-C-IDE/refs/heads/main/Assets/logo.png"
           },
           {
+            "name": "RevitLookup",
+            "link": "https://github.com/lookup-foundation/RevitLookup",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/revitlookup.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/lookup-foundation/RevitLookup/develop/source/RevitLookup.UI.Framework/Resources/Images/ProductIcon.png"
+          },
+          {
             "name": "Sandboxer",
             "link": "https://github.com/Slluxx/Sandboxer",
             "tag": "WDM",
@@ -2441,6 +2638,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/sftp-explorer.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.4123.14008205475075391.aa1f40d1-19da-4686-b1c3-9cf44590bded.eb283be8-26ea-4267-8b64-e2fda9d50167?h=102"
+          },
+          {
+            "name": "Simple SQL Client",
+            "link": "https://github.com/uponatime2019/SimpleSQLClient",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/simple-sql-client.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/SimpleSQLClient/main/Assets/AppIcon.ico"
           },
           {
             "name": "sshift",
@@ -2519,6 +2727,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.18718.14175539784677696.01fc483b-87c4-4418-88be-b1d08ca02b73.4129fc9e-07bd-4564-ac76-44776245ad8e?h=210"
           },
           {
+            "name": "WinDevUtility",
+            "link": "https://github.com/avikeid2007/WinDev-Utility",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/windevutility.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/avikeid2007/WinDev-Utility/master/src/UWP/WinDevUtility/Assets/Square44x44Logo.altform-unplated_targetsize-256.png"
+          },
+          {
             "name": "WinQEMU",
             "link": "https://github.com/troposteff/WinQEMU",
             "tag": "WD",
@@ -2570,6 +2789,28 @@
               "WDM"
             ],
             "price": "FOSS"
+          },
+          {
+            "name": "WSL Container Desktop",
+            "link": "https://github.com/mhackermsft/wslcontainerdesktop",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/wsl-container-desktop.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/mhackermsft/wslcontainerdesktop/main/src/WslContainerDesktop/Assets/StoreLogo.png"
+          },
+          {
+            "name": "WSL Toolbox",
+            "link": "https://github.com/FalconNL93/WslToolbox",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/wsl-toolbox.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/FalconNL93/WslToolbox/master/WslToolbox.Msix/Images/Square150x150Logo.scale-200.png"
           },
           {
             "name": "WUC Gallery App",
@@ -2836,6 +3077,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/kirrishima/FluentDownloader/main/src/FluentDownloader/Assets/StoreLogo.scale-150.png"
           },
           {
+            "name": "FluentYTDL",
+            "link": "https://github.com/SakuraForgot/FluentYTDL",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/fluentytdl.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/SakuraForgot/FluentYTDL/main/assets/logo_128.png"
+          },
+          {
             "name": "Genshin Music Studio",
             "link": "https://github.com/Akinome/genshin-music-studio",
             "tag": "WD",
@@ -3030,6 +3282,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.13526.13831473991175537.84aa17b1-7beb-411b-9abe-649a4e706a0a.8a2426b6-f953-4ac0-8a35-5d446d8b576b?h=115"
           },
           {
+            "name": "IwaraTool",
+            "link": "https://github.com/Moeary/IwaraTool",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/iwaratool.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Moeary/IwaraTool/main/docs/iwaratool_logo.png"
+          },
+          {
             "name": "Kemono Downloader GUI",
             "link": "https://github.com/ZIDOUZI/Kemono-Downloader-GUI",
             "tag": "WDM",
@@ -3214,6 +3477,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/wthit.webp",
             "original_logo_url": "https://raw.githubusercontent.com/SaberCris24/WTHIT/main/Assets/StoreLogo.scale-150.png"
+          },
+          {
+            "name": "XJTUToolBox",
+            "link": "https://github.com/yan-xiaoo/XJTUToolBox",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/xjtutoolbox.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/yan-xiaoo/XJTUToolBox/main/assets/icons/main_icon.ico"
           },
           {
             "name": "Zhouyi.WinUI3",
@@ -3543,6 +3817,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.25651.14031027923260198.3e26a76d-a21e-4eb8-9932-795307ea9bb4.4570d210-7cc0-434d-bf35-23ad151506b6?h=102"
           },
           {
+            "name": "Simple Binance Crypto Charts",
+            "link": "https://github.com/uponatime2019/SimpleBinanceCryptoCharts",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/simple-binance-crypto-charts.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/SimpleBinanceCryptoCharts/main/Assets/AppIcon.ico"
+          },
+          {
             "name": "Stock Watcher - WidBar Widget",
             "link": "https://apps.microsoft.com/detail/9mwk4x22ql4m",
             "tag": "WDA",
@@ -3745,6 +4030,17 @@
             "original_logo_url": "https://cdn.discordapp.com/icons/1099468797410283540/2e16508db4c85af5b3884ca3daa204fb.png?size=64"
           },
           {
+            "name": "Blue Archive Auto Script",
+            "link": "https://github.com/pur1fying/blue_archive_auto_script",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/blue-archive-auto-script.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/pur1fying/blue_archive_auto_script/master/deploy/installer/logo.ico"
+          },
+          {
             "name": "Citrine",
             "link": "https://github.com/CitrineLauncher/Citrine",
             "tag": "WDM",
@@ -3798,6 +4094,18 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/ericgamelauncher.webp",
             "original_logo_url": "https://raw.githubusercontent.com/EricZhang233/EricGameLauncher/refs/heads/master/ico.ico"
+          },
+          {
+            "name": "FufuLauncher",
+            "link": "https://github.com/FufuLauncher/FufuLauncher",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/fufulauncher.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/FufuLauncher/FufuLauncher/master/FufuLauncher/Assets/icon.png"
           },
           {
             "name": "Game Calender",
@@ -3897,6 +4205,17 @@
             "price": "Free",
             "logo_url": "/assets/apps/mcskinn.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.32633.14039067293999824.1b2711e7-c92a-47ba-afee-109ef342f786.7bef29b3-1ee6-4989-af37-c778c7f55a9f?h=210"
+          },
+          {
+            "name": "MCSL 2",
+            "link": "https://github.com/MCSLTeam/MCSL2",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/mcsl-2.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/MCSLTeam/MCSL2/master/Icons/MCSL2.png"
           },
           {
             "name": "Mixplay for Mixer",
@@ -4042,6 +4361,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/AmirMahdaviAM/SCSHub/08c79d1505b499eeedd300ffe895bdc44f2bbf2f/scshub/resource/vector/logo_color.svg"
           },
           {
+            "name": "SCSKiller",
+            "link": "https://github.com/BlueHeisenberg/SCSKiller",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/scskiller.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/BlueHeisenberg/SCSKiller/main/.github/assets/logo.png"
+          },
+          {
             "name": "SilverMation",
             "link": "https://github.com/GID0317/SilverMation",
             "tag": "WDM",
@@ -4130,6 +4460,18 @@
             "original_logo_url": "https://raw.githubusercontent.com/VersatileProject/Versatile/refs/heads/master/Versatile/Assets/WindowIcon.ico"
           },
           {
+            "name": "WaveTools",
+            "link": "https://github.com/JamXi233/WaveTools",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/wavetools.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/JamXi233/WaveTools/main/WaveTools/Imgs/Logo.png"
+          },
+          {
             "name": "XianYuLauncher",
             "link": "https://apps.microsoft.com/detail/9pcnpgl7j6ks",
             "tag": "WDM",
@@ -4139,6 +4481,18 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/xianyulauncher.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.1137.14170299094211257.1da562e4-47ed-41ef-b414-124f85d91a02.90919a59-4573-4e44-9653-b930a0837b44?h=102"
+          },
+          {
+            "name": "ZenlessTools",
+            "link": "https://github.com/JamXi233/ZenlessTools",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/zenlesstools.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/JamXi233/ZenlessTools/main/ZenlessTools/Assets/LargeTile.scale-150.png"
           },
           {
             "name": "ZenlessZoneZero-OneDragon",
@@ -5272,6 +5626,29 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.24300.13635246952707088.01fc361a-e34d-499e-89ad-282a229932ac.d0a3aa2d-e92a-4679-8447-dab29d5f096d?h=115"
           },
           {
+            "name": "AF Media Bar",
+            "link": "https://github.com/Fervent-Tempo/AF-Media-Bar",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/af-media-bar.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Fervent-Tempo/AF-Media-Bar/main/src/AFMediaBar/Assets/icon_dark.png"
+          },
+          {
+            "name": "AMWin-RichPresence",
+            "link": "https://github.com/PKBeam/AMWin-RP",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/amwin-richpresence.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/PKBeam/AMWin-RP/master/AMWin-RichPresence/Resources/AMWinRP-128x.png"
+          },
+          {
             "name": "Audio Converter - ModernMedia Converter",
             "link": "https://apps.microsoft.com/detail/9nn2zc496lw5",
             "tag": "WDM",
@@ -5292,6 +5669,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/audio-router.webp",
             "original_logo_url": "https://raw.githubusercontent.com/ShortDevelopment/Audio-Router/main/src/Assets/Square150x150Logo.scale-200.png"
+          },
+          {
+            "name": "AZMusicDownloader",
+            "link": "https://github.com/AZ-Studio-2023/AZMusicDownloader",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/azmusicdownloader.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/AZ-Studio-2023/AZMusicDownloader/main/resource/logo.png"
           },
           {
             "name": "BetterLyrics",
@@ -5391,6 +5779,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/resonant-tuner.webp",
             "original_logo_url": "https://raw.githubusercontent.com/tinodo/Resonant-Tuner/refs/heads/main/docs/assets/icon.png"
+          },
+          {
+            "name": "RoomRelay",
+            "link": "https://github.com/guicn555/RoomRelay",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/roomrelay.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/guicn555/RoomRelay/main/csharp/src/SonosStreaming.App/Assets/roomrelay-mark.png"
           },
           {
             "name": "TagEditor",
@@ -5884,6 +6283,29 @@
             "icon_url": null,
             "apps": [
               {
+                "name": "AF Media Bar",
+                "link": "https://github.com/Fervent-Tempo/AF-Media-Bar",
+                "tag": "WDM",
+                "tags": [
+                  "WDM",
+                  "WDA"
+                ],
+                "price": "FOSS",
+                "logo_url": "/assets/apps/af-media-bar.webp",
+                "original_logo_url": "https://raw.githubusercontent.com/Fervent-Tempo/AF-Media-Bar/main/src/AFMediaBar/Assets/icon_dark.png"
+              },
+              {
+                "name": "AMWin-RichPresence",
+                "link": "https://github.com/PKBeam/AMWin-RP",
+                "tag": "WDM",
+                "tags": [
+                  "WDM"
+                ],
+                "price": "FOSS",
+                "logo_url": "/assets/apps/amwin-richpresence.webp",
+                "original_logo_url": "https://raw.githubusercontent.com/PKBeam/AMWin-RP/master/AMWin-RichPresence/Resources/AMWinRP-128x.png"
+              },
+              {
                 "name": "Audio Converter - ModernMedia Converter",
                 "link": "https://apps.microsoft.com/detail/9nn2zc496lw5",
                 "tag": "WDM",
@@ -5904,6 +6326,17 @@
                 "price": "FOSS",
                 "logo_url": "/assets/apps/audio-router.webp",
                 "original_logo_url": "https://raw.githubusercontent.com/ShortDevelopment/Audio-Router/main/src/Assets/Square150x150Logo.scale-200.png"
+              },
+              {
+                "name": "AZMusicDownloader",
+                "link": "https://github.com/AZ-Studio-2023/AZMusicDownloader",
+                "tag": "WDM",
+                "tags": [
+                  "WDM"
+                ],
+                "price": "FOSS",
+                "logo_url": "/assets/apps/azmusicdownloader.webp",
+                "original_logo_url": "https://raw.githubusercontent.com/AZ-Studio-2023/AZMusicDownloader/main/resource/logo.png"
               },
               {
                 "name": "BetterLyrics",
@@ -6003,6 +6436,17 @@
                 "price": "FOSS",
                 "logo_url": "/assets/apps/resonant-tuner.webp",
                 "original_logo_url": "https://raw.githubusercontent.com/tinodo/Resonant-Tuner/refs/heads/main/docs/assets/icon.png"
+              },
+              {
+                "name": "RoomRelay",
+                "link": "https://github.com/guicn555/RoomRelay",
+                "tag": "WDM",
+                "tags": [
+                  "WDM"
+                ],
+                "price": "FOSS",
+                "logo_url": "/assets/apps/roomrelay.webp",
+                "original_logo_url": "https://raw.githubusercontent.com/guicn555/RoomRelay/main/csharp/src/SonosStreaming.App/Assets/roomrelay-mark.png"
               },
               {
                 "name": "TagEditor",
@@ -6838,6 +7282,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.22793.13743415585896312.01fbe17f-1955-4fe9-b88e-b4c21302b294.69f5170a-dafd-46b6-8d6a-28ca1c6818b5?h=307"
           },
           {
+            "name": "TiviIPTVPlayer",
+            "link": "https://github.com/uponatime2019/TiviIPTVPlayer",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/tiviiptvplayer.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/TiviIPTVPlayer/main/Assets/AppIcon.ico"
+          },
+          {
             "name": "Any-Video Converter",
             "link": "https://apps.microsoft.com/detail/9p3wgnxq800d",
             "tag": "WDM",
@@ -6871,6 +7326,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.59944.13728235451650245.692aec34-6a81-44af-8c4d-6916959c10c7.30ce08c9-2437-4f27-bf84-b317fc82b361?h=210"
           },
           {
+            "name": "Fairy Kekkai Workshop",
+            "link": "https://github.com/Fairy-Oracle-Sanctuary/Fairy-Kekkai-Workshop",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/fairy-kekkai-workshop.webp",
+            "original_logo_url": "https://avatars.githubusercontent.com/u/207427828?v=4"
+          },
+          {
             "name": "HEVC AV1 - Codec Hub",
             "link": "https://apps.microsoft.com/detail/9n3gt3hbvk5x",
             "tag": "WDM",
@@ -6902,6 +7368,17 @@
             "price": "Paid",
             "logo_url": "/assets/apps/quick-editor.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.30542.14273808665155600.81bfd87c-33d9-4fb0-b554-93ffa7191dde.f432f35d-70d8-442a-b059-d6e50d766b57?h=102"
+          },
+          {
+            "name": "Super Media Suites",
+            "link": "https://github.com/uponatime2019/SuperMediaSuites",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/super-media-suites.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/SuperMediaSuites/main/Assets/AppIcon.ico"
           },
           {
             "name": "VideoCropper",
@@ -7243,6 +7720,17 @@
                 "price": "Free",
                 "logo_url": "/assets/apps/reborn-live.webp",
                 "original_logo_url": "https://store-images.s-microsoft.com/image/apps.22793.13743415585896312.01fbe17f-1955-4fe9-b88e-b4c21302b294.69f5170a-dafd-46b6-8d6a-28ca1c6818b5?h=307"
+              },
+              {
+                "name": "TiviIPTVPlayer",
+                "link": "https://github.com/uponatime2019/TiviIPTVPlayer",
+                "tag": "WD",
+                "tags": [
+                  "WD"
+                ],
+                "price": "FOSS",
+                "logo_url": "/assets/apps/tiviiptvplayer.webp",
+                "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/TiviIPTVPlayer/main/Assets/AppIcon.ico"
               }
             ]
           },
@@ -7284,6 +7772,17 @@
                 "original_logo_url": "https://store-images.s-microsoft.com/image/apps.59944.13728235451650245.692aec34-6a81-44af-8c4d-6916959c10c7.30ce08c9-2437-4f27-bf84-b317fc82b361?h=210"
               },
               {
+                "name": "Fairy Kekkai Workshop",
+                "link": "https://github.com/Fairy-Oracle-Sanctuary/Fairy-Kekkai-Workshop",
+                "tag": "WDM",
+                "tags": [
+                  "WDM"
+                ],
+                "price": "FOSS",
+                "logo_url": "/assets/apps/fairy-kekkai-workshop.webp",
+                "original_logo_url": "https://avatars.githubusercontent.com/u/207427828?v=4"
+              },
+              {
                 "name": "HEVC AV1 - Codec Hub",
                 "link": "https://apps.microsoft.com/detail/9n3gt3hbvk5x",
                 "tag": "WDM",
@@ -7315,6 +7814,17 @@
                 "price": "Paid",
                 "logo_url": "/assets/apps/quick-editor.webp",
                 "original_logo_url": "https://store-images.s-microsoft.com/image/apps.30542.14273808665155600.81bfd87c-33d9-4fb0-b554-93ffa7191dde.f432f35d-70d8-442a-b059-d6e50d766b57?h=102"
+              },
+              {
+                "name": "Super Media Suites",
+                "link": "https://github.com/uponatime2019/SuperMediaSuites",
+                "tag": "WD",
+                "tags": [
+                  "WD"
+                ],
+                "price": "FOSS",
+                "logo_url": "/assets/apps/super-media-suites.webp",
+                "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/SuperMediaSuites/main/Assets/AppIcon.ico"
               },
               {
                 "name": "VideoCropper",
@@ -7395,6 +7905,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.14382.14414253644954848.8bfe47e8-6897-40f7-bf7b-45b1cf13d915.067417f3-24b8-4fd0-b56f-cf05ec250e28?h=210"
           },
           {
+            "name": "iPaint",
+            "link": "https://github.com/uponatime2019/iPaint",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/ipaint.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/iPaint/main/Assets/AppIcon.ico"
+          },
+          {
             "name": "PageFabric",
             "link": "https://apps.microsoft.com/detail/9p170799pf3q",
             "tag": "WD",
@@ -7437,6 +7958,17 @@
             "price": "Free",
             "logo_url": "/assets/apps/sketchable-plus.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.60963.13865246053716349.98a7e584-656e-4697-8a85-c8d2ebcaf976.7a6c0a6e-7af9-43ef-bd8d-f02bea11a74e?h=115"
+          },
+          {
+            "name": "Stress Relief Coloring Book",
+            "link": "https://github.com/uponatime2019/NewColoringbook",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/stress-relief-coloring-book.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/NewColoringbook/main/Assets/AppIcon.ico"
           },
           {
             "name": "Summer",
@@ -8028,6 +8560,17 @@
             "price": "Paid",
             "logo_url": "/assets/apps/xiyi-markdown-editor.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.18264.14133954092781783.092b8e7d-33bb-4d34-95b4-2697e79e247c.1f365f6f-8585-4d41-a82b-8e9eecb412b2?h=102"
+          },
+          {
+            "name": "ZenNotes",
+            "link": "https://github.com/rohankishore/ZenNotes",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/zennotes.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/rohankishore/ZenNotes/main/icon.png"
           }
         ]
       },
@@ -8225,6 +8768,18 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.33078.14362938074060564.073bfc5a-8080-4e18-85bf-82f7946d6b99.7f59788b-6d94-42ce-903b-e3fcece1c341?h=115"
           },
           {
+            "name": "AppGroup",
+            "link": "https://github.com/iandiv/AppGroup",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/appgroup.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/iandiv/AppGroup/master/AppGroup/AppGroup.png"
+          },
+          {
             "name": "aura",
             "link": "https://github.com/FahadBinHussain/aura",
             "tag": "WD",
@@ -8291,6 +8846,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.62577.13779182234214969.dc7958d2-20a4-4bfe-b929-bdce5d70bfe7.ad4ebf98-50a0-4629-b2dd-94d4c000a5de?h=115"
           },
           {
+            "name": "Bing Wallpaper",
+            "link": "https://apps.microsoft.com/detail/xpfp7f8rl7mb1w",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "Free",
+            "logo_url": "/assets/apps/bing-wallpaper.webp",
+            "original_logo_url": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHM0OYfiFeMI2p9MWie0CvL99U4GA1gf6_kayTt_kBblFwHwo8BW8JXlqfnYxKPmmBeRogmRf1xieDJbrjYvc.hUvqidNQtgZY7VtoCuVM31yHuXAFled7S57y0AM6xx1XMCHawJ_zIRORv7SCOGYUFs-&format=source&h=115"
+          },
+          {
             "name": "Binggo Wallpapers",
             "link": "https://github.com/hippieZhou/BinggoWallpapers",
             "tag": "WD",
@@ -8343,6 +8909,17 @@
             "price": "Paid",
             "logo_url": "/assets/apps/custom-folder-icon-changer.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.51590.14308753369152208.f7a93204-22e6-41a5-b7b6-f7c136ec2426.5c96f051-e258-43eb-ac75-1d628f783237?h=115"
+          },
+          {
+            "name": "DarkMode 2",
+            "link": "https://github.com/Lunova-Studio/DarkMode2",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/darkmode-2.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Lunova-Studio/DarkMode2/release/Resources/logo-new.ico"
           },
           {
             "name": "DeskBox",
@@ -8530,6 +9107,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/mica-for-everyone.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.53031.14085281341613502.a79488dd-3e3d-4ef1-a36c-d102193fbcf5.bfd24c02-3525-494e-a8c3-6789966c13de?h=170"
+          },
+          {
+            "name": "MotionWallpaper",
+            "link": "https://github.com/1114656/MotionWallpaper",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/motionwallpaper.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/1114656/MotionWallpaper/main/native/MotionWallpaper.App/Assets/motion-logo.png"
           },
           {
             "name": "Mouse Cursor Customizer",
@@ -8829,6 +9417,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/Abdelrhman-AK/WinPaletter/refs/heads/master/icon.png"
           },
           {
+            "name": "WinWidgetDock",
+            "link": "https://github.com/uponatime2019/WinWidgetDock",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/winwidgetdock.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/WinWidgetDock/main/Assets/AppIcon.ico"
+          },
+          {
             "name": "YASB GUI",
             "link": "https://github.com/amnweb/yasb-gui",
             "tag": "WD",
@@ -9035,6 +9634,29 @@
             "price": "Free",
             "logo_url": "/assets/apps/ink-workspace.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.15776.14525831200021957.8d309878-aa04-4a6d-9be2-fa864737e335.f3419176-1615-4e30-910f-03da49ede8f4?h=210"
+          },
+          {
+            "name": "Kanban Files",
+            "link": "https://github.com/TheJoeFin/kanban-files",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/kanban-files.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/TheJoeFin/kanban-files/master/KanbanFiles/Assets/Square150x150Logo.png"
+          },
+          {
+            "name": "Koncentro",
+            "link": "https://github.com/kun-codes/Koncentro",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/koncentro.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/kun-codes/Koncentro/main/assets/logo_256x256.png"
           },
           {
             "name": "LazyFish",
@@ -9354,6 +9976,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/spoo-me.webp",
             "original_logo_url": "https://raw.githubusercontent.com/spoo-me/spooWASDK/refs/heads/main/spooWASDK/Assets/StoreLogo.scale-150.png"
+          },
+          {
+            "name": "Stack Solver",
+            "link": "https://github.com/VladM7/Stack-Solver",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/stack-solver.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/VladM7/Stack-Solver/main/stacksolverlogo.png"
           },
           {
             "name": "StoryCAD",
@@ -9737,6 +10370,17 @@
         "icon_url": null,
         "apps": [
           {
+            "name": "AppControl Manager",
+            "link": "https://github.com/HotCakeX/Harden-Windows-Security",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/appcontrol-manager.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/HotCakeX/Harden-Windows-Security/main/AppControl%20Manager/Assets/StoreLogo.scale-400.png"
+          },
+          {
             "name": "CDPI UI",
             "link": "https://github.com/Storik4pro/cdpiui",
             "tag": "WDM",
@@ -10108,6 +10752,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/anemos.webp",
             "original_logo_url": "https://raw.githubusercontent.com/hockerschwan/Anemos/refs/heads/main/Anemos/Assets/WindowIcon.ico"
+          },
+          {
+            "name": "Diamond DiskMark And SMART",
+            "link": "https://github.com/uponatime2019/DiamondDiskMarkAndSMART",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/diamond-diskmark-and-smart.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/DiamondDiskMarkAndSMART/main/Assets/AppIcon.ico"
           },
           {
             "name": "Disk Info",
@@ -10549,6 +11204,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/sh0ckj0ckey/Flint/refs/heads/master/Flint3/Assets/Logos/flint_logo.png"
           },
           {
+            "name": "LiveCaptions Translator",
+            "link": "https://github.com/SakiRinn/LiveCaptions-Translator",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/livecaptions-translator.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/SakiRinn/LiveCaptions-Translator/master/src/LiveCaptions-Translator.ico"
+          },
+          {
             "name": "MagicTranslate: Simple translator",
             "link": "https://apps.microsoft.com/store/detail/magictranslate-simple-translator/9NGB2P0TSMBF",
             "tag": "WDM",
@@ -10614,6 +11280,17 @@
         "subheading": "",
         "apps": [
           {
+            "name": "AsrTools",
+            "link": "https://github.com/WEIFENG2333/AsrTools",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/asrtools.webp",
+            "original_logo_url": "https://avatars.githubusercontent.com/u/61730227?v=4"
+          },
+          {
             "name": "FastTranscribe",
             "link": "https://apps.microsoft.com/detail/9n6smgczrpcj",
             "tag": "WDA",
@@ -10623,6 +11300,17 @@
             "price": "Free",
             "logo_url": "/assets/apps/fasttranscribe.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.58518.14008007786500097.35cdfd18-78ed-41f1-a193-ad8271ffd6c0.53454e78-ae5b-4c27-8264-1a327650df1a?h=210"
+          },
+          {
+            "name": "VideoCaptioner",
+            "link": "https://github.com/WEIFENG2333/VideoCaptioner",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/videocaptioner.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/WEIFENG2333/VideoCaptioner/master/docs/images/logo.png"
           }
         ]
       }
@@ -10961,6 +11649,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/giankbr/beanotch-dock/refs/heads/main/src/BeanotchDock/Assets/BeanotchDock.ico"
           },
           {
+            "name": "Better Win Clipboard",
+            "link": "https://github.com/uponatime2019/BetterWinClipboard",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/better-win-clipboard.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/BetterWinClipboard/main/Assets/AppIcon.ico"
+          },
+          {
             "name": "Blip",
             "link": "https://blip.net/",
             "tag": "WDM",
@@ -11069,6 +11768,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/TheJoeFin/clipboard-inspector/refs/heads/main/clipboard-inspector/Assets/StoreLogo.scale-150.png"
           },
           {
+            "name": "Clipboard Next",
+            "link": "https://github.com/jamesmontemagno/clipboard-next",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/clipboard-next.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/jamesmontemagno/clipboard-next/main/windows/src/ClipboardNext.App/Assets/AppIcon-256.png"
+          },
+          {
             "name": "Clipboard Studio",
             "link": "https://apps.microsoft.com/detail/9nb8rb7pw40s",
             "tag": "WDM",
@@ -11124,6 +11834,18 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.14839.14450039381292224.12ad342b-7943-44a1-a4f1-8e88ad27f695.181351bc-647f-43ea-8b04-e6c969c35a25?h=115"
           },
           {
+            "name": "CompactGUI",
+            "link": "https://github.com/IridiumIO/CompactGUI",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/compactgui.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/IridiumIO/CompactGUI/master/CompactGUI/icon.ico"
+          },
+          {
             "name": "CompInfo",
             "link": "https://github.com/OceanCyanTech/CompInfo",
             "tag": "WD",
@@ -11144,6 +11866,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/conscript.webp",
             "original_logo_url": "https://raw.githubusercontent.com/sh0ckj0ckey/Conscripts/refs/heads/main/Conscripts/Assets/Manifest/StoreLogo.scale-150.png"
+          },
+          {
+            "name": "Context Menu Manager Plus",
+            "link": "https://github.com/PLFJY/ContextMenuMgr",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/context-menu-manager-plus.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/PLFJY/ContextMenuMgr/main/ContextMenuMgr.Frontend/Assets/AppIcon.png"
           },
           {
             "name": "CopyPaste",
@@ -11437,6 +12170,18 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/everything-toolbar.webp",
             "original_logo_url": "https://raw.githubusercontent.com/srwi/EverythingToolbar/develop/EverythingToolbar/Images/AppIcon.ico"
+          },
+          {
+            "name": "EverythingQuickSearch",
+            "link": "https://github.com/PinchToDebug/EverythingQuickSearch",
+            "tag": "WDM",
+            "tags": [
+              "WDM",
+              "WDA"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/everythingquicksearch.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/PinchToDebug/EverythingQuickSearch/master/EverythingQuickSearch/Icon/icon.ico"
           },
           {
             "name": "ewcalc",
@@ -11758,6 +12503,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.26150.14543723496923253.0a6fbd19-dc3a-412e-a09c-50092f74b3c8.c477545f-c66b-4924-8668-c42aa9e27617?h=102"
           },
           {
+            "name": "FormatMaster",
+            "link": "https://github.com/Gu-0312/FormatMaster-EN",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/formatmaster.webp",
+            "original_logo_url": "https://avatars.githubusercontent.com/u/126770449?v=4"
+          },
+          {
             "name": "Frequency Sound Generator",
             "link": "https://apps.microsoft.com/detail/9ngjl1pb8j9b",
             "tag": "WDM",
@@ -11954,6 +12710,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.63718.14572151260460027.4bd1ec49-745d-425c-979e-f986764eab11.07a3a17d-02a2-4839-80a1-5db66718cb32?h=115"
           },
           {
+            "name": "iPhoneMirror",
+            "link": "https://github.com/RayrenSX/iPhoneMirror",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/iphonemirror.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/RayrenSX/iPhoneMirror/main/src/App/Assets/iPhoneMirror.png"
+          },
+          {
             "name": "IRCameraView",
             "link": "https://github.com/Iemand005/IRCameraView",
             "tag": "WDM",
@@ -12071,6 +12838,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/lecture-countdown.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.44190.14585149597303550.9432d1d5-d8a4-4fe5-bcc5-abc8de7b978b.f7daa826-ba9b-4d5f-9979-bb2eb16fc1d0?h=115"
+          },
+          {
+            "name": "Lenovo Legion Toolkit",
+            "link": "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/lenovo-legion-toolkit.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/master/LenovoLegionToolkit.LampArray/Images/Square150x150Logo.scale-200.png"
           },
           {
             "name": "LinkRevealer - Reveal Actual URL",
@@ -12397,6 +13175,17 @@
               "WD"
             ],
             "price": "FOSS"
+          },
+          {
+            "name": "MyComputerManager",
+            "link": "https://github.com/1357310795/MyComputerManager",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/mycomputermanager.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/1357310795/MyComputerManager/master/MyComputerManager/Resources/openbox.svg"
           },
           {
             "name": "MyPhone",
@@ -13040,6 +13829,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/rayenghanmi/RyTuneX/refs/heads/main/Assets/StoreLogo.scale-150.png"
           },
           {
+            "name": "Saku Overclock",
+            "link": "https://github.com/Erruar/Saku-Overclock",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/saku-overclock.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/Erruar/Saku-Overclock/master/Saku%20Overclock/Assets/LockScreenLogo.scale-200.png"
+          },
+          {
             "name": "SATLI",
             "link": "https://github.com/GaBoron/SATLI",
             "tag": "WDM",
@@ -13139,6 +13939,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/Chr1st1anSzech/Service-Manager/refs/heads/master/Dienste-Verwaltung/src/Assets/icon.png"
           },
           {
+            "name": "Services Manager",
+            "link": "https://github.com/sky22333/services",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/services-manager.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/sky22333/services/main/ServicesApp/Assets/icon.ico"
+          },
+          {
             "name": "Shelf File Manager & Clipboard - Widbar Widget",
             "link": "https://apps.microsoft.com/detail/9p18qnl4tc4g",
             "tag": "WDA",
@@ -13214,6 +14025,17 @@
             "price": "Free",
             "logo_url": "/assets/apps/simplytools.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.46945.13878821011150440.8cfb6f53-dbe0-4261-a439-25053f826b38.78e93e2d-ab7f-4248-9417-7fb303c9b6ea?h=115"
+          },
+          {
+            "name": "Sleepy Client",
+            "link": "https://github.com/RinLit-233-shiroko/sleepy-client",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/sleepy-client.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/RinLit-233-shiroko/sleepy-client/master/assets/images/favicon.png"
           },
           {
             "name": "SlidePace",
@@ -13403,6 +14225,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/TheJoeFin/Text-Grab/refs/heads/main/Text-Grab-Package/Images/SmallTile.scale-200.png"
           },
           {
+            "name": "ThreeFingerDragOnWindows",
+            "link": "https://github.com/ClementGre/ThreeFingerDragOnWindows",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/threefingerdragonwindows.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/ClementGre/ThreeFingerDragOnWindows/main/ThreeFingerDragOnWindows/Assets/LargeTile.scale-200.png"
+          },
+          {
             "name": "ThrowObjectDetectionWinUI",
             "link": "https://github.com/0Kirby/ThrowObjectDetectionWinUI",
             "tag": "WDM",
@@ -13513,6 +14346,17 @@
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.60231.13754809869355785.21da9279-09c6-4fb8-a423-ccd21154be41.4342eae9-fe25-4466-a72c-f04811997a1a?h=115"
           },
           {
+            "name": "UFCase",
+            "link": "https://github.com/seven-mile/UFCase",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/ufcase.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/seven-mile/UFCase/main/UFCase/Assets/LargeTile.scale-200.png"
+          },
+          {
             "name": "Universal Analog Input",
             "link": "https://github.com/Ritonton/UniversalAnalogInput",
             "tag": "WDM",
@@ -13522,6 +14366,17 @@
             "price": "FOSS",
             "logo_url": "/assets/apps/universal-analog-input.webp",
             "original_logo_url": "https://raw.githubusercontent.com/Ritonton/UniversalAnalogInput/refs/heads/main/shared/assets/icon.ico"
+          },
+          {
+            "name": "Universal x86 Tuning Utility",
+            "link": "https://github.com/JamesCJ60/Universal-x86-Tuning-Utility",
+            "tag": "WDM",
+            "tags": [
+              "WDM"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/universal-x86-tuning-utility.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/JamesCJ60/Universal-x86-Tuning-Utility/master/Universal%20x86%20Tuning%20Utility/Assets/applicationIcon-256.png"
           },
           {
             "name": "UniversalConverter X",
@@ -13667,6 +14522,17 @@
             "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/WinLANTransfer/main/Assets/StoreLogo.png"
           },
           {
+            "name": "Win Power ToolBox",
+            "link": "https://github.com/uponatime2019/WinPowerToolBox",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/win-power-toolbox.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/WinPowerToolBox/main/Assets/AppIcon.ico"
+          },
+          {
             "name": "Windows Hot Corners",
             "link": "https://github.com/bwya77/Windows-Hot-Corners",
             "tag": "WDM",
@@ -13742,6 +14608,17 @@
             "price": "Free",
             "logo_url": "/assets/apps/winmozhi.webp",
             "original_logo_url": "https://store-images.s-microsoft.com/image/apps.60910.14212238589436831.6aa3a526-2155-410c-9274-586cf1f3e32d.0cc79002-b03c-4910-884f-732ad5422fcc?h=102"
+          },
+          {
+            "name": "WinScreenBrightness",
+            "link": "https://github.com/uponatime2019/WinScreenBrightness",
+            "tag": "WD",
+            "tags": [
+              "WD"
+            ],
+            "price": "FOSS",
+            "logo_url": "/assets/apps/winscreenbrightness.webp",
+            "original_logo_url": "https://raw.githubusercontent.com/uponatime2019/WinScreenBrightness/main/Assets/AppIcon.ico"
           },
           {
             "name": "WinSweep-",
